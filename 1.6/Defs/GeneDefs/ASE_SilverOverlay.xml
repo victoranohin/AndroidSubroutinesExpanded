@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_ArmorBase">
+    <defName>ASE_SilverOverlay</defName>
+    <label>silver overlay</label>
+    <description>A special silver coating has been applied to the android's armor. Makes the android noticeably stronger.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_SilverOverlay</geneClass>
+    <biostatCpx>4</biostatCpx>
+    <biostatMet>-10</biostatMet>
+    <displayOrderInCategory>114</displayOrderInCategory>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
+    <exclusionTags>
+      <li>ASE_Armor</li>
+      <li>ASE_PresenceOverlay</li>
+    </exclusionTags>
+    <statOffsets>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.40</ArmorRating_Heat>
+    </statOffsets>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

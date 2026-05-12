@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>ASE_ResourceScannerHediff</defName>
+    <label>resource scanner</label>
+    <description>Built-in metal detector that sometimes marks previously unknown deposits of valuable materials.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.2, 0.8, 0.2)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <lethalSeverity>-1</lethalSeverity>
+    <maxSeverity>100</maxSeverity>
+    <initialSeverity>100</initialSeverity>
+    <stages>
+      <li>
+        <label>scanning</label>
+        <becomeVisible>true</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

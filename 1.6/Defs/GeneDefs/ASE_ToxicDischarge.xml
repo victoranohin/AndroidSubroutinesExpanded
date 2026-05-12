@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_ArmorBase">
+    <defName>ASE_ToxicDischarge</defName>
+    <label>toxic discharge</label>
+    <description>When taking damage, the android releases a toxic cloud that damages everyone nearby. The system has 5 charges that restore over time.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_ToxicDischarge</geneClass>
+    <biostatCpx>5</biostatCpx>
+    <biostatMet>-8</biostatMet>
+    <displayOrderInCategory>121</displayOrderInCategory>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
+    <customEffectDescriptions>
+      <li>Toxic protection system</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

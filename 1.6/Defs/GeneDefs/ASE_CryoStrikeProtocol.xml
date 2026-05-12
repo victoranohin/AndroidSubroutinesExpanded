@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_WeaponsBase">
+    <defName>ASE_CryoStrikeProtocol</defName>
+    <label>cryo-strike protocol</label>
+    <description>Refrigerant from the cooling system is redirected to the android's fists: each strike significantly cools the target.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <displayOrderInCategory>215</displayOrderInCategory>
+    <biostatCpx>5</biostatCpx>
+    <biostatMet>-7</biostatMet>
+    <geneClass>AndroidSubroutinesExpanded.Gene_CryoStrikeProtocol</geneClass>
+    <customEffectDescriptions>
+      <li>Cooling strikes (with chance to apply hypothermia)</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

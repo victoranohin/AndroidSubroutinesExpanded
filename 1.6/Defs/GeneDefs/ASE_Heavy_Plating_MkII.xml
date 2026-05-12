@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_ArmorBase">
+    <defName>ASE_Heavy_Plating_T2</defName>
+    <label>heavy plating T2</label>
+    <description>Thick armor plates turn the android into a walking tank, sacrificing most of its mobility.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_HeavyPlating_MkII</geneClass>
+    <biostatCpx>5</biostatCpx>
+    <biostatMet>-8</biostatMet>
+    <displayOrderInCategory>101</displayOrderInCategory>
+    <statFactors>
+      <IncomingDamageFactor>0.5</IncomingDamageFactor>
+      <MoveSpeed>0.3</MoveSpeed>
+      <WorkSpeedGlobal>0.8</WorkSpeedGlobal>
+    </statFactors>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

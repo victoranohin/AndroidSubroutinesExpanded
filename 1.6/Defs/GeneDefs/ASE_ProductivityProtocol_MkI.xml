@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_ProductivityProtocol_T1</defName>
+    <label>productivity protocol T1</label>
+    <description>Work speed is slightly increased at the cost of higher energy consumption.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_ProductivityProtocol_MkI</geneClass>
+    <biostatCpx>4</biostatCpx>
+    <biostatMet>-4</biostatMet>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <statOffsets>
+      <WorkSpeedGlobal>0.40</WorkSpeedGlobal>
+    </statOffsets>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

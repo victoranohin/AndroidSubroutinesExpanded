@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_MiningSubroutine_T1</defName>
+    <label>mining subroutine T1</label>
+    <description>Rock structure analysis increases mining efficiency.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_MiningSubroutine_MkI</geneClass>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-2</biostatMet>
+    <displayOrderInCategory>60</displayOrderInCategory>
+    <statOffsets>
+      <MiningYield>0.20</MiningYield>
+    </statOffsets>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

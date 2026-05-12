@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>ASE_ToxicDischargeHediff</defName>
+    <label>toxic discharge</label>
+    <description>When taking damage, the android releases a toxic cloud that damages everyone nearby. The system has 5 charges that restore over time.</description>
+    <hediffClass>AndroidSubroutinesExpanded.Hediff_ToxicDischarge</hediffClass>
+    <defaultLabelColor>(0.2, 0.8, 0.2)</defaultLabelColor>
+    <isBad>false</isBad>
+    <initialSeverity>5</initialSeverity>
+    <minSeverity>0</minSeverity>
+    <maxSeverity>5</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <label>empty (0/5)</label>
+      </li>
+      <li>
+        <minSeverity>1</minSeverity>
+        <label>low (1/5)</label>
+      </li>
+      <li>
+        <minSeverity>3</minSeverity>
+        <label>half (3/5)</label>
+      </li>
+      <li>
+        <minSeverity>5</minSeverity>
+        <label>full (5/5)</label>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

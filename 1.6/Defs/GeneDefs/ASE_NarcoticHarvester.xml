@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_NarcoticHarvester</defName>
+    <label>narcotic harvester</label>
+    <description>Thanks to improved motor skills, ideal for growing illegal crops, but has much lower durability compared to standard models.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_NarcoticHarvester</geneClass>
+    <biostatCpx>4</biostatCpx>
+    <biostatMet>-2</biostatMet>
+    <displayOrderInCategory>81</displayOrderInCategory>
+    <statOffsets>
+      <DrugHarvestYield>2.0</DrugHarvestYield>
+    </statOffsets>
+    <statFactors>
+      <IncomingDamageFactor>4.0</IncomingDamageFactor>
+    </statFactors>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

@@ -1,0 +1,39 @@
+using RimWorld;
+using Verse;
+
+namespace AndroidSubroutinesExpanded
+{
+    public class Gene_SiegeSpecialist : Gene
+    {
+        public override void PostAdd()
+        {
+            base.PostAdd();
+            if (pawn != null && pawn.health != null)
+            {
+                Hediff hediff = HediffMaker.MakeHediff(
+                    DefDatabase<HediffDef>.GetNamedSilentFail("ASE_SiegeSpecialistHediff"),
+                    pawn);
+                if (hediff != null)
+                {
+                    hediff.Severity = 1f;
+                    pawn.health.AddHediff(hediff);
+                }
+            }
+        }
+
+        public override void PostRemove()
+        {
+            base.PostRemove();
+            if (pawn != null && pawn.health != null)
+            {
+                Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(
+                    DefDatabase<HediffDef>.GetNamedSilentFail("ASE_SiegeSpecialistHediff"));
+                if (hediff != null)
+                {
+                    pawn.health.RemoveHediff(hediff);
+                }
+            }
+        }
+    }
+}
+

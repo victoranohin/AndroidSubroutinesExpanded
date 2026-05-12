@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_ArmorBase">
+    <defName>ASE_Resilience</defName>
+    <label>resilience</label>
+    <description>Each blow against the android permanently increases its armor by 0.1%.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_Resilience</geneClass>
+    <biostatCpx>4</biostatCpx>
+    <biostatMet>-4</biostatMet>
+    <displayOrderInCategory>120</displayOrderInCategory>
+    <customEffectDescriptions>
+      <li>Each blow against the android permanently increases its armor by 0.1%</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>ASE_HeavyPlatingMkIIIHediff</defName>
+    <label>heavy plating T3</label>
+    <description>Armor has been brought to incredible levels. Almost invulnerable, but barely able to move or work.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.2)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <lethalSeverity>-1</lethalSeverity>
+    <maxSeverity>100</maxSeverity>
+    <initialSeverity>100</initialSeverity>
+    <stages>
+      <li>
+        <label>active</label>
+        <becomeVisible>true</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

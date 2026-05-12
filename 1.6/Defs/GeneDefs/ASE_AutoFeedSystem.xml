@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_WeaponsBase">
+    <defName>ASE_AutoFeedSystem</defName>
+    <label>auto-feed system</label>
+    <description>Built-in hand-mounted loading system that allows the android to make up to 5 shots with instant aiming and ×5 firing speed. The system recharges over time.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <displayOrderInCategory>206</displayOrderInCategory>
+    <biostatCpx>7</biostatCpx>
+    <biostatMet>-10</biostatMet>
+    <geneClass>AndroidSubroutinesExpanded.Gene_AutoFeedSystem</geneClass>
+    <exclusionTags>
+      <li>ASE_AntiBarrage_AutoFeed</li>
+    </exclusionTags>
+    <customEffectDescriptions>
+      <li>Loading system for 5 shots</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

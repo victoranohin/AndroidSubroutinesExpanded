@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_WeaponsBase">
+    <defName>ASE_TacticalNetwork</defName>
+    <label>tactical network</label>
+    <description>Real-time tactical data exchange allows androids to fight more effectively.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_TacticalNetwork</geneClass>
+    <biostatCpx>6</biostatCpx>
+    <biostatMet>-6</biostatMet>
+    <displayOrderInCategory>220</displayOrderInCategory>
+    <customEffectDescriptions>
+      <li>Per android with this gene on the map: +5% accuracy, +5% melee dodge, +5% ranged dodge, +5% melee damage</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

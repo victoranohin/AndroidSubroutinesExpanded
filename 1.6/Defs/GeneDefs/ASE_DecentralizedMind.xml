@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_DecentralizedMind</defName>
+    <label>decentralized mind</label>
+    <description>Distributed computing allows even load distribution across all android CPUs present on the map, increasing their efficiency.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_DecentralizedMind</geneClass>
+    <biostatCpx>5</biostatCpx>
+    <biostatMet>-4</biostatMet>
+    <displayOrderInCategory>156</displayOrderInCategory>
+    <customEffectDescriptions>
+      <li>+10% global work speed per android with this gene on the map</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

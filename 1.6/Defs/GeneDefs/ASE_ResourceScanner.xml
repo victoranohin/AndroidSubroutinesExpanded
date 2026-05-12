@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_ResourceScanner</defName>
+    <label>resource scanner</label>
+    <description>Built-in metal detector that sometimes marks previously unknown deposits of valuable materials.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_ResourceScanner</geneClass>
+    <biostatCpx>4</biostatCpx>
+    <biostatMet>-6</biostatMet>
+    <displayOrderInCategory>157</displayOrderInCategory>
+    <customEffectDescriptions>
+      <li>Once per day reveals a random underground deposit</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

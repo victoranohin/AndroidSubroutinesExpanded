@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_WeaponsBase">
+    <defName>ASE_SniperOptics</defName>
+    <label>sniper optics</label>
+    <description>Improved optics significantly increase weapon range, but the android itself becomes extremely vulnerable.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <displayOrderInCategory>202</displayOrderInCategory>
+    <biostatCpx>4</biostatCpx>
+    <biostatMet>-2</biostatMet>
+    <geneClass>AndroidSubroutinesExpanded.Gene_SniperOptics</geneClass>
+    <exclusionTags>
+      <li>ASE_AntiBarrage_Sniper</li>
+    </exclusionTags>
+    <statFactors>
+      <IncomingDamageFactor>3.0</IncomingDamageFactor>
+      <VEF_VerbRangeFactor>1.5</VEF_VerbRangeFactor>
+    </statFactors>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>ASE_MeleeOverdrive_MkIIHediff</defName>
+    <label>melee overdrive T2</label>
+    <description>Android created specifically for foggy and rainy biomes with many hostile creatures. Cannot use ranged weapons, but fights excellently in melee.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.0, 0.6, 0.2)</defaultLabelColor>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+  </HediffDef>
+</Defs>

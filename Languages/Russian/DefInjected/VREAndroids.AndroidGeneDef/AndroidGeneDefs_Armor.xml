@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <!-- ========== СУБРУТИНЫ БРОНИ ========== -->
+  
+  <!-- Heavy Plating T1 -->
+  <ASE_Heavy_Plating_T1.label>тяжёлая броня T1</ASE_Heavy_Plating_T1.label>
+  <ASE_Heavy_Plating_T1.description>Андроид покрыт дополнительными пластинами брони. Прочнее — но заметно медленнее.</ASE_Heavy_Plating_T1.description>
+  <ASE_Heavy_Plating_T1.customEffectDescriptions.0>Входящий урон ×0.8</ASE_Heavy_Plating_T1.customEffectDescriptions.0>
+  <ASE_Heavy_Plating_T1.customEffectDescriptions.1>скорость передвижения ×0.5</ASE_Heavy_Plating_T1.customEffectDescriptions.1>
+  <ASE_Heavy_Plating_T1.customEffectDescriptions.2>-10% global work speed</ASE_Heavy_Plating_T1.customEffectDescriptions.2>
+  
+  <!-- Heavy Plating T2 -->
+  <ASE_Heavy_Plating_T2.label>тяжёлая броня T2</ASE_Heavy_Plating_T2.label>
+  <ASE_Heavy_Plating_T2.description>Толстые бронепластины превращают андроида в ходячий танк, жертвуя большей частью его подвижности.</ASE_Heavy_Plating_T2.description>
+  <ASE_Heavy_Plating_T2.customEffectDescriptions.0>Входящий урон ×0.5</ASE_Heavy_Plating_T2.customEffectDescriptions.0>
+  <ASE_Heavy_Plating_T2.customEffectDescriptions.1>скорость передвижения ×0.3</ASE_Heavy_Plating_T2.customEffectDescriptions.1>
+  <ASE_Heavy_Plating_T2.customEffectDescriptions.2>-20% global work speed</ASE_Heavy_Plating_T2.customEffectDescriptions.2>
+  
+  <!-- Heavy Plating T3 -->
+  <ASE_Heavy_Plating_T3.label>тяжёлая броня T3</ASE_Heavy_Plating_T3.label>
+  <ASE_Heavy_Plating_T3.description>Броневая защита доведена до невероятных значений. Почти неуязвим, но едва способен двигаться или работать.</ASE_Heavy_Plating_T3.description>
+  <ASE_Heavy_Plating_T3.customEffectDescriptions.0>Входящий урон ×0.2</ASE_Heavy_Plating_T3.customEffectDescriptions.0>
+  <ASE_Heavy_Plating_T3.customEffectDescriptions.1>скорость передвижения ×0.1</ASE_Heavy_Plating_T3.customEffectDescriptions.1>
+  <ASE_Heavy_Plating_T3.customEffectDescriptions.2>-40% global work speed</ASE_Heavy_Plating_T3.customEffectDescriptions.2>
+  
+  <!-- Reactive Armor -->
+  <ASE_ReactiveArmor.label>реактивная броня</ASE_ReactiveArmor.label>
+  <ASE_ReactiveArmor.description>Реактивная броня, которая наносит повреждения атакующим в ближнем бою (отражает 100% урона ближнего боя обратно атакующим, однако андроид также получает урон). Внимание: в случае критических повреждений андроид может взорваться!</ASE_ReactiveArmor.description>
+  <ASE_ReactiveArmor.customEffectDescriptions.0>Удары по андроиду в ближнем бою наносят урон и атакующему, и андроиду</ASE_ReactiveArmor.customEffectDescriptions.0>
+  
+  <!-- Deflector System -->
+  <ASE_DeflectorSystem.label>система отклонения</ASE_DeflectorSystem.label>
+  <ASE_DeflectorSystem.description>Экспериментальные отражающие панели, которые отражают пули обратно в атакующих. Срабатывают примерно в 50% случаев.</ASE_DeflectorSystem.description>
+  <ASE_DeflectorSystem.customEffectDescriptions.0>50% шанс отразить выстрел обратно в атакующего</ASE_DeflectorSystem.customEffectDescriptions.0>
+  <ASE_DeflectorSystem.customEffectDescriptions.1>flammability = +500%</ASE_DeflectorSystem.customEffectDescriptions.1>
+  
+  <!-- Anti-Insectoid Plates T1 -->
+  <ASE_AntiInsectoidPlates_T1.label>анти-инсектоидные пластины</ASE_AntiInsectoidPlates_T1.label>
+  <ASE_AntiInsectoidPlates_T1.description>Чёртовы инсектоиды всех достали! Дополнительные слои экспериментальной композитной брони помогут лучше выдерживать стычки с этими тварями.</ASE_AntiInsectoidPlates_T1.description>
+  <ASE_AntiInsectoidPlates_T1.customEffectDescriptions.0>Дополнительная броня с прочностью 80, которая работает против урона в ближнем бою</ASE_AntiInsectoidPlates_T1.customEffectDescriptions.0>
+  <ASE_AntiInsectoidPlates_T1.customEffectDescriptions.1>Можно восстановить (зависит от навыка ремесла)</ASE_AntiInsectoidPlates_T1.customEffectDescriptions.1>
+  
+  <!-- Double Anti-Insectoid Plates T2 -->
+  <ASE_AntiInsectoidPlates_T2.label>двойные анти-инсектоидные пластины</ASE_AntiInsectoidPlates_T2.label>
+  <ASE_AntiInsectoidPlates_T2.description>Чёртовы инсектоиды всех реально достали! Дополнительные слои экспериментальной композитной брони помогут лучше выдерживать стычки с этими тварями.</ASE_AntiInsectoidPlates_T2.description>
+  <ASE_AntiInsectoidPlates_T2.customEffectDescriptions.0>Дополнительная броня с прочностью 160, которая работает против урона в ближнем бою</ASE_AntiInsectoidPlates_T2.customEffectDescriptions.0>
+  <ASE_AntiInsectoidPlates_T2.customEffectDescriptions.1>Можно восстановить (зависит от навыка ремесла)</ASE_AntiInsectoidPlates_T2.customEffectDescriptions.1>
+  
+  <!-- Quadro Anti-Insectoid Plates T3 -->
+  <ASE_AntiInsectoidPlates_T3.label>четверные анти-инсектоидные пластины</ASE_AntiInsectoidPlates_T3.label>
+  <ASE_AntiInsectoidPlates_T3.description>Чёртовы инсектоиды всех достали так сильно, что инженеры пошли на крайние меры! Дополнительные слои экспериментальной композитной брони помогут выдержать стычку с целой армией этих тварей!</ASE_AntiInsectoidPlates_T3.description>
+  <ASE_AntiInsectoidPlates_T3.customEffectDescriptions.0>Дополнительная броня с прочностью 300, которая работает против урона в ближнем бою</ASE_AntiInsectoidPlates_T3.customEffectDescriptions.0>
+  <ASE_AntiInsectoidPlates_T3.customEffectDescriptions.1>Можно восстановить (зависит от навыка ремесла)</ASE_AntiInsectoidPlates_T3.customEffectDescriptions.1>
+  
+  <!-- Auto-Repair Module -->
+  <ASE_AutoRepairModule.label>модуль авто-ремонта</ASE_AutoRepairModule.label>
+  <ASE_AutoRepairModule.description>Одна из самых дорогих и желанных технологий в окраинных мирах, регенеративная нано-машина восстанавливает любые повреждения (даже в бою), но тратит баснословное количество энергии</ASE_AutoRepairModule.description>
+  <ASE_AutoRepairModule.customEffectDescriptions.0>Автоматическое восстановление повреждений</ASE_AutoRepairModule.customEffectDescriptions.0>
+  <ASE_AutoRepairModule.customEffectDescriptions.1>Потерянные конечности требуют больше времени для восстановления</ASE_AutoRepairModule.customEffectDescriptions.1>
+  
+  <!-- Silver Overlay -->
+  <ASE_SilverOverlay.label>серебряное покрытие</ASE_SilverOverlay.label>
+  <ASE_SilverOverlay.description>На броню андроида нанесено специальное покрытие из серебра. Делает андроида заметно прочнее.</ASE_SilverOverlay.description>
+  <ASE_SilverOverlay.customEffectDescriptions.0>+40 ко всем трём видам брони (sharp, blunt, heat)</ASE_SilverOverlay.customEffectDescriptions.0>
+  
+  <!-- Golden Overlay -->
+  <ASE_GoldenOverlay.label>золотое покрытие</ASE_GoldenOverlay.label>
+  <ASE_GoldenOverlay.description>На броню андроида нанесено специальное покрытие из  золота. Делает андроида еще прочнее, но сильно повышает его стоимость и привлекает нежелательно внимание.</ASE_GoldenOverlay.description>
+  <ASE_GoldenOverlay.customEffectDescriptions.0>market value +20 000</ASE_GoldenOverlay.customEffectDescriptions.0>
+  
+  <!-- Diamond Overlay -->
+  <ASE_DiamondOverlay.label>алмазное покрытие</ASE_DiamondOverlay.label>
+  <ASE_DiamondOverlay.description>На броню андроида нанесено специальное напыление из алмазных частиц. Оно делает андроида гораздо более прочным, но из-за дороговизны материалов за таким андроидам будет охотиться пол-галактики.</ASE_DiamondOverlay.description>
+  <ASE_DiamondOverlay.customEffectDescriptions.0>Ежедневно увеличивает общую стоимость колонии</ASE_DiamondOverlay.customEffectDescriptions.0>
+  
+  <!-- Wall Protocol -->
+  <ASE_WallProtocol.label>протокол стены</ASE_WallProtocol.label>
+  <ASE_WallProtocol.description>Андроид разработан специально для защиты поселений в агрессивных мирах. Бесполезен для атаки, но в обороне будет держать линию вечно. Из-за огромных размеров и малой подвижности неспособен ходить в составе каравана.</ASE_WallProtocol.description>
+  <ASE_WallProtocol.customEffectDescriptions.0>Невозможно применять авто-ремонт</ASE_WallProtocol.customEffectDescriptions.0>
+  <ASE_WallProtocol.customEffectDescriptions.1>Невозможность участвовать в караванах</ASE_WallProtocol.customEffectDescriptions.1>
+  <ASE_WallProtocol.customEffectDescriptions.2>Не может выполнять любые виды работы</ASE_WallProtocol.customEffectDescriptions.2>
+  
+  <!-- Toxic Discharge -->
+  <ASE_ToxicDischarge.label>токсичный выброс</ASE_ToxicDischarge.label>
+  <ASE_ToxicDischarge.description>При получении урона андроид выпускает токсичное облако, наносящее урон всем кто находится рядом. Система имеет 5 зарядов, которые восстанавливаются со временем.</ASE_ToxicDischarge.description>
+  <ASE_ToxicDischarge.customEffectDescriptions.0>Система токсичной защиты</ASE_ToxicDischarge.customEffectDescriptions.0>
+  
+  <!-- Resilience -->
+  <ASE_Resilience.label>стойкость</ASE_Resilience.label>
+  <ASE_Resilience.description>Каждый удар по андроиду постоянно увеличивает его броню на 0.1%.</ASE_Resilience.description>
+  <ASE_Resilience.customEffectDescriptions.0>Каждый удар по андроиду постоянно увеличивает его броню на 0.1%</ASE_Resilience.customEffectDescriptions.0>
+  
+</LanguageData>

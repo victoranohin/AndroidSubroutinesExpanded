@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <!-- ========== ARMOR SUBROUTINES ========== -->
+  
+  <!-- Heavy Plating T1 -->
+  <ASE_Heavy_Plating_T1.label>heavy plating T1</ASE_Heavy_Plating_T1.label>
+  <ASE_Heavy_Plating_T1.description>The android is covered with additional armor plates. Stronger - but noticeably slower.</ASE_Heavy_Plating_T1.description>
+  <ASE_Heavy_Plating_T1.customEffectDescriptions.0>Incoming damage ×0.8</ASE_Heavy_Plating_T1.customEffectDescriptions.0>
+  <ASE_Heavy_Plating_T1.customEffectDescriptions.1>move speed ×0.5</ASE_Heavy_Plating_T1.customEffectDescriptions.1>
+  <ASE_Heavy_Plating_T1.customEffectDescriptions.2>-10% global work speed</ASE_Heavy_Plating_T1.customEffectDescriptions.2>
+  
+  <!-- Heavy Plating T2 -->
+  <ASE_Heavy_Plating_T2.label>heavy plating T2</ASE_Heavy_Plating_T2.label>
+  <ASE_Heavy_Plating_T2.description>Thick armor plates turn the android into a walking tank, sacrificing most of its mobility.</ASE_Heavy_Plating_T2.description>
+  <ASE_Heavy_Plating_T2.customEffectDescriptions.0>Incoming damage ×0.5</ASE_Heavy_Plating_T2.customEffectDescriptions.0>
+  <ASE_Heavy_Plating_T2.customEffectDescriptions.1>move speed ×0.3</ASE_Heavy_Plating_T2.customEffectDescriptions.1>
+  <ASE_Heavy_Plating_T2.customEffectDescriptions.2>-20% global work speed</ASE_Heavy_Plating_T2.customEffectDescriptions.2>
+  
+  <!-- Heavy Plating T3 -->
+  <ASE_Heavy_Plating_T3.label>heavy plating T3</ASE_Heavy_Plating_T3.label>
+  <ASE_Heavy_Plating_T3.description>Armor protection has been brought to incredible levels. Almost invulnerable, but barely able to move or work.</ASE_Heavy_Plating_T3.description>
+  <ASE_Heavy_Plating_T3.customEffectDescriptions.0>Incoming damage ×0.2</ASE_Heavy_Plating_T3.customEffectDescriptions.0>
+  <ASE_Heavy_Plating_T3.customEffectDescriptions.1>move speed ×0.1</ASE_Heavy_Plating_T3.customEffectDescriptions.1>
+  <ASE_Heavy_Plating_T3.customEffectDescriptions.2>-40% global work speed</ASE_Heavy_Plating_T3.customEffectDescriptions.2>
+  
+  <!-- Reactive Armor -->
+  <ASE_ReactiveArmor.label>reactive armor</ASE_ReactiveArmor.label>
+  <ASE_ReactiveArmor.description>Reactive armor that damages attackers in melee combat (reflects 100% of melee damage back to attackers, but the android also takes damage). Warning: in case of critical damage, the android may explode!</ASE_ReactiveArmor.description>
+  <ASE_ReactiveArmor.customEffectDescriptions.0>Melee attacks on the android damage both the attacker and the android</ASE_ReactiveArmor.customEffectDescriptions.0>
+  
+  <!-- Deflector System -->
+  <ASE_DeflectorSystem.label>deflector system</ASE_DeflectorSystem.label>
+  <ASE_DeflectorSystem.description>Experimental reflective panels that reflect bullets back at attackers. Trigger approximately 50% of the time.</ASE_DeflectorSystem.description>
+  <ASE_DeflectorSystem.customEffectDescriptions.0>50% chance to reflect shots back at attacker</ASE_DeflectorSystem.customEffectDescriptions.0>
+  <ASE_DeflectorSystem.customEffectDescriptions.1>flammability = +500%</ASE_DeflectorSystem.customEffectDescriptions.1>
+  
+  <!-- Anti-Insectoid Plates T1 -->
+  <ASE_AntiInsectoidPlates_T1.label>anti-insectoid plates</ASE_AntiInsectoidPlates_T1.label>
+  <ASE_AntiInsectoidPlates_T1.description>Damn insectoids got everyone! Additional layers of experimental composite armor will help better withstand clashes with these creatures.</ASE_AntiInsectoidPlates_T1.description>
+  <ASE_AntiInsectoidPlates_T1.customEffectDescriptions.0>Additional armor with 80 durability that works against melee damage</ASE_AntiInsectoidPlates_T1.customEffectDescriptions.0>
+  <ASE_AntiInsectoidPlates_T1.customEffectDescriptions.1>Can be restored (depends on crafting skill)</ASE_AntiInsectoidPlates_T1.customEffectDescriptions.1>
+  
+  <!-- Double Anti-Insectoid Plates T2 -->
+  <ASE_AntiInsectoidPlates_T2.label>double anti-insectoid plates</ASE_AntiInsectoidPlates_T2.label>
+  <ASE_AntiInsectoidPlates_T2.description>Damn insectoids really got everyone! Additional layers of experimental composite armor will help better withstand clashes with these creatures.</ASE_AntiInsectoidPlates_T2.description>
+  <ASE_AntiInsectoidPlates_T2.customEffectDescriptions.0>Additional armor with 160 durability that works against melee damage</ASE_AntiInsectoidPlates_T2.customEffectDescriptions.0>
+  <ASE_AntiInsectoidPlates_T2.customEffectDescriptions.1>Can be restored (depends on crafting skill)</ASE_AntiInsectoidPlates_T2.customEffectDescriptions.1>
+  
+  <!-- Quadro Anti-Insectoid Plates T3 -->
+  <ASE_AntiInsectoidPlates_T3.label>quadro anti-insectoid plates</ASE_AntiInsectoidPlates_T3.label>
+  <ASE_AntiInsectoidPlates_T3.description>Damn insectoids got everyone so badly that engineers took extreme measures! Additional layers of experimental composite armor will help withstand a clash with an entire army of these creatures!</ASE_AntiInsectoidPlates_T3.description>
+  <ASE_AntiInsectoidPlates_T3.customEffectDescriptions.0>Additional armor with 300 durability that works against melee damage</ASE_AntiInsectoidPlates_T3.customEffectDescriptions.0>
+  <ASE_AntiInsectoidPlates_T3.customEffectDescriptions.1>Can be restored (depends on crafting skill)</ASE_AntiInsectoidPlates_T3.customEffectDescriptions.1>
+  
+  <!-- Auto-Repair Module -->
+  <ASE_AutoRepairModule.label>auto-repair module</ASE_AutoRepairModule.label>
+  <ASE_AutoRepairModule.description>One of the most expensive and coveted technologies in the rim worlds, regenerative nano-machines restore any damage (even in combat), but consume a fabulous amount of energy</ASE_AutoRepairModule.description>
+  <ASE_AutoRepairModule.customEffectDescriptions.0>Automatic damage restoration</ASE_AutoRepairModule.customEffectDescriptions.0>
+  <ASE_AutoRepairModule.customEffectDescriptions.1>Lost limbs require more time to restore</ASE_AutoRepairModule.customEffectDescriptions.1>
+  
+  <!-- Silver Overlay -->
+  <ASE_SilverOverlay.label>silver overlay</ASE_SilverOverlay.label>
+  <ASE_SilverOverlay.description>A special silver coating has been applied to the android's armor. Makes the android noticeably stronger.</ASE_SilverOverlay.description>
+  <ASE_SilverOverlay.customEffectDescriptions.0>+40 to all three types of armor (sharp, blunt, heat)</ASE_SilverOverlay.customEffectDescriptions.0>
+  
+  <!-- Golden Overlay -->
+  <ASE_GoldenOverlay.label>golden overlay</ASE_GoldenOverlay.label>
+  <ASE_GoldenOverlay.description>A special gold coating has been applied to the android's armor. Makes the android even stronger, but greatly increases its cost and attracts unwanted attention.</ASE_GoldenOverlay.description>
+  <ASE_GoldenOverlay.customEffectDescriptions.0>Market value +20 000</ASE_GoldenOverlay.customEffectDescriptions.0>
+  
+  <!-- Diamond Overlay -->
+  <ASE_DiamondOverlay.label>diamond overlay</ASE_DiamondOverlay.label>
+  <ASE_DiamondOverlay.description>A special diamond particle coating has been applied to the android's armor. It makes the android much stronger, but due to the cost of materials, half the galaxy will hunt for such androids.</ASE_DiamondOverlay.description>
+  <ASE_DiamondOverlay.customEffectDescriptions.0>Daily increases the total colony value</ASE_DiamondOverlay.customEffectDescriptions.0>
+  
+  <!-- Wall Protocol -->
+  <ASE_WallProtocol.label>wall protocol</ASE_WallProtocol.label>
+  <ASE_WallProtocol.description>The android is designed specifically for protecting settlements in aggressive worlds. Useless for attacking, but it will hold the line forever in defense. Due to huge size and low mobility, unable to travel in caravans.</ASE_WallProtocol.description>
+  <ASE_WallProtocol.customEffectDescriptions.0>Cannot use auto-repair</ASE_WallProtocol.customEffectDescriptions.0>
+  <ASE_WallProtocol.customEffectDescriptions.1>Cannot participate in caravans</ASE_WallProtocol.customEffectDescriptions.1>
+  <ASE_WallProtocol.customEffectDescriptions.2>Cannot perform any work</ASE_WallProtocol.customEffectDescriptions.2>
+  
+  <!-- Toxic Discharge -->
+  <ASE_ToxicDischarge.label>toxic discharge</ASE_ToxicDischarge.label>
+  <ASE_ToxicDischarge.description>When taking damage, the android releases a toxic cloud that damages everyone nearby. The system has 5 charges that restore over time.</ASE_ToxicDischarge.description>
+  <ASE_ToxicDischarge.customEffectDescriptions.0>Toxic protection system</ASE_ToxicDischarge.customEffectDescriptions.0>
+  
+  <!-- Resilience -->
+  <ASE_Resilience.label>resilience</ASE_Resilience.label>
+  <ASE_Resilience.description>Each blow against the android permanently increases its armor by 0.1%.</ASE_Resilience.description>
+  <ASE_Resilience.customEffectDescriptions.0>Each blow against the android permanently increases its armor by 0.1%</ASE_Resilience.customEffectDescriptions.0>
+  
+</LanguageData>

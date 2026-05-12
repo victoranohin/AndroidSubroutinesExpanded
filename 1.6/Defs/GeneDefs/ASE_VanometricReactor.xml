@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_EnergyBase">
+    <defName>ASE_VanometricReactor</defName>
+    <label>vanometric reactor</label>
+    <description>An unstable prototype capable of generating an incredible amount of energy at the cost of an equally incredible amount of waste.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_VanometricReactor</geneClass>
+    <biostatCpx>7</biostatCpx>
+    <biostatMet>32</biostatMet>
+    <displayOrderInCategory>303</displayOrderInCategory>
+    <exclusionTags>
+      <li>ASE_Reactor</li>
+    </exclusionTags>
+    <customEffectDescriptions>
+      <li>Significantly increased waste production</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

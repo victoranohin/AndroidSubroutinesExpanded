@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_ArmorBase">
+    <defName>ASE_WallProtocol</defName>
+    <label>wall protocol</label>
+    <description>The android is designed specifically for protecting settlements in aggressive worlds. Useless for attacking, but it will hold the line forever in defense. Due to huge size and low mobility, unable to travel in caravans.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_WallProtocol</geneClass>
+    <biostatCpx>5</biostatCpx>
+    <biostatMet>-30</biostatMet>
+    <displayOrderInCategory>119</displayOrderInCategory>
+    <exclusionTags>
+      <li>ASE_Repair</li>
+    </exclusionTags>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
+    <disabledWorkTags>
+      <li>ManualDumb</li>
+      <li>ManualSkilled</li>
+      <li>Hauling</li>
+      <li>Cooking</li>
+      <li>Cleaning</li>
+      <li>Crafting</li>
+      <li>Animals</li>
+      <li>Caring</li>
+      <li>Artistic</li>
+      <li>Firefighting</li>
+      <li>Mining</li>
+      <li>PlantWork</li>
+      <li>Social</li>
+      <li>Intellectual</li>
+    </disabledWorkTags>
+    <statFactors>
+      <MoveSpeed>0.5</MoveSpeed>
+      <MeleeDodgeChance>0</MeleeDodgeChance>
+      <IncomingDamageFactor>0.05</IncomingDamageFactor>
+      <VEF_BodySize_Multiplier>1.5</VEF_BodySize_Multiplier>
+    </statFactors>
+    <customEffectDescriptions>
+      <li>Cannot use auto-repair</li>
+      <li>Cannot participate in caravans</li>
+      <li>Cannot perform any work</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

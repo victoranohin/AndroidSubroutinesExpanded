@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Anti-Insectoid Plates Mk.I - 80 HP -->
+  <HediffDef>
+    <defName>ASE_AntiInsectoidPlates_MkI</defName>
+    <label>anti-insectoid plates</label>
+    <description>Damn insectoids got everyone! Additional layers of experimental composite armor will help better withstand clashes with these creatures.</description>
+    <hediffClass>AndroidSubroutinesExpanded.Hediff_AntiInsectoidPlates</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.2)</defaultLabelColor>
+    <lethalSeverity>-1</lethalSeverity>
+    <maxSeverity>80</maxSeverity>
+    <initialSeverity>80</initialSeverity>
+    <minSeverity>0</minSeverity>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <label>active</label>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- Double Anti-Insectoid Plates Mk.II - 160 HP -->
+  <HediffDef>
+    <defName>ASE_AntiInsectoidPlates_MkII</defName>
+    <label>double anti-insectoid plates</label>
+    <description>Damn insectoids got everyone specifically! Additional layers of experimental composite armor will help better withstand clashes with these creatures.</description>
+    <hediffClass>AndroidSubroutinesExpanded.Hediff_AntiInsectoidPlates</hediffClass>
+    <defaultLabelColor>(0.7, 0.5, 0.2)</defaultLabelColor>
+    <lethalSeverity>-1</lethalSeverity>
+    <maxSeverity>160</maxSeverity>
+    <initialSeverity>160</initialSeverity>
+    <minSeverity>0</minSeverity>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <label>active</label>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- Quadro Anti-Insectoid Plates Mk.III - 300 HP -->
+  <HediffDef>
+    <defName>ASE_AntiInsectoidPlates_MkIII</defName>
+    <label>quadro anti-insectoid plates</label>
+    <description>Damn insectoids got everyone so much that engineers took extreme measures! Additional layers of experimental composite armor will help withstand a clash with an entire army of these creatures!</description>
+    <hediffClass>AndroidSubroutinesExpanded.Hediff_AntiInsectoidPlates</hediffClass>
+    <defaultLabelColor>(0.8, 0.6, 0.2)</defaultLabelColor>
+    <lethalSeverity>-1</lethalSeverity>
+    <maxSeverity>300</maxSeverity>
+    <initialSeverity>300</initialSeverity>
+    <minSeverity>0</minSeverity>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <label>active</label>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

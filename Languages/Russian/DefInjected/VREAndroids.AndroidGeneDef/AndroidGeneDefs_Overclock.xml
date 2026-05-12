@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <!-- ========== СУБРУТИНЫ РАЗГОНА ========== -->
+  
+  <!-- Overdrive T1 -->
+  <ASE_Overdrive_T1.label>разгон T1</ASE_Overdrive_T1.label>
+  <ASE_Overdrive_T1.description>Андроид получает небольшую оптимизацию в моторных цепях. Бегает быстрее, но аккумулятор тает на глазах.</ASE_Overdrive_T1.description>
+  
+  <!-- Overdrive T2 -->
+  <ASE_Overdrive_T2.label>разгон T2</ASE_Overdrive_T2.label>
+  <ASE_Overdrive_T2.description>Разгон протоколов шаговых двигателей. Андроид движется еще быстрее, но неспособен носить тяжёлые вещи.</ASE_Overdrive_T2.description>
+  
+  <!-- Overdrive T3 -->
+  <ASE_Overdrive_T3.label>разгон T3</ASE_Overdrive_T3.label>
+  <ASE_Overdrive_T3.description>Андроид движется на пределе своих возможностей, однако его грузоподъёмность в такой конфигурации минимальна.</ASE_Overdrive_T3.description>
+  
+  <!-- Productivity Protocol T1 -->
+  <ASE_ProductivityProtocol_T1.label>протокол продуктивности T1</ASE_ProductivityProtocol_T1.label>
+  <ASE_ProductivityProtocol_T1.description>Скорость работы слегка увеличена за счёт повышения энергопотребления.</ASE_ProductivityProtocol_T1.description>
+  <ASE_ProductivityProtocol_T1.customEffectDescriptions.0>+40% глобальной скорости работы</ASE_ProductivityProtocol_T1.customEffectDescriptions.0>
+  
+  <!-- Productivity Protocol T2 -->
+  <ASE_ProductivityProtocol_T2.label>протокол продуктивности T2</ASE_ProductivityProtocol_T2.label>
+  <ASE_ProductivityProtocol_T2.description>Скорость работы серьёзно увеличена за счёт еще большего повышения энергопотребления.</ASE_ProductivityProtocol_T2.description>
+  <ASE_ProductivityProtocol_T2.customEffectDescriptions.0>+80% глобальной скорости работы</ASE_ProductivityProtocol_T2.customEffectDescriptions.0>
+  
+  <!-- Productivity Protocol T3 -->
+  <ASE_ProductivityProtocol_T3.label>протокол продуктивности T3</ASE_ProductivityProtocol_T3.label>
+  <ASE_ProductivityProtocol_T3.description>Невероятный рывок продуктивности, но плата — невозможность эффективно работать при высоких температурах.</ASE_ProductivityProtocol_T3.description>
+  <ASE_ProductivityProtocol_T3.customEffectDescriptions.0>Чем ниже температура, тем выше скорость работы. Каждый градус температуры ниже 20°C даёт прибавку в +2% общей скорости работы, каждый градус выше 20°C даёт -2% к общей скорости работы.</ASE_ProductivityProtocol_T3.customEffectDescriptions.0>
+  
+  <!-- Cargo Holder Upgrade T1 -->
+  <ASE_CargoHolder_T1.label>улучшение грузового отсека T1</ASE_CargoHolder_T1.label>
+  <ASE_CargoHolder_T1.description>Грузовой отсек повышенной ёмкости.</ASE_CargoHolder_T1.description>
+  <ASE_CargoHolder_T1.customEffectDescriptions.0>+40 грузоподъёмности</ASE_CargoHolder_T1.customEffectDescriptions.0>
+  <ASE_CargoHolder_T1.customEffectDescriptions.1>+50 масовой грузоподъёмности</ASE_CargoHolder_T1.customEffectDescriptions.1>
+  
+  <!-- Cargo Holder Upgrade T2 -->
+  <ASE_CargoHolder_T2.label>улучшение грузового отсека T2</ASE_CargoHolder_T2.label>
+  <ASE_CargoHolder_T2.description>Грузовой отсек удвоенной ёмкости, однако скорость передвижения андроида слегка снижена.</ASE_CargoHolder_T2.description>
+  <ASE_CargoHolder_T2.customEffectDescriptions.0>+70 грузоподъёмности</ASE_CargoHolder_T2.customEffectDescriptions.0>
+  <ASE_CargoHolder_T2.customEffectDescriptions.1>+100 масовой грузоподъёмности</ASE_CargoHolder_T2.customEffectDescriptions.1>
+  <ASE_CargoHolder_T2.customEffectDescriptions.2>-1.0 скорости передвижения</ASE_CargoHolder_T2.customEffectDescriptions.2>
+  
+  <!-- Cargo Holder Upgrade T3 -->
+  <ASE_CargoHolder_T3.label>улучшение грузового отсека T3</ASE_CargoHolder_T3.label>
+  <ASE_CargoHolder_T3.description>Максимальная грузоподъёмность, но значительное снижение скорости.</ASE_CargoHolder_T3.description>
+  <ASE_CargoHolder_T3.customEffectDescriptions.0>+100 грузоподъёмности</ASE_CargoHolder_T3.customEffectDescriptions.0>
+  <ASE_CargoHolder_T3.customEffectDescriptions.1>+200 масовой грузоподъёмности</ASE_CargoHolder_T3.customEffectDescriptions.1>
+  <ASE_CargoHolder_T3.customEffectDescriptions.2>-3.0 скорости передвижения</ASE_CargoHolder_T3.customEffectDescriptions.2>
+  
+  <!-- Research Core T1 -->
+  <ASE_ResearchCore_T1.label>исследовательское ядро T1</ASE_ResearchCore_T1.label>
+  <ASE_ResearchCore_T1.description>Улучшенные алгоритмы поиска и систематизации данных повышают скорость исследования.</ASE_ResearchCore_T1.description>
+  <ASE_ResearchCore_T1.customEffectDescriptions.0>+30% скорости исследований</ASE_ResearchCore_T1.customEffectDescriptions.0>
+  
+  <!-- Research Core T2 -->
+  <ASE_ResearchCore_T2.label>исследовательское ядро T2</ASE_ResearchCore_T2.label>
+  <ASE_ResearchCore_T2.description>Расширенные блоки памяти для еше большего ускорения исследований.</ASE_ResearchCore_T2.description>
+  <ASE_ResearchCore_T2.customEffectDescriptions.0>+60% скорости исследований</ASE_ResearchCore_T2.customEffectDescriptions.0>
+  
+  <!-- Research Core T3 -->
+  <ASE_ResearchCore_T3.label>исследовательское ядро T3</ASE_ResearchCore_T3.label>
+  <ASE_ResearchCore_T3.description>Вычислительные блоки работают на пределе, при этом андроид будет вырабатывать огромное количество тепла и будет требовать дополнительного охлаждения.</ASE_ResearchCore_T3.description>
+  <ASE_ResearchCore_T3.customEffectDescriptions.0>Нагревает пространство вокруг себя</ASE_ResearchCore_T3.customEffectDescriptions.0>
+  
+  <!-- Mining Subroutine T1 -->
+  <ASE_MiningSubroutine_T1.label>субрутина добычи T1</ASE_MiningSubroutine_T1.label>
+  <ASE_MiningSubroutine_T1.description>Анализ структуры породы повышает эффективность добычи.</ASE_MiningSubroutine_T1.description>
+  <ASE_MiningSubroutine_T1.customEffectDescriptions.0>+20% Mining yield</ASE_MiningSubroutine_T1.customEffectDescriptions.0>
+  
+  <!-- Mining Subroutine T2 -->
+  <ASE_MiningSubroutine_T2.label>субрутина добычи T2</ASE_MiningSubroutine_T2.label>
+  <ASE_MiningSubroutine_T2.description>Усовершенствованные сенсоры дают ещё больше ресурсов.</ASE_MiningSubroutine_T2.description>
+  <ASE_MiningSubroutine_T2.customEffectDescriptions.0>+40% Mining yield</ASE_MiningSubroutine_T2.customEffectDescriptions.0>
+  
+  <!-- Deep Mining Sensors -->
+  <ASE_DeepMiningSensors.label>сенсоры глубокой добычи</ASE_DeepMiningSensors.label>
+  <ASE_DeepMiningSensors.description>Специализированные сенсоры для глубокой добычи редких ресурсов.</ASE_DeepMiningSensors.description>
+  <ASE_DeepMiningSensors.customEffectDescriptions.0>10% шанс извлечь дополнительные ресурсы</ASE_DeepMiningSensors.customEffectDescriptions.0>
+  
+  <!-- Drilling Specialist -->
+  <ASE_DrillingSpecialist.label>специалист по бурению</ASE_DrillingSpecialist.label>
+  <ASE_DrillingSpecialist.description>Удвоенная скорость добычи благодаря отказу от стандартных речевых протоколов</ASE_DrillingSpecialist.description>
+  <ASE_DrillingSpecialist.customEffectDescriptions.0>потеря слуха и невозможность общения</ASE_DrillingSpecialist.customEffectDescriptions.0>
+  
+  <!-- Field Medic -->
+  <ASE_FieldMedic.label>полевой медик</ASE_FieldMedic.label>
+  <ASE_FieldMedic.description>Набор экстренных протоколов для ускоренного лечения раненых бойцов прямо на поле боя. Быстро, но не очень качественно.</ASE_FieldMedic.description>
+  <ASE_FieldMedic.customEffectDescriptions.0>+200% medical tend speed</ASE_FieldMedic.customEffectDescriptions.0>
+  <ASE_FieldMedic.customEffectDescriptions.1>-90% medical tend quality</ASE_FieldMedic.customEffectDescriptions.1>
+  
+  <!-- Surgical Unit -->
+  <ASE_SurgicalUnit.label>хирургический блок</ASE_SurgicalUnit.label>
+  <ASE_SurgicalUnit.description>Специальная модель, предназначенная для использования в элитных клиниках. Хрупкость оборудования не позволяет использовать андроида для тяжёлых работ.</ASE_SurgicalUnit.description>
+  <ASE_SurgicalUnit.customEffectDescriptions.0>99,9% успеха операций</ASE_SurgicalUnit.customEffectDescriptions.0>
+  <ASE_SurgicalUnit.customEffectDescriptions.1>+300% скорости операций</ASE_SurgicalUnit.customEffectDescriptions.1>
+  <ASE_SurgicalUnit.customEffectDescriptions.2>не может строить/копать/носить</ASE_SurgicalUnit.customEffectDescriptions.2>
+  
+  <!-- Agro-Drone -->
+  <ASE_AgroDrone.label>агро-дрон</ASE_AgroDrone.label>
+  <ASE_AgroDrone.description>Оптимизирован для сбора урожая и вырубки леса.</ASE_AgroDrone.description>
+  <ASE_AgroDrone.customEffectDescriptions.0>+70% эффективности сбора растений</ASE_AgroDrone.customEffectDescriptions.0>
+  <ASE_AgroDrone.customEffectDescriptions.1>+70% скорости рубки</ASE_AgroDrone.customEffectDescriptions.1>
+  
+  <!-- Narcotic Harvester -->
+  <ASE_NarcoticHarvester.label>сборщик наркотиков</ASE_NarcoticHarvester.label>
+  <ASE_NarcoticHarvester.description>Благодаря улучшенной моторике идеален для выращивания запрещённых культур, однако имеет гораздо меньшую прочность по сравнению со стандартными моделями.</ASE_NarcoticHarvester.description>
+  <ASE_NarcoticHarvester.customEffectDescriptions.0>+200% урожай наркотических культур</ASE_NarcoticHarvester.customEffectDescriptions.0>
+  <ASE_NarcoticHarvester.customEffectDescriptions.1>+300% входящего урона</ASE_NarcoticHarvester.customEffectDescriptions.1>
+  
+  <!-- Shredder Core -->
+  <ASE_ShredderCore.label>ядро измельчителя</ASE_ShredderCore.label>
+  <ASE_ShredderCore.description>Специализированный блок переработки механоидов, позволяющий изредка находить в них дополнительные компоненты.</ASE_ShredderCore.description>
+  <ASE_ShredderCore.customEffectDescriptions.0>50% шанс получить бонусные материалы</ASE_ShredderCore.customEffectDescriptions.0>
+  
+  <!-- Butcher Core -->
+  <ASE_ButcherCore.label>ядро мясника</ASE_ButcherCore.label>
+  <ASE_ButcherCore.description>Этот протокол игнорирует санитарные стандарты и резделывает туши с удвоенной скоростью.</ASE_ButcherCore.description>
+  <ASE_ButcherCore.customEffectDescriptions.0>+100% butchery speed</ASE_ButcherCore.customEffectDescriptions.0>
+  <ASE_ButcherCore.customEffectDescriptions.1>+100% butchery efficiency</ASE_ButcherCore.customEffectDescriptions.1>
+  <ASE_ButcherCore.customEffectDescriptions.2>+10000% шанс пищевого отравления при готовке еды</ASE_ButcherCore.customEffectDescriptions.2>
+  
+  <!-- Smelter Core -->
+  <ASE_SmelterCore.label>ядро плавильщика</ASE_SmelterCore.label>
+  <ASE_SmelterCore.description>Специальный протокол по переплавке металлов, позволяет плавить быстрее, а также иногда получать редкие компоненты.</ASE_SmelterCore.description>
+  <ASE_SmelterCore.customEffectDescriptions.0>30% шанс получить бонусные материалы</ASE_SmelterCore.customEffectDescriptions.0>
+  
+  <!-- Diplomatic Core -->
+  <ASE_DiplomaticCore.label>дипломатическое ядро</ASE_DiplomaticCore.label>
+  <ASE_DiplomaticCore.description>Андроид-дипломат для торговли и переговоров. Для установления доверия с торговыми партнерами он технически не может использовать оружие дальнего боя.</ASE_DiplomaticCore.description>
+  <ASE_DiplomaticCore.customEffectDescriptions.0>Невозможность использовать ranged weapon</ASE_DiplomaticCore.customEffectDescriptions.0>
+  
+  <!-- Suppression Unit -->
+  <ASE_SuppressionUnit.label>блок подавления</ASE_SuppressionUnit.label>
+  <ASE_SuppressionUnit.description>Специализация на захвате пленных и подавлении бунтов, но встроенные лезвия немного снижают скорость передвижения.</ASE_SuppressionUnit.description>
+  <ASE_SuppressionUnit.customEffectDescriptions.0>+50% Arrest Success Chance</ASE_SuppressionUnit.customEffectDescriptions.0>
+  <ASE_SuppressionUnit.customEffectDescriptions.1>+100% Suppression Power</ASE_SuppressionUnit.customEffectDescriptions.1>
+  <ASE_SuppressionUnit.customEffectDescriptions.2>-20% Move Speed</ASE_SuppressionUnit.customEffectDescriptions.2>
+  
+  <!-- Propaganda Broadcaster -->
+  <ASE_PropagandaBroadcaster.label>вещатель пропаганды</ASE_PropagandaBroadcaster.label>
+  <ASE_PropagandaBroadcaster.description>Благодаря огромным встроенным динамикам может влииять на мнение окружающих, однако аппаратура немного снижает скорость передвижения.</ASE_PropagandaBroadcaster.description>
+  <ASE_PropagandaBroadcaster.customEffectDescriptions.0>+200% Social Impact</ASE_PropagandaBroadcaster.customEffectDescriptions.0>
+  <ASE_PropagandaBroadcaster.customEffectDescriptions.1>+200% Ideoligion Conversion Power</ASE_PropagandaBroadcaster.customEffectDescriptions.1>
+  <ASE_PropagandaBroadcaster.customEffectDescriptions.2>-20% Move Speed</ASE_PropagandaBroadcaster.customEffectDescriptions.2>
+  
+  <!-- Thermal Regulator T1 -->
+  <ASE_ThermalRegulator_T1.label>терморегулятор T1</ASE_ThermalRegulator_T1.label>
+  <ASE_ThermalRegulator_T1.description>Расширенный диапазон комфортных температур.</ASE_ThermalRegulator_T1.description>
+  <ASE_ThermalRegulator_T1.customEffectDescriptions.0>ComfyTemperatureMin -40°C</ASE_ThermalRegulator_T1.customEffectDescriptions.0>
+  <ASE_ThermalRegulator_T1.customEffectDescriptions.1>ComfyTemperatureMax +40°C</ASE_ThermalRegulator_T1.customEffectDescriptions.1>
+  
+  <!-- Thermal Regulator T2 -->
+  <ASE_ThermalRegulator_T2.label>терморегулятор T2</ASE_ThermalRegulator_T2.label>
+  <ASE_ThermalRegulator_T2.description>Максимальный диапазон комфортных температур.</ASE_ThermalRegulator_T2.description>
+  <ASE_ThermalRegulator_T2.customEffectDescriptions.0>ComfyTemperatureMin -80°C</ASE_ThermalRegulator_T2.customEffectDescriptions.0>
+  <ASE_ThermalRegulator_T2.customEffectDescriptions.1>ComfyTemperatureMax +80°C</ASE_ThermalRegulator_T2.customEffectDescriptions.1>
+  
+  <!-- Construction Matrix -->
+  <ASE_ConstructionMatrix.label>строительная матрица</ASE_ConstructionMatrix.label>
+  <ASE_ConstructionMatrix.description>Андроид создан для тяжёлой работы на строительных площадках в новых, неосвоенных мирах.</ASE_ConstructionMatrix.description>
+  <ASE_ConstructionMatrix.customEffectDescriptions.0>+100% Construction Speed</ASE_ConstructionMatrix.customEffectDescriptions.0>
+  <ASE_ConstructionMatrix.customEffectDescriptions.1>+100% Smoothing Speed</ASE_ConstructionMatrix.customEffectDescriptions.1>
+  
+  <!-- Decentralized Mind -->
+  <ASE_DecentralizedMind.label>децентрализованный разум</ASE_DecentralizedMind.label>
+  <ASE_DecentralizedMind.description>Распределенные вычисления позволяют равномерно нагрузить все ЦПУ андроидов, присутствующих на карте, повышая их эффективность.</ASE_DecentralizedMind.description>
+  <ASE_DecentralizedMind.customEffectDescriptions.0>+10% global work speed за каждого андроида с этим геном на карте</ASE_DecentralizedMind.customEffectDescriptions.0>
+  
+  <!-- Resource Scanner -->
+  <ASE_ResourceScanner.label>сканер ресурсов</ASE_ResourceScanner.label>
+  <ASE_ResourceScanner.description>Встроенный металлоискатель, который иногда отмечает неизвестные ранее залежи ценных материалов.</ASE_ResourceScanner.description>
+  <ASE_ResourceScanner.customEffectDescriptions.0>Раз в день обнаруживает случайное подземное месторождение</ASE_ResourceScanner.customEffectDescriptions.0>
+  
+</LanguageData>

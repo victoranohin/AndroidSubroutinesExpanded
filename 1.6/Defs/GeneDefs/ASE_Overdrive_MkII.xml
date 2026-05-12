@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_Overdrive_T2</defName>
+    <label>overdrive T2</label>
+    <description>Overclocking of stepper motor protocols. The android moves even faster, but is unable to carry heavy items.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_Overdrive_MkII</geneClass>
+    <biostatCpx>4</biostatCpx>
+    <biostatMet>-4</biostatMet>
+    <displayOrderInCategory>11</displayOrderInCategory>
+    <statOffsets>
+      <MoveSpeed>2.0</MoveSpeed>
+      <CarryingCapacity>-40</CarryingCapacity>
+    </statOffsets>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

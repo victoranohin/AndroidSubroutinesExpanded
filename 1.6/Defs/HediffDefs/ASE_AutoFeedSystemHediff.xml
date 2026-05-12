@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>ASE_AutoFeedSystemHediff</defName>
+    <label>auto-feed system</label>
+    <description>Built-in hand-mounted loading system that allows the android to make up to 5 shots with instant aiming and ×5 firing speed. The system recharges over time.</description>
+    <hediffClass>AndroidSubroutinesExpanded.Hediff_AutoFeedSystem</hediffClass>
+    <defaultLabelColor>(1.0, 0.6, 0.2)</defaultLabelColor>
+    <isBad>false</isBad>
+    <initialSeverity>5</initialSeverity>
+    <minSeverity>0</minSeverity>
+    <maxSeverity>5</maxSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <label>empty (0/5)</label>
+      </li>
+      <li>
+        <minSeverity>1</minSeverity>
+        <label>low (1/5)</label>
+      </li>
+      <li>
+        <minSeverity>3</minSeverity>
+        <label>half (3/5)</label>
+      </li>
+      <li>
+        <minSeverity>5</minSeverity>
+        <label>full (5/5)</label>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

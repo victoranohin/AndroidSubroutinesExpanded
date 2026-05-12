@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_EnergyBase">
+    <defName>ASE_EMPGenerator</defName>
+    <label>EMP reactor</label>
+    <description>This experimental reactor produces a decent amount of energy, but its core periodically provokes EMP bursts that can negatively affect other androids and mechanisms.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_EMPGenerator</geneClass>
+    <biostatCpx>6</biostatCpx>
+    <biostatMet>12</biostatMet>
+    <displayOrderInCategory>301</displayOrderInCategory>
+    <customEffectDescriptions>
+      <li>Sometimes emits EMP</li>
+    </customEffectDescriptions>
+    <exclusionTags>
+      <li>ASE_Reactor</li>
+    </exclusionTags>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

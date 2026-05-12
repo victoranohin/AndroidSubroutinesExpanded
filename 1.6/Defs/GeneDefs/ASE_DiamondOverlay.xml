@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_ArmorBase">
+    <defName>ASE_DiamondOverlay</defName>
+    <label>diamond overlay</label>
+    <description>A special diamond particle coating has been applied to the android's armor. It makes the android much stronger, but due to the cost of materials, half the galaxy will hunt for such androids.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_DiamondOverlay</geneClass>
+    <biostatCpx>5</biostatCpx>
+    <biostatMet>-25</biostatMet>
+    <displayOrderInCategory>118</displayOrderInCategory>
+    <exclusionTags>
+      <li>ASE_Armor</li>
+    </exclusionTags>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
+    <statOffsets>
+      <ArmorRating_Blunt>1.25</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.25</ArmorRating_Sharp>
+      <ArmorRating_Heat>1.25</ArmorRating_Heat>
+    </statOffsets>
+    <customEffectDescriptions>
+      <li>Daily increases the total colony value</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

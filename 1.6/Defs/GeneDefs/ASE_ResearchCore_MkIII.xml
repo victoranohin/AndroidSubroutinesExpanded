@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_ResearchCore_T3</defName>
+    <label>research core T3</label>
+    <description>Computational blocks operate at the limit, generating enormous amounts of heat and requiring additional cooling.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_ResearchCore_MkIII</geneClass>
+    <biostatCpx>6</biostatCpx>
+    <biostatMet>-6</biostatMet>
+    <displayOrderInCategory>52</displayOrderInCategory>
+    <statOffsets>
+      <ResearchSpeed>1.00</ResearchSpeed>
+    </statOffsets>
+    <customEffectDescriptions>
+      <li>Heats surrounding area</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

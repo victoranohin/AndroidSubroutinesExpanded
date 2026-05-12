@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <!-- Категорії генів - Українська -->
+  <ASE_Energy.label>реактори</ASE_Energy.label>
+  <ASE_Overclocks.label>оверклокінг</ASE_Overclocks.label>
+  <ASE_Armor.label>бронювання</ASE_Armor.label>
+  <ASE_Weapons.label>зброя</ASE_Weapons.label>
+  
+</LanguageData>

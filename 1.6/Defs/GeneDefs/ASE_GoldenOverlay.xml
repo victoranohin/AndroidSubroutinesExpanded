@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_ArmorBase">
+    <defName>ASE_GoldenOverlay</defName>
+    <label>golden overlay</label>
+    <description>A special gold coating has been applied to the android's armor. Makes the android even stronger, but greatly increases its cost and attracts unwanted attention.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_GoldenOverlay</geneClass>
+    <biostatCpx>6</biostatCpx>
+    <biostatMet>-15</biostatMet>
+    <displayOrderInCategory>115</displayOrderInCategory>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
+    <exclusionTags>
+      <li>ASE_Armor</li>
+      <li>ASE_PresenceOverlay</li>
+    </exclusionTags>
+    <statOffsets>
+      <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.75</ArmorRating_Heat>
+    </statOffsets>
+    <customEffectDescriptions>
+      <li>market value +20 000</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

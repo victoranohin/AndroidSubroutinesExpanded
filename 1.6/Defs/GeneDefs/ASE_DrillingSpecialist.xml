@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_DrillingSpecialist</defName>
+    <label>drilling specialist</label>
+    <description>Doubled drilling speed thanks to abandoning standard speech protocols.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_DrillingSpecialist</geneClass>
+    <biostatCpx>5</biostatCpx>
+    <biostatMet>-8</biostatMet>
+    <displayOrderInCategory>64</displayOrderInCategory>
+    <statOffsets>
+      <DeepDrillingSpeed>1.0</DeepDrillingSpeed>
+    </statOffsets>
+    <capMods>
+      <li>
+        <capacity>Hearing</capacity>
+        <offset>-1.0</offset>
+      </li>
+      <li>
+        <capacity>Talking</capacity>
+        <offset>-1.0</offset>
+      </li>
+    </capMods>
+    <customEffectDescriptions>
+      <li>Hearing loss and inability to communicate</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

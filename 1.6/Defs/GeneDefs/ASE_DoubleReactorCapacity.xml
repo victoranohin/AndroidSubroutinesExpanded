@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_EnergyBase">
+    <defName>ASE_DoubleReactorCapacity</defName>
+    <label>double reactor capacity</label>
+    <description>Engineers increased the reactor capacity, but this slightly affects movement speed.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_DoubleReactorCapacity</geneClass>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>8</biostatMet>
+    <displayOrderInCategory>300</displayOrderInCategory>
+    <exclusionTags>
+      <li>ASE_Reactor</li>
+    </exclusionTags>
+    <statOffsets>
+      <MoveSpeed>-1.0</MoveSpeed>
+    </statOffsets>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

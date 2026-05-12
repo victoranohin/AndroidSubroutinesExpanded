@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_CargoHolder_T1</defName>
+    <label>cargo holder upgrade T1</label>
+    <description>High-capacity cargo compartment.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_CargoHolder_MkI</geneClass>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <displayOrderInCategory>40</displayOrderInCategory>
+    <statOffsets>
+      <CarryingCapacity>40</CarryingCapacity>
+      <VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
+    </statOffsets>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

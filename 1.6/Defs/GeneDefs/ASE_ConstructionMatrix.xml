@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_ConstructionMatrix</defName>
+    <label>construction matrix</label>
+    <description>The android is designed for heavy work on construction sites in new, unexplored worlds.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-5</biostatMet>
+    <displayOrderInCategory>155</displayOrderInCategory>
+    <statOffsets>
+      <ConstructionSpeed>1.0</ConstructionSpeed>
+      <SmoothingSpeed>1.0</SmoothingSpeed>
+    </statOffsets>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

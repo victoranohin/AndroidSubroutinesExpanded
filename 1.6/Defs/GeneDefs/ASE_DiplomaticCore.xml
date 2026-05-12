@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_DiplomaticCore</defName>
+    <label>diplomatic core</label>
+    <description>Android diplomat for trade and negotiations. To build trust with trading partners, it technically cannot use ranged weapons.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_DiplomaticCore</geneClass>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-4</biostatMet>
+    <displayOrderInCategory>150</displayOrderInCategory>
+    <statOffsets>
+      <TradePriceImprovement>0.40</TradePriceImprovement>
+      <NegotiationAbility>0.50</NegotiationAbility>
+    </statOffsets>
+    <customEffectDescriptions>
+      <li>Cannot use ranged weapon</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

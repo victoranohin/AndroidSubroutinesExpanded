@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- 
+    Патч совместимости с VRE Starjack.
+    
+    Причина: VRE Starjack автоматически создаёт _Astrogene копии 
+    для всех AndroidGeneDef с biostatCpx=2.
+    
+    Этот патч предотвращает создание дубликатов для наших субрутин,
+    устанавливая canGenerateInGeneSet=false для генов которые
+    не должны появляться в автоматически сгенерированных наборах.
+  -->
+
+  <!-- Отключаем автогенерацию для всех ASE генов (если Starjack загружен) -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      
+      <!-- Overdrive серия -->
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/VREAndroids.AndroidGeneDef[defName="ASE_Overdrive_MkI"]</xpath>
+        <match Class="PatchOperationAttributeSet">
+          <xpath>/Defs/VREAndroids.AndroidGeneDef[defName="ASE_Overdrive_MkI"]</xpath>
+          <attribute>MayRequire</attribute>
+          <value></value>
+        </match>
+      </li>
+      
+      <!-- Productivity Protocol серия -->
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/VREAndroids.AndroidGeneDef[defName="ASE_ProductivityProtocol_MkI"]</xpath>
+        <match Class="PatchOperationAttributeSet">
+          <xpath>/Defs/VREAndroids.AndroidGeneDef[defName="ASE_ProductivityProtocol_MkI"]</xpath>
+          <attribute>MayRequire</attribute>
+          <value></value>
+        </match>
+      </li>
+
+    </operations>
+  </Operation>
+
+  <!-- 
+    Примечание: Все наши AndroidGeneDef имеют biostatCpx >= 3,
+    поэтому Starjack не должен создавать для них _Astrogene копии.
+    
+    Если в будущем добавятся гены с biostatCpx=2, 
+    убедитесь что они имеют biostatCpx >= 3 или добавьте их сюда.
+    
+    Согласно ПРАВИЛУ 36: используй biostatCpx >= 3 для всех AndroidGeneDef
+    чтобы избежать дубликатов от VRE Starjack.
+  -->
+
+</Patch>
+

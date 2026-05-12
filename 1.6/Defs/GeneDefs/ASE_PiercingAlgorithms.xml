@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_WeaponsBase">
+    <defName>ASE_PiercingAlgorithms</defName>
+    <label>piercing algorithms</label>
+    <description>The android can find weak spots in the enemy's armor, but cannot protect its own.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <displayOrderInCategory>208</displayOrderInCategory>
+    <biostatCpx>5</biostatCpx>
+    <biostatMet>-7</biostatMet>
+    <geneClass>AndroidSubroutinesExpanded.Gene_PiercingAlgorithms</geneClass>
+    <statFactors>
+      <IncomingDamageFactor>1.30</IncomingDamageFactor>
+    </statFactors>
+    <statOffsets>
+      <MeleeArmorPenetration>0.50</MeleeArmorPenetration>
+    </statOffsets>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_SurgicalUnit</defName>
+    <label>surgical unit</label>
+    <description>Special model designed for use in elite clinics. Equipment fragility prevents the android from being used for heavy work.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_SurgicalUnit</geneClass>
+    <biostatCpx>6</biostatCpx>
+    <biostatMet>-8</biostatMet>
+    <displayOrderInCategory>71</displayOrderInCategory>
+    <statOffsets>
+      <MedicalSurgerySuccessChance>0.999</MedicalSurgerySuccessChance>
+      <MedicalOperationSpeed>3.0</MedicalOperationSpeed>
+    </statOffsets>
+    <disabledWorkTags>
+      <li>Constructing</li>
+      <li>Mining</li>
+      <li>Hauling</li>
+    </disabledWorkTags>
+    <customEffectDescriptions>
+      <li>99.9% surgery success rate</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

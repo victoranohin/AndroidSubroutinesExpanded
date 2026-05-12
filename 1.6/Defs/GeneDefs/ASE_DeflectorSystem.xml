@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_ArmorBase">
+    <defName>ASE_DeflectorSystem</defName>
+    <label>deflector system</label>
+    <description>Experimental reflective panels that reflect bullets back at attackers. Trigger approximately 50% of the time.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_DeflectorSystem</geneClass>
+    <biostatCpx>7</biostatCpx>
+    <biostatMet>-16</biostatMet>
+    <displayOrderInCategory>104</displayOrderInCategory>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
+    <statFactors>
+      <Flammability>6.0</Flammability>
+    </statFactors>
+    <customEffectDescriptions>
+      <li>50% chance to reflect shots back at attacker</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

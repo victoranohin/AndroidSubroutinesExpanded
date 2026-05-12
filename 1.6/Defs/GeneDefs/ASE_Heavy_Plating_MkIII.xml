@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_ArmorBase">
+    <defName>ASE_Heavy_Plating_T3</defName>
+    <label>heavy plating T3</label>
+    <description>Armor protection has been brought to incredible levels. Almost invulnerable, but barely able to move or work.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_HeavyPlating_MkIII</geneClass>
+    <biostatCpx>8</biostatCpx>
+    <biostatMet>-20</biostatMet>
+    <displayOrderInCategory>102</displayOrderInCategory>
+    <statFactors>
+      <IncomingDamageFactor>0.2</IncomingDamageFactor>
+      <MoveSpeed>0.1</MoveSpeed>
+      <WorkSpeedGlobal>0.6</WorkSpeedGlobal>
+    </statFactors>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

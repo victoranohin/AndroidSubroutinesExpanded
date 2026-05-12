@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_WeaponsBase">
+    <defName>ASE_MeleeOverdrive_T2</defName>
+    <label>melee overdrive T2</label>
+    <description>Android created specifically for foggy and rainy biomes with many hostile creatures. Cannot use ranged weapons, but fights excellently in melee.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <displayOrderInCategory>214</displayOrderInCategory>
+    <biostatCpx>8</biostatCpx>
+    <biostatMet>-16</biostatMet>
+    <geneClass>AndroidSubroutinesExpanded.Gene_MeleeOverdrive_MkII</geneClass>
+    <statFactors>
+      <MeleeDamageFactor>2.5</MeleeDamageFactor>
+    </statFactors>
+    <statOffsets>
+      <MeleeArmorPenetration>1.0</MeleeArmorPenetration>
+      <MeleeHitChance>0.90</MeleeHitChance>
+    </statOffsets>
+    <customEffectDescriptions>
+      <li>+150% melee damage</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

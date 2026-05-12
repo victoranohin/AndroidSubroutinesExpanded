@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_WeaponsBase">
+    <defName>ASE_BarrageProtocol</defName>
+    <label>barrage protocol</label>
+    <description>The android spends less time aiming, showering the enemy with a hail of bullets, but accuracy leaves much to be desired.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-2</biostatMet>
+    <displayOrderInCategory>222</displayOrderInCategory>
+    <geneClass>AndroidSubroutinesExpanded.Gene_BarrageProtocol</geneClass>
+    <exclusionTags>
+      <li>ASE_AntiBarrage_Sniper</li>
+      <li>ASE_AntiBarrage_PerfectAim</li>
+      <li>ASE_AntiBarrage_AutoFeed</li>
+    </exclusionTags>
+    <statOffsets>
+      <ShootingAccuracyPawn>-50</ShootingAccuracyPawn>
+    </statOffsets>
+    <statFactors>
+      <AimingDelayFactor>0</AimingDelayFactor>
+    </statFactors>
+    <customEffectDescriptions>
+      <li>Ranged attack speed ×5</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

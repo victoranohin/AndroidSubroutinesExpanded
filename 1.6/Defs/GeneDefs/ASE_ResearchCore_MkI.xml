@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_ResearchCore_T1</defName>
+    <label>research core T1</label>
+    <description>Improved search and data systematization algorithms increase research speed.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_ResearchCore_MkI</geneClass>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-2</biostatMet>
+    <displayOrderInCategory>50</displayOrderInCategory>
+    <statOffsets>
+      <ResearchSpeed>0.30</ResearchSpeed>
+    </statOffsets>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

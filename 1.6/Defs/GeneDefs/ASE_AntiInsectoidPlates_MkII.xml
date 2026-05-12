@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_ArmorBase">
+    <defName>ASE_AntiInsectoidPlates_T2</defName>
+    <label>double anti-insectoid plates</label>
+    <description>Damn insectoids really got everyone! Additional layers of experimental composite armor will help better withstand clashes with these creatures.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_AntiInsectoidPlates_MkII</geneClass>
+    <biostatCpx>4</biostatCpx>
+    <biostatMet>-8</biostatMet>
+    <displayOrderInCategory>111</displayOrderInCategory>
+    <exclusionTags>
+      <li>ASE_AntiInsectoidPlates</li>
+    </exclusionTags>
+    <customEffectDescriptions>
+      <li>Additional armor with 160 durability that works against melee damage</li>
+      <li>Can be restored (depends on crafting skill)</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

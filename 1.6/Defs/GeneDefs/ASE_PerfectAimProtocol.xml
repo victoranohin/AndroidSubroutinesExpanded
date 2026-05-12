@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_WeaponsBase">
+    <defName>ASE_PerfectAimProtocol</defName>
+    <label>perfect aim protocol</label>
+    <description>Improved aiming protocol forces the android to aim for an eternity, but the hit will be perfect.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <displayOrderInCategory>209</displayOrderInCategory>
+    <biostatCpx>6</biostatCpx>
+    <biostatMet>-8</biostatMet>
+    <geneClass>AndroidSubroutinesExpanded.Gene_PerfectAimProtocol</geneClass>
+    <exclusionTags>
+      <li>ASE_AntiBarrage_PerfectAim</li>
+    </exclusionTags>
+    <statOffsets>
+      <ShootingAccuracyPawn>99999</ShootingAccuracyPawn>
+    </statOffsets>
+    <statFactors>
+      <AimingDelayFactor>4.0</AimingDelayFactor>
+    </statFactors>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

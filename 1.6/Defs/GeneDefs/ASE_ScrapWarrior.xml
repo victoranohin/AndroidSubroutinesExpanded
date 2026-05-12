@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_WeaponsBase">
+    <defName>ASE_ScrapWarrior</defName>
+    <label>scrap warrior</label>
+    <description>Thanks to cheap materials, the android is not afraid of damage and deals increased damage. The lower the android's cost, the greater the bonus.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <displayOrderInCategory>205</displayOrderInCategory>
+    <biostatCpx>5</biostatCpx>
+    <biostatMet>-6</biostatMet>
+    <geneClass>AndroidSubroutinesExpanded.Gene_ScrapWarrior</geneClass>
+    <customEffectDescriptions>
+      <li>Additional damage when android cost is less than 2000 silver, up to +50% at cost up to 250 silver</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

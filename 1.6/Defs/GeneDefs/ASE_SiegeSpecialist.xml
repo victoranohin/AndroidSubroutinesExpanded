@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_WeaponsBase">
+    <defName>ASE_SiegeSpecialist</defName>
+    <label>siege specialist</label>
+    <description>Improved geometric calculation block allows quick and accurate mortar fire, but such androids are often equipped with minimally acceptable armor.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <displayOrderInCategory>211</displayOrderInCategory>
+    <biostatCpx>6</biostatCpx>
+    <biostatMet>-8</biostatMet>
+    <geneClass>AndroidSubroutinesExpanded.Gene_SiegeSpecialist</geneClass>
+    <statFactors>
+      <MortarMissRadiusFactor>0.10</MortarMissRadiusFactor>
+      <IncomingDamageFactor>1.50</IncomingDamageFactor>
+    </statFactors>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

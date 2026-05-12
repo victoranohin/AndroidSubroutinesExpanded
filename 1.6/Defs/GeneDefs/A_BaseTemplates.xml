@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Base templates for our overhauled subroutines - loaded first alphabetically -->
+
+  <!-- Define categories first -->
+  <GeneCategoryDef>
+    <defName>ASE_Energy</defName>
+    <label>energy</label>
+    <displayPriorityInXenotype>-100</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>ASE_Overclocks</defName>
+    <label>overclock</label>
+    <displayPriorityInXenotype>-101</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>ASE_Armor</defName>
+    <label>armor</label>
+    <displayPriorityInXenotype>-102</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneCategoryDef>
+    <defName>ASE_Weapons</defName>
+    <label>weapons</label>
+    <displayPriorityInXenotype>-103</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <!-- Base template for Overclock subroutines -->
+  <VREAndroids.AndroidGeneDef Name="ASE_OverclockBase" Abstract="True">
+    <displayCategory>ASE_Overclocks</displayCategory>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension">
+        <backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Subroutine</backgroundPathXenogenes>
+        <backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Subroutine</backgroundPathEndogenes>
+      </li>
+    </modExtensions>
+  </VREAndroids.AndroidGeneDef>
+
+  <!-- Base template for Armor subroutines -->
+  <VREAndroids.AndroidGeneDef Name="ASE_ArmorBase" Abstract="True">
+    <displayCategory>ASE_Armor</displayCategory>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension">
+        <backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Subroutine</backgroundPathXenogenes>
+        <backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Subroutine</backgroundPathEndogenes>
+      </li>
+    </modExtensions>
+  </VREAndroids.AndroidGeneDef>
+
+  <!-- Base template for Weapons subroutines -->
+  <VREAndroids.AndroidGeneDef Name="ASE_WeaponsBase" Abstract="True">
+    <displayCategory>ASE_Weapons</displayCategory>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension">
+        <backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Subroutine</backgroundPathXenogenes>
+        <backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Subroutine</backgroundPathEndogenes>
+      </li>
+    </modExtensions>
+  </VREAndroids.AndroidGeneDef>
+
+  <!-- Base template for Energy subroutines -->
+  <VREAndroids.AndroidGeneDef Name="ASE_EnergyBase" Abstract="True">
+    <displayCategory>ASE_Energy</displayCategory>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <modExtensions>
+      <li Class="VEF.Genes.GeneExtension">
+        <backgroundPathXenogenes>UI/Icons/Genes/GeneBackground_Subroutine</backgroundPathXenogenes>
+        <backgroundPathEndogenes>UI/Icons/Genes/GeneBackground_Subroutine</backgroundPathEndogenes>
+      </li>
+    </modExtensions>
+  </VREAndroids.AndroidGeneDef>
+
+</Defs>

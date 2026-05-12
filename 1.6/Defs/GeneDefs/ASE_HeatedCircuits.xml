@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_WeaponsBase">
+    <defName>ASE_HeatedCircuits</defName>
+    <label>heated circuits</label>
+    <description>The reactor's heat dissipation system is connected to the android's fists, allowing it to inflict burns with melee attacks</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <displayOrderInCategory>207</displayOrderInCategory>
+    <biostatCpx>4</biostatCpx>
+    <biostatMet>-5</biostatMet>
+    <geneClass>AndroidSubroutinesExpanded.Gene_HeatedCircuits</geneClass>
+    <customEffectDescriptions>
+      <li>Each strike applies burns</li>
+      <li>30% chance to ignite enemy</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

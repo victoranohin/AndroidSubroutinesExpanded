@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>ASE_GoldenOverlayHediff</defName>
+    <label>golden overlay</label>
+    <description>A special gold coating has been applied to the android's armor. Makes the android even stronger, but greatly increases its cost and attracts unwanted attention.</description>
+    <hediffClass>AndroidSubroutinesExpanded.Hediff_GoldenOverlay</hediffClass>
+    <defaultLabelColor>(0.6, 0.4, 0.2)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <lethalSeverity>-1</lethalSeverity>
+    <maxSeverity>100</maxSeverity>
+    <initialSeverity>100</initialSeverity>
+    <stages>
+      <li>
+        <label>active</label>
+        <becomeVisible>true</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

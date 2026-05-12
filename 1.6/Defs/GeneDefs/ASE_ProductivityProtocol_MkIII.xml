@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_ProductivityProtocol_T3</defName>
+    <label>productivity protocol T3</label>
+    <description>Incredible productivity boost, but the cost is the inability to work efficiently at high temperatures.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_ProductivityProtocol_MkIII</geneClass>
+    <biostatCpx>6</biostatCpx>
+    <biostatMet>-12</biostatMet>
+    <displayOrderInCategory>32</displayOrderInCategory>
+    <customEffectDescriptions>
+      <li>The lower the temperature, the higher the work speed. Each degree below 20°C grants +2% global work speed, each degree above 20°C grants -2% global work speed.</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

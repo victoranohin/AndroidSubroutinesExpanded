@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <!-- ========== WEAPONS SUBROUTINES ========== -->
+  
+  <!-- Berserker Protocol -->
+  <ASE_BerserkerProtocol.label>berserker protocol</ASE_BerserkerProtocol.label>
+  <ASE_BerserkerProtocol.description>A protocol created for public entertainment: the more damaged the android is, the more ferociously it fights. Very popular in underground arenas.</ASE_BerserkerProtocol.description>
+  <ASE_BerserkerProtocol.customEffectDescriptions.0>Increases damage when injured. Effect starts at &lt;80% HP</ASE_BerserkerProtocol.customEffectDescriptions.0>
+  
+  <!-- Berserker Protocol T2 -->
+  <ASE_BerserkerProtocol_T2.label>berserker protocol T2</ASE_BerserkerProtocol_T2.label>
+  <ASE_BerserkerProtocol_T2.description>Further development of the protocol created for public entertainment: the more damaged the android is, the more ferociously it fights. Due to imperfect technology, it may enter uncontrollable rage and become a threat to everything living within 1 kilometer (including your colonists).</ASE_BerserkerProtocol_T2.description>
+  <ASE_BerserkerProtocol_T2.customEffectDescriptions.0>Each 1% of missing health increases melee attack speed by 2%</ASE_BerserkerProtocol_T2.customEffectDescriptions.0>
+  <ASE_BerserkerProtocol_T2.customEffectDescriptions.1>Chance to enter uncontrollable rage</ASE_BerserkerProtocol_T2.customEffectDescriptions.1>
+  
+  <!-- Sniper Optics -->
+  <ASE_SniperOptics.label>sniper optics</ASE_SniperOptics.label>
+  <ASE_SniperOptics.description>Improved optics significantly increase weapon range, but the android itself becomes extremely vulnerable.</ASE_SniperOptics.description>
+  <ASE_SniperOptics.customEffectDescriptions.0>+50% weapon range</ASE_SniperOptics.customEffectDescriptions.0>
+  <ASE_SniperOptics.customEffectDescriptions.1>+200% incoming damage</ASE_SniperOptics.customEffectDescriptions.1>
+  
+  <!-- Titan Fist -->
+  <ASE_TitanFist.label>titan fist</ASE_TitanFist.label>
+  <ASE_TitanFist.description>The android strikes much slower, but puts all its power into each blow.</ASE_TitanFist.description>
+  <ASE_TitanFist.customEffectDescriptions.0>melee damage ×5</ASE_TitanFist.customEffectDescriptions.0>
+  <ASE_TitanFist.customEffectDescriptions.1>move speed -50%</ASE_TitanFist.customEffectDescriptions.1>
+  
+  <!-- Unarmored Evasion -->
+  <ASE_UnarmoredEvasion.label>unarmored evasion</ASE_UnarmoredEvasion.label>
+  <ASE_UnarmoredEvasion.description>Thanks to additional servos, the android dodges melee attacks more easily. The fewer items worn by the android, the more effective.</ASE_UnarmoredEvasion.description>
+  <ASE_UnarmoredEvasion.customEffectDescriptions.0>+15 melee &amp; ranged dodge chance per empty apparel slot</ASE_UnarmoredEvasion.customEffectDescriptions.0>
+  
+  <!-- Scrap Warrior -->
+  <ASE_ScrapWarrior.label>scrap warrior</ASE_ScrapWarrior.label>
+  <ASE_ScrapWarrior.description>Thanks to cheap materials, the android is not afraid of damage and deals increased damage. The lower the android's cost, the greater the bonus.</ASE_ScrapWarrior.description>
+  <ASE_ScrapWarrior.customEffectDescriptions.0>Additional damage when android cost is less than 2000 silver, up to +50% at cost up to 250 silver</ASE_ScrapWarrior.customEffectDescriptions.0>
+  
+  <!-- Auto-Feed System -->
+  <ASE_AutoFeedSystem.label>auto-feed system</ASE_AutoFeedSystem.label>
+  <ASE_AutoFeedSystem.description>Built-in hand-mounted loading system that allows the android to make up to 5 shots with instant aiming and ×5 firing speed. The system recharges over time.</ASE_AutoFeedSystem.description>
+  <ASE_AutoFeedSystem.customEffectDescriptions.0>Loading system for 5 shots</ASE_AutoFeedSystem.customEffectDescriptions.0>
+  
+  <!-- Heated Circuits -->
+  <ASE_HeatedCircuits.label>heated circuits</ASE_HeatedCircuits.label>
+  <ASE_HeatedCircuits.description>The reactor's heat dissipation system is connected to the android's fists, allowing it to inflict burns with melee attacks</ASE_HeatedCircuits.description>
+  <ASE_HeatedCircuits.customEffectDescriptions.0>Each strike applies burns</ASE_HeatedCircuits.customEffectDescriptions.0>
+  <ASE_HeatedCircuits.customEffectDescriptions.1>30% chance to ignite enemy</ASE_HeatedCircuits.customEffectDescriptions.1>
+  
+  <!-- Piercing Algorithms -->
+  <ASE_PiercingAlgorithms.label>piercing algorithms</ASE_PiercingAlgorithms.label>
+  <ASE_PiercingAlgorithms.description>The android can find weak spots in the enemy's armor, but cannot protect its own.</ASE_PiercingAlgorithms.description>
+  <ASE_PiercingAlgorithms.customEffectDescriptions.0>+0.50 melee armor penetration</ASE_PiercingAlgorithms.customEffectDescriptions.0>
+  <ASE_PiercingAlgorithms.customEffectDescriptions.1>+30% incoming damage</ASE_PiercingAlgorithms.customEffectDescriptions.1>
+  
+  <!-- Perfect Aim Protocol -->
+  <ASE_PerfectAimProtocol.label>perfect aim protocol</ASE_PerfectAimProtocol.label>
+  <ASE_PerfectAimProtocol.description>Improved aiming protocol forces the android to aim for an eternity, but the hit will be perfect.</ASE_PerfectAimProtocol.description>
+  <ASE_PerfectAimProtocol.customEffectDescriptions.0>+300% aiming time</ASE_PerfectAimProtocol.customEffectDescriptions.0>
+  <ASE_PerfectAimProtocol.customEffectDescriptions.1>+99 shooting accuracy</ASE_PerfectAimProtocol.customEffectDescriptions.1>
+  
+  <!-- Siege Specialist -->
+  <ASE_SiegeSpecialist.label>siege specialist</ASE_SiegeSpecialist.label>
+  <ASE_SiegeSpecialist.description>Improved geometric calculation block allows quick and accurate mortar fire, but such androids are often equipped with minimally acceptable armor.</ASE_SiegeSpecialist.description>
+  <ASE_SiegeSpecialist.customEffectDescriptions.0>Mortar miss radius ×0.1</ASE_SiegeSpecialist.customEffectDescriptions.0>
+  <ASE_SiegeSpecialist.customEffectDescriptions.1>+50% incoming damage</ASE_SiegeSpecialist.customEffectDescriptions.1>
+  
+  <!-- Melee Overdrive T1 -->
+  <ASE_MeleeOverdrive_T1.label>melee overdrive T1</ASE_MeleeOverdrive_T1.label>
+  <ASE_MeleeOverdrive_T1.description>Android created specifically for foggy and rainy biomes. Cannot use ranged weapons, but fights well in melee.</ASE_MeleeOverdrive_T1.description>
+  <ASE_MeleeOverdrive_T1.customEffectDescriptions.0>+80% melee damage</ASE_MeleeOverdrive_T1.customEffectDescriptions.0>
+  <ASE_MeleeOverdrive_T1.customEffectDescriptions.1>+50% armor penetration</ASE_MeleeOverdrive_T1.customEffectDescriptions.1>
+  <ASE_MeleeOverdrive_T1.customEffectDescriptions.2>+40% melee hit chance</ASE_MeleeOverdrive_T1.customEffectDescriptions.2>
+  <ASE_MeleeOverdrive_T1.customEffectDescriptions.3>cannot use ranged weapon</ASE_MeleeOverdrive_T1.customEffectDescriptions.3>
+  
+  <!-- Melee Overdrive T2 -->
+  <ASE_MeleeOverdrive_T2.label>melee overdrive T2</ASE_MeleeOverdrive_T2.label>
+  <ASE_MeleeOverdrive_T2.description>Android created specifically for foggy and rainy biomes with many hostile creatures. Cannot use ranged weapons, but fights excellently in melee.</ASE_MeleeOverdrive_T2.description>
+  <ASE_MeleeOverdrive_T2.customEffectDescriptions.0>+150% melee damage</ASE_MeleeOverdrive_T2.customEffectDescriptions.0>
+  <ASE_MeleeOverdrive_T2.customEffectDescriptions.1>+100% armor penetration</ASE_MeleeOverdrive_T2.customEffectDescriptions.1>
+  <ASE_MeleeOverdrive_T2.customEffectDescriptions.2>+90% melee hit chance</ASE_MeleeOverdrive_T2.customEffectDescriptions.2>
+  <ASE_MeleeOverdrive_T2.customEffectDescriptions.3>cannot use ranged weapon</ASE_MeleeOverdrive_T2.customEffectDescriptions.3>
+  
+  <!-- Cryo-Strike Protocol -->
+  <ASE_CryoStrikeProtocol.label>cryo-strike protocol</ASE_CryoStrikeProtocol.label>
+  <ASE_CryoStrikeProtocol.description>Refrigerant from the cooling system is redirected to the android's fists: each strike significantly cools the target.</ASE_CryoStrikeProtocol.description>
+  <ASE_CryoStrikeProtocol.customEffectDescriptions.0>Cooling strikes (with chance to apply hypothermia)</ASE_CryoStrikeProtocol.customEffectDescriptions.0>
+  
+  <!-- Tactical Network -->
+  <ASE_TacticalNetwork.label>tactical network</ASE_TacticalNetwork.label>
+  <ASE_TacticalNetwork.description>Real-time tactical data exchange allows androids to fight more effectively.</ASE_TacticalNetwork.description>
+  <ASE_TacticalNetwork.customEffectDescriptions.0>Per android with this gene on the map: +5% accuracy, +5% melee dodge, +5% ranged dodge, +5% melee damage</ASE_TacticalNetwork.customEffectDescriptions.0>
+  
+  <!-- Combat Data Logger -->
+  <ASE_CombatDataLogger.label>combat data logger</ASE_CombatDataLogger.label>
+  <ASE_CombatDataLogger.description>With each defeated enemy, the android accumulates vast amounts of data about its target, allowing it to become even more effective.</ASE_CombatDataLogger.description>
+  <ASE_CombatDataLogger.customEffectDescriptions.0>+1% damage per enemy killed (permanent)</ASE_CombatDataLogger.customEffectDescriptions.0>
+  
+  <!-- Barrage Protocol -->
+  <ASE_BarrageProtocol.label>barrage protocol</ASE_BarrageProtocol.label>
+  <ASE_BarrageProtocol.description>The android spends less time aiming, showering the enemy with a hail of bullets, but accuracy leaves much to be desired.</ASE_BarrageProtocol.description>
+  <ASE_BarrageProtocol.customEffectDescriptions.0>Ranged attack speed ×5</ASE_BarrageProtocol.customEffectDescriptions.0>
+  
+</LanguageData>

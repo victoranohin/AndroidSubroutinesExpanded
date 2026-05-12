@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_FieldMedic</defName>
+    <label>field medic</label>
+    <description>Emergency protocols for accelerated treatment of wounded fighters directly on the battlefield. Fast, but not very high quality.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_FieldMedic</geneClass>
+    <biostatCpx>4</biostatCpx>
+    <biostatMet>-6</biostatMet>
+    <displayOrderInCategory>70</displayOrderInCategory>
+    <statOffsets>
+      <MedicalTendSpeed>2.0</MedicalTendSpeed>
+      <MedicalTendQuality>-0.90</MedicalTendQuality>
+    </statOffsets>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

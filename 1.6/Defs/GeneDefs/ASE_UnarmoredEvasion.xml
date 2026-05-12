@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_WeaponsBase">
+    <defName>ASE_UnarmoredEvasion</defName>
+    <label>unarmored evasion</label>
+    <description>Thanks to additional servos, the android dodges melee attacks more easily. The fewer items worn by the android, the more effective.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <displayOrderInCategory>203</displayOrderInCategory>
+    <biostatCpx>4</biostatCpx>
+    <biostatMet>-4</biostatMet>
+    <geneClass>AndroidSubroutinesExpanded.Gene_UnarmoredEvasion</geneClass>
+    <customEffectDescriptions>
+      <li>+15 melee &amp; ranged dodge chance per empty apparel slot</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

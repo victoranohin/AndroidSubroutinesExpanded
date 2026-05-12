@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_MiningSubroutine_T2</defName>
+    <label>mining subroutine T2</label>
+    <description>Improved sensors provide even more resources.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_MiningSubroutine_MkII</geneClass>
+    <biostatCpx>4</biostatCpx>
+    <biostatMet>-4</biostatMet>
+    <displayOrderInCategory>61</displayOrderInCategory>
+    <statOffsets>
+      <MiningYield>0.40</MiningYield>
+    </statOffsets>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

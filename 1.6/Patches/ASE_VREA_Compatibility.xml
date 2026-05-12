@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- 
+    Патч совместимости: делает Presence Firewall (VREA_PresenceFirewall) 
+    взаимоисключающим с Silver Overlay и Golden Overlay.
+    
+    Логика: нельзя одновременно скрывать стоимость андроида от рейдов 
+    и при этом иметь дорогой декоративный оверлей.
+  -->
+
+  <!-- Добавляем exclusionTag к VREA_PresenceFirewall -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <!-- Сначала проверяем существует ли ген -->
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/VREAndroids.AndroidGeneDef[defName="VREA_PresenceFirewall"]</xpath>
+        <success>Normal</success>
+      </li>
+      <!-- Проверяем есть ли уже exclusionTags -->
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/VREAndroids.AndroidGeneDef[defName="VREA_PresenceFirewall"]/exclusionTags</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>/Defs/VREAndroids.AndroidGeneDef[defName="VREA_PresenceFirewall"]/exclusionTags</xpath>
+          <value>
+            <li>ASE_PresenceOverlay</li>
+          </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/VREAndroids.AndroidGeneDef[defName="VREA_PresenceFirewall"]</xpath>
+          <value>
+            <exclusionTags>
+              <li>ASE_PresenceOverlay</li>
+            </exclusionTags>
+          </value>
+        </nomatch>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>
+

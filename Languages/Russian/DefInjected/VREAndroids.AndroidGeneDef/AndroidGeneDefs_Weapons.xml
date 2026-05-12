@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <!-- ========== СУБРУТИНЫ ВООРУЖЕНИЙ ========== -->
+  
+  <!-- Berserker Protocol -->
+  <ASE_BerserkerProtocol.label>протокол берсерка</ASE_BerserkerProtocol.label>
+  <ASE_BerserkerProtocol.description>Протокол, созданный для развлечения публики: чем сильнее андроид повреждён, тем яростнее он сражается. Пользуется большой популярностью в подпольных аренах.</ASE_BerserkerProtocol.description>
+  <ASE_BerserkerProtocol.customEffectDescriptions.0>Увеличивает урон при повреждениях. Эффект начинает работать при &lt;80% HP</ASE_BerserkerProtocol.customEffectDescriptions.0>
+  
+  <!-- Berserker Protocol T2 -->
+  <ASE_BerserkerProtocol_T2.label>протокол берсерка T2</ASE_BerserkerProtocol_T2.label>
+  <ASE_BerserkerProtocol_T2.description>Дальнейшее развитие протокола, созданного для развлечения публики: чем сильнее андроид повреждён, тем яростнее он сражается. Из-за несовершенства технологии может перейти в неконтролируемую ярость и стать угрозой для всего живого в радиусе 1 километра (включая ваших колонистов).</ASE_BerserkerProtocol_T2.description>
+  <ASE_BerserkerProtocol_T2.customEffectDescriptions.0>Каждый 1% отсутствующей жизни увеличивает melee attack speed на 2%</ASE_BerserkerProtocol_T2.customEffectDescriptions.0>
+  <ASE_BerserkerProtocol_T2.customEffectDescriptions.1>Шанс войти в неконтролируемую ярость</ASE_BerserkerProtocol_T2.customEffectDescriptions.1>
+  
+  <!-- Sniper Optics -->
+  <ASE_SniperOptics.label>снайперская оптика</ASE_SniperOptics.label>
+  <ASE_SniperOptics.description>Улучшенная оптика значительно увеличивают дальность оружия, но сам андроид становится крайне уязвимым.</ASE_SniperOptics.description>
+  <ASE_SniperOptics.customEffectDescriptions.0>+50% дальность оружия</ASE_SniperOptics.customEffectDescriptions.0>
+  <ASE_SniperOptics.customEffectDescriptions.1>+200% входящего урона</ASE_SniperOptics.customEffectDescriptions.1>
+  
+  <!-- Titan Fist -->
+  <ASE_TitanFist.label>титановый кулак</ASE_TitanFist.label>
+  <ASE_TitanFist.description>Андроид наносит удары гораздо медленнее, но вкладывает в них всю свою мощь.</ASE_TitanFist.description>
+  <ASE_TitanFist.customEffectDescriptions.0>melee damage ×5</ASE_TitanFist.customEffectDescriptions.0>
+  <ASE_TitanFist.customEffectDescriptions.1>move speed -50%</ASE_TitanFist.customEffectDescriptions.1>
+  
+  <!-- Unarmored Evasion -->
+  <ASE_UnarmoredEvasion.label>уклонение без брони</ASE_UnarmoredEvasion.label>
+  <ASE_UnarmoredEvasion.description>Благодаря дополнительным сервоприводам андроид легче уворачивается от атак в ближнем бою. Чем меньше вещей надето на андроида, тем эффективнее.</ASE_UnarmoredEvasion.description>
+  <ASE_UnarmoredEvasion.customEffectDescriptions.0>+15 melee &amp; ranged dodge chance за каждый пустой слот одежды</ASE_UnarmoredEvasion.customEffectDescriptions.0>
+  
+  <!-- Scrap Warrior -->
+  <ASE_ScrapWarrior.label>воин из хлама</ASE_ScrapWarrior.label>
+  <ASE_ScrapWarrior.description>Благодаря дешевизне материалов андроид не боится повреждений и наносит увеличенный урон. Чем меньше стоимость андроида, тем он больше.</ASE_ScrapWarrior.description>
+  <ASE_ScrapWarrior.customEffectDescriptions.0>Дополнительный урон при стоимости андроида меньше 2000 серебра, вплоть до +50% при стоимости до 250 серебра</ASE_ScrapWarrior.customEffectDescriptions.0>
+  
+  <!-- Auto-Feed System -->
+  <ASE_AutoFeedSystem.label>система автоподачи</ASE_AutoFeedSystem.label>
+  <ASE_AutoFeedSystem.description>Встроенный в руку автомат заряжания, который позволяет андроиду сделать до 5 выстрелов с мгновенным прицеливанием и ×5 скоростью стрельбы. Автомат заряжается со временем.</ASE_AutoFeedSystem.description>
+  <ASE_AutoFeedSystem.customEffectDescriptions.0>Автомат заряжания на 5 выстрелов</ASE_AutoFeedSystem.customEffectDescriptions.0>
+  
+  <!-- Heated Circuits -->
+  <ASE_HeatedCircuits.label>нагретые цепи</ASE_HeatedCircuits.label>
+  <ASE_HeatedCircuits.description>Система теплоотвода реактора подключается к кулакам андроида, что позволяет наносить ожоги атаками ближнего боя</ASE_HeatedCircuits.description>
+  <ASE_HeatedCircuits.customEffectDescriptions.0>Каждый удар накладывает ожоги</ASE_HeatedCircuits.customEffectDescriptions.0>
+  <ASE_HeatedCircuits.customEffectDescriptions.1>30% шанс поджечь врага</ASE_HeatedCircuits.customEffectDescriptions.1>
+  
+  <!-- Piercing Algorithms -->
+  <ASE_PiercingAlgorithms.label>алгоритмы пробития</ASE_PiercingAlgorithms.label>
+  <ASE_PiercingAlgorithms.description>Андроид умеет находить слабые места в броне своего противника, но не умеет защищать собственные.</ASE_PiercingAlgorithms.description>
+  <ASE_PiercingAlgorithms.customEffectDescriptions.0>+0.50 melee armor penetration</ASE_PiercingAlgorithms.customEffectDescriptions.0>
+  <ASE_PiercingAlgorithms.customEffectDescriptions.1>+30% получаемого урона</ASE_PiercingAlgorithms.customEffectDescriptions.1>
+  
+  <!-- Perfect Aim Protocol -->
+  <ASE_PerfectAimProtocol.label>протокол идеального прицела</ASE_PerfectAimProtocol.label>
+  <ASE_PerfectAimProtocol.description>Протокол улучшенного прицеливания заставляет андроида целиться целую вечность, но попадание будет идеальным.</ASE_PerfectAimProtocol.description>
+  <ASE_PerfectAimProtocol.customEffectDescriptions.0>+300% aiming time</ASE_PerfectAimProtocol.customEffectDescriptions.0>
+  <ASE_PerfectAimProtocol.customEffectDescriptions.1>+99 shooting accuracy</ASE_PerfectAimProtocol.customEffectDescriptions.1>
+  
+  <!-- Siege Specialist -->
+  <ASE_SiegeSpecialist.label>специалист по осаде</ASE_SiegeSpecialist.label>
+  <ASE_SiegeSpecialist.description>Улучшенный блок геометрических расчётов позволяет быстро и точно стрелять из миномётов, однако такие андроиды часто комплектуются минимально допустимой бронёй.</ASE_SiegeSpecialist.description>
+  <ASE_SiegeSpecialist.customEffectDescriptions.0>Mortar miss radius ×0.1</ASE_SiegeSpecialist.customEffectDescriptions.0>
+  <ASE_SiegeSpecialist.customEffectDescriptions.1>+50% входящего урона</ASE_SiegeSpecialist.customEffectDescriptions.1>
+  
+  <!-- Melee Overdrive T1 -->
+  <ASE_MeleeOverdrive_T1.label>разгон ближнего боя T1</ASE_MeleeOverdrive_T1.label>
+  <ASE_MeleeOverdrive_T1.description>Андроид, созданный специально для туманных и дождливых биомов. Не может использовать дальнобойное оружие, но хорошо сражается в ближнем бою.</ASE_MeleeOverdrive_T1.description>
+  <ASE_MeleeOverdrive_T1.customEffectDescriptions.0>+80% melee damage</ASE_MeleeOverdrive_T1.customEffectDescriptions.0>
+  <ASE_MeleeOverdrive_T1.customEffectDescriptions.1>+50% armor penetration</ASE_MeleeOverdrive_T1.customEffectDescriptions.1>
+  <ASE_MeleeOverdrive_T1.customEffectDescriptions.2>+40% melee hit chance</ASE_MeleeOverdrive_T1.customEffectDescriptions.2>
+  <ASE_MeleeOverdrive_T1.customEffectDescriptions.3>невозможность использовать ranged weapon</ASE_MeleeOverdrive_T1.customEffectDescriptions.3>
+  
+  <!-- Melee Overdrive T2 -->
+  <ASE_MeleeOverdrive_T2.label>разгон ближнего боя T2</ASE_MeleeOverdrive_T2.label>
+  <ASE_MeleeOverdrive_T2.description>Андроид, созданный специально для туманных и дождливых биомов с большим количеством враждебных существ. Не может использовать дальнобойное оружие, но отлично сражается в ближнем бою.</ASE_MeleeOverdrive_T2.description>
+  <ASE_MeleeOverdrive_T2.customEffectDescriptions.0>+150% melee damage</ASE_MeleeOverdrive_T2.customEffectDescriptions.0>
+  <ASE_MeleeOverdrive_T2.customEffectDescriptions.1>+100% armor penetration</ASE_MeleeOverdrive_T2.customEffectDescriptions.1>
+  <ASE_MeleeOverdrive_T2.customEffectDescriptions.2>+90% melee hit chance</ASE_MeleeOverdrive_T2.customEffectDescriptions.2>
+  <ASE_MeleeOverdrive_T2.customEffectDescriptions.3>невозможность использовать ranged weapon</ASE_MeleeOverdrive_T2.customEffectDescriptions.3>
+  
+  <!-- Cryo-Strike Protocol -->
+  <ASE_CryoStrikeProtocol.label>протокол крио-удара</ASE_CryoStrikeProtocol.label>
+  <ASE_CryoStrikeProtocol.description>Фреоны системы охлаждения перенаправлены в кулаки андроида: каждый удар значительно охлаждает цель.</ASE_CryoStrikeProtocol.description>
+  <ASE_CryoStrikeProtocol.customEffectDescriptions.0>Охлаждающие удары (с шансом наложить гипотермию)</ASE_CryoStrikeProtocol.customEffectDescriptions.0>
+  
+  <!-- Tactical Network -->
+  <ASE_TacticalNetwork.label>тактическая сеть</ASE_TacticalNetwork.label>
+  <ASE_TacticalNetwork.description>Обмен тактическими данными в режиме реального времени позволяет андроидам сражаться эффективнее.</ASE_TacticalNetwork.description>
+  <ASE_TacticalNetwork.customEffectDescriptions.0>За каждого андроида с этим геном на карте: +5% accuracy, +5% melee dodge, +5% ranged dodge, +5% melee damage</ASE_TacticalNetwork.customEffectDescriptions.0>
+  
+  <!-- Combat Data Logger -->
+  <ASE_CombatDataLogger.label>регистратор боевых данных</ASE_CombatDataLogger.label>
+  <ASE_CombatDataLogger.description>С каждым поверженным врагом андроид накапливает огромное количество данных про свою цель, позволяя ему становится еще эффективнее.</ASE_CombatDataLogger.description>
+  <ASE_CombatDataLogger.customEffectDescriptions.0>+1% урона за каждого убитого врага (навсегда)</ASE_CombatDataLogger.customEffectDescriptions.0>
+  
+  <!-- Barrage Protocol -->
+  <ASE_BarrageProtocol.label>протокол залпа</ASE_BarrageProtocol.label>
+  <ASE_BarrageProtocol.description>Андроид тратит меньше времени на прицеливание, поливая врага градом пуль, однако меткость оставляет желать лучшего.</ASE_BarrageProtocol.description>
+  <ASE_BarrageProtocol.customEffectDescriptions.0>Ranged attack speed ×5</ASE_BarrageProtocol.customEffectDescriptions.0>
+  
+</LanguageData>

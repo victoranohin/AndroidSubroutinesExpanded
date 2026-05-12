@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <!-- Gene Categories - English -->
+  <ASE_Energy.label>reactors</ASE_Energy.label>
+  <ASE_Overclocks.label>overclock</ASE_Overclocks.label>
+  <ASE_Armor.label>armor</ASE_Armor.label>
+  <ASE_Weapons.label>weapons</ASE_Weapons.label>
+  
+</LanguageData>

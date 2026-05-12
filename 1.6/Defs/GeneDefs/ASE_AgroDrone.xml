@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_AgroDrone</defName>
+    <label>agro-drone</label>
+    <description>Optimized for harvesting crops and cutting down trees.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_AgroDrone</geneClass>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-4</biostatMet>
+    <displayOrderInCategory>80</displayOrderInCategory>
+    <statOffsets>
+      <PlantHarvestYield>0.70</PlantHarvestYield>
+      <PlantWorkSpeed>0.70</PlantWorkSpeed>
+    </statOffsets>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

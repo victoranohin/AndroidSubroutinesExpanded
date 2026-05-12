@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <!-- Категории генов - Русский -->
+  <ASE_Energy.label>реакторы</ASE_Energy.label>
+  <ASE_Overclocks.label>оверклокинг</ASE_Overclocks.label>
+  <ASE_Armor.label>бронирование</ASE_Armor.label>
+  <ASE_Weapons.label>оружие</ASE_Weapons.label>
+  
+</LanguageData>

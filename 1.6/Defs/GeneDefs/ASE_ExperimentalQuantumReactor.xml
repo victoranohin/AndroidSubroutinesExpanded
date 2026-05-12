@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_EnergyBase">
+    <defName>ASE_ExperimentalQuantumReactor</defName>
+    <label>experimental quantum reactor</label>
+    <description>An increased-power reactor, but the reformatting time is tripled.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_ExperimentalQuantumReactor</geneClass>
+    <biostatCpx>5</biostatCpx>
+    <biostatMet>12</biostatMet>
+    <displayOrderInCategory>302</displayOrderInCategory>
+    <exclusionTags>
+      <li>ASE_Reactor</li>
+    </exclusionTags>
+    <customEffectDescriptions>
+      <li>Reformatting time x3</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

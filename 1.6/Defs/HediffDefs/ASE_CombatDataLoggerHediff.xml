@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>ASE_CombatDataLoggerHediff</defName>
+    <label>combat data logger</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <description>With each defeated enemy, the android accumulates vast amounts of data about its target, allowing it to become even more effective.</description>
+    <defaultLabelColor>(1.0, 0.6, 0.2)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <lethalSeverity>-1</lethalSeverity>
+    <maxSeverity>1000</maxSeverity>
+    <initialSeverity>0.1</initialSeverity>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <label>no data</label>
+        <becomeVisible>true</becomeVisible>
+      </li>
+      <li>
+        <minSeverity>1</minSeverity>
+        <label>1 kill (+1% damage)</label>
+        <statFactors>
+          <VEF_MeleeAttackDamageFactor>1.01</VEF_MeleeAttackDamageFactor>
+          <VEF_RangeAttackDamageFactor>1.01</VEF_RangeAttackDamageFactor>
+        </statFactors>
+      </li>
+      <li>
+        <minSeverity>5</minSeverity>
+        <label>5 kills (+5% damage)</label>
+        <statFactors>
+          <VEF_MeleeAttackDamageFactor>1.05</VEF_MeleeAttackDamageFactor>
+          <VEF_RangeAttackDamageFactor>1.05</VEF_RangeAttackDamageFactor>
+        </statFactors>
+      </li>
+      <li>
+        <minSeverity>10</minSeverity>
+        <label>10 kills (+10% damage)</label>
+        <statFactors>
+          <VEF_MeleeAttackDamageFactor>1.10</VEF_MeleeAttackDamageFactor>
+          <VEF_RangeAttackDamageFactor>1.10</VEF_RangeAttackDamageFactor>
+        </statFactors>
+      </li>
+      <li>
+        <minSeverity>25</minSeverity>
+        <label>25 kills (+25% damage)</label>
+        <statFactors>
+          <VEF_MeleeAttackDamageFactor>1.25</VEF_MeleeAttackDamageFactor>
+          <VEF_RangeAttackDamageFactor>1.25</VEF_RangeAttackDamageFactor>
+        </statFactors>
+      </li>
+      <li>
+        <minSeverity>50</minSeverity>
+        <label>50 kills (+50% damage)</label>
+        <statFactors>
+          <VEF_MeleeAttackDamageFactor>1.50</VEF_MeleeAttackDamageFactor>
+          <VEF_RangeAttackDamageFactor>1.50</VEF_RangeAttackDamageFactor>
+        </statFactors>
+      </li>
+      <li>
+        <minSeverity>100</minSeverity>
+        <label>100+ kills (+100% damage)</label>
+        <statFactors>
+          <VEF_MeleeAttackDamageFactor>2.0</VEF_MeleeAttackDamageFactor>
+          <VEF_RangeAttackDamageFactor>2.0</VEF_RangeAttackDamageFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

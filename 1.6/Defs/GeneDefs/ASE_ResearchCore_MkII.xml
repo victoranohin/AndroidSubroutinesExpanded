@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_ResearchCore_T2</defName>
+    <label>research core T2</label>
+    <description>Expanded memory blocks for even greater research acceleration.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_ResearchCore_MkII</geneClass>
+    <biostatCpx>4</biostatCpx>
+    <biostatMet>-4</biostatMet>
+    <displayOrderInCategory>51</displayOrderInCategory>
+    <statOffsets>
+      <ResearchSpeed>0.60</ResearchSpeed>
+    </statOffsets>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7D21B4A-1DA7-41D8-B202-C58CA8FA62AA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AndroidSubroutinesExpanded</RootNamespace>
+    <AssemblyName>AndroidSubroutinesExpanded</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assemblies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\1.6\Assemblies\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>D:\Steam\steamapps\workshop\content\294100\2009463077\Current\Assemblies\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>D:\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VREAndroids">
+      <HintPath>D:\Steam\steamapps\workshop\content\294100\2975771801\1.6\Assemblies\VREAndroids.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Main -->
+    <Compile Include="AndroidSubroutinesExpandedMod.cs" />
+    <Compile Include="ASE_GeneRegistrationPatch.cs" />
+    <Compile Include="ASE_GeneSortingPatch.cs" />
+    <Compile Include="ASE_BehavioristStationPatch.cs" />
+    <Compile Include="ASE_ModSettings.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    
+    <!-- Hediffs -->
+    <Compile Include="Hediff_AntiInsectoidPlates.cs" />
+    <Compile Include="Hediff_AutoFeedSystem.cs" />
+    <Compile Include="Hediff_BerserkerProtocol.cs" />
+    <Compile Include="Hediff_DeflectorSystem.cs" />
+    <Compile Include="Hediff_DiamondOverlay.cs" />
+    <Compile Include="Hediff_GoldenOverlay.cs" />
+    <Compile Include="Hediff_ReactiveArmor.cs" />
+    <Compile Include="Hediff_ScrapWarrior.cs" />
+    <Compile Include="Hediff_TemperatureWorkSpeed.cs" />
+    <Compile Include="Hediff_ToxicDischarge.cs" />
+    <Compile Include="Hediff_UnarmoredEvasion.cs" />
+    <Compile Include="Hediff_BarrageProtocol.cs" />
+    <Compile Include="Hediff_Resilience.cs" />
+    
+    <!-- Genes - Energy -->
+    <Compile Include="Gene_DoubleReactorCapacity.cs" />
+    <Compile Include="Gene_ExperimentalMechanoidReactor.cs" />
+    <Compile Include="Gene_ExperimentalQuantumReactor.cs" />
+    <Compile Include="Gene_VanometricReactor.cs" />
+    <Compile Include="Gene_HandmadeEnergyBooster.cs" />
+    <Compile Include="Gene_EMPGenerator.cs" />
+    
+    <!-- Genes - Overclocking -->
+    <Compile Include="Gene_Overdrive_MkI.cs" />
+    <Compile Include="Gene_Overdrive_MkII.cs" />
+    <Compile Include="Gene_Overdrive_MkIII.cs" />
+    <Compile Include="Gene_ProductivityProtocol_MkI.cs" />
+    <Compile Include="Gene_ProductivityProtocol_MkII.cs" />
+    <Compile Include="Gene_ProductivityProtocol_MkIII.cs" />
+    <Compile Include="Gene_CargoHolder_MkI.cs" />
+    <Compile Include="Gene_CargoHolder_MkII.cs" />
+    <Compile Include="Gene_CargoHolder_MkIII.cs" />
+    <Compile Include="Gene_ResearchCore_MkI.cs" />
+    <Compile Include="Gene_ResearchCore_MkII.cs" />
+    <Compile Include="Gene_ResearchCore_MkIII.cs" />
+    <Compile Include="Gene_DiplomaticCore.cs" />
+    <Compile Include="Gene_DecentralizedMind.cs" />
+    <Compile Include="Gene_ResourceScanner.cs" />
+    
+    <!-- Genes - Mining/Gathering -->
+    <Compile Include="Gene_MiningSubroutine_MkI.cs" />
+    <Compile Include="Gene_MiningSubroutine_MkII.cs" />
+    <Compile Include="Gene_DeepMiningSensors.cs" />
+    <Compile Include="Gene_DrillingSpecialist.cs" />
+    <Compile Include="Gene_AgroDrone.cs" />
+    <Compile Include="Gene_ShredderCore.cs" />
+    <Compile Include="Gene_SmelterCore.cs" />
+    <Compile Include="Gene_ButcherCore.cs" />
+    <Compile Include="Gene_NarcoticHarvester.cs" />
+    
+    <!-- Genes - Weapons -->
+    <Compile Include="Gene_MeleeOverdrive_MkI.cs" />
+    <Compile Include="Gene_MeleeOverdrive_MkII.cs" />
+    <Compile Include="Gene_BerserkerProtocol.cs" />
+    <Compile Include="Gene_BerserkerProtocol_T2.cs" />
+    <Compile Include="Gene_TitanFist.cs" />
+    <Compile Include="Gene_HeatedCircuits.cs" />
+    <Compile Include="Gene_CryoStrikeProtocol.cs" />
+    <Compile Include="Gene_PiercingAlgorithms.cs" />
+    <Compile Include="Gene_ScrapWarrior.cs" />
+    <Compile Include="Gene_PerfectAimProtocol.cs" />
+    <Compile Include="Gene_SniperOptics.cs" />
+    <Compile Include="Gene_AutoFeedSystem.cs" />
+    <Compile Include="Gene_SiegeSpecialist.cs" />
+    <Compile Include="Gene_TacticalNetwork.cs" />
+    <Compile Include="Gene_CombatDataLogger.cs" />
+    <Compile Include="Gene_BarrageProtocol.cs" />
+    <Compile Include="Gene_ToxicDischarge.cs" />
+    <Compile Include="Gene_PropagandaBroadcaster.cs" />
+    <Compile Include="Gene_SuppressionUnit.cs" />
+    
+    <!-- Genes - Defense -->
+    <Compile Include="Gene_HeavyPlating_MkI.cs" />
+    <Compile Include="Gene_HeavyPlating_MkII.cs" />
+    <Compile Include="Gene_HeavyPlating_MkIII.cs" />
+    <Compile Include="Gene_SilverOverlay.cs" />
+    <Compile Include="Gene_GoldenOverlay.cs" />
+    <Compile Include="Gene_DiamondOverlay.cs" />
+    <Compile Include="Gene_WallProtocol.cs" />
+    <Compile Include="Gene_UnarmoredEvasion.cs" />
+    <Compile Include="Gene_DeflectorSystem.cs" />
+    <Compile Include="Gene_ReactiveArmor.cs" />
+    <Compile Include="Gene_AntiInsectoidPlates_Standard.cs" />
+    <Compile Include="Gene_Resilience.cs" />
+    
+    <!-- Genes - Medical/Utility -->
+    <Compile Include="Gene_AutoRepairModule.cs" />
+    <Compile Include="Gene_FieldMedic.cs" />
+    <Compile Include="Gene_SurgicalUnit.cs" />
+    
+    <!-- Harmony Patches -->
+    <Compile Include="AntiInsectoidPlatesRepairPatch.cs" />
+    <Compile Include="ArmorOverlayPatch.cs" />
+    <Compile Include="ArmorOverlayHarmonyPatches.cs" />
+    <Compile Include="AutoFeedSystemPatch.cs" />
+    <Compile Include="BlockRepairPatch.cs" />
+    <Compile Include="CanRepairAndroidPatch.cs" />
+    <Compile Include="CombatDataLoggerPatch.cs" />
+    <Compile Include="CombinedDamagePatch.cs" />
+    <Compile Include="CombinedMeleeDamagePatch.cs" />
+    <Compile Include="CombinedTakeDamagePatch.cs" />
+    <Compile Include="QuantumReactorReformattingPatch.cs" />
+    <Compile Include="DevModeWorldPawnsCleanup.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

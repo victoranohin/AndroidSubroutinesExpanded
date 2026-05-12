@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_EnergyBase">
+    <defName>ASE_ExperimentalMechanoidReactor</defName>
+    <label>experimental mechanoid reactor</label>
+    <description>Further increasing the reactor's energy efficiency led to an unexpected effect - its high frequency attracts other mechanoids.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_ExperimentalMechanoidReactor</geneClass>
+    <biostatCpx>5</biostatCpx>
+    <biostatMet>32</biostatMet>
+    <displayOrderInCategory>302</displayOrderInCategory>
+    <exclusionTags>
+      <li>ASE_Reactor</li>
+    </exclusionTags>
+    <customEffectDescriptions>
+      <li>Sometimes attracts hostile mechanoids</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

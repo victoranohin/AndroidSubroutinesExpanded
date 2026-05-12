@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_CargoHolder_T3</defName>
+    <label>cargo holder upgrade T3</label>
+    <description>Maximum carrying capacity, but significant speed reduction.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_CargoHolder_MkIII</geneClass>
+    <biostatCpx>6</biostatCpx>
+    <biostatMet>-8</biostatMet>
+    <displayOrderInCategory>42</displayOrderInCategory>
+    <statOffsets>
+      <CarryingCapacity>100</CarryingCapacity>
+      <VEF_MassCarryCapacity>200</VEF_MassCarryCapacity>
+      <MoveSpeed>-3.0</MoveSpeed>
+    </statOffsets>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

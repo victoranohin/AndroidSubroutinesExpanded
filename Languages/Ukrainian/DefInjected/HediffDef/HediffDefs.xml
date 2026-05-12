@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <!-- ========== ВИЗНАЧЕННЯ HEDIFF ========== -->
+  
+  <!-- Double Reactor Capacity Hediff -->
+  <ASE_DoubleReactorCapacityHediff.label>реактор подвійної ємності</ASE_DoubleReactorCapacityHediff.label>
+  <ASE_DoubleReactorCapacityHediff.description>Інженери збільшили місткість реактора, проте це вплинуло i на швидкість.</ASE_DoubleReactorCapacityHediff.description>
+  <ASE_DoubleReactorCapacityHediff.stages.0.label>активний</ASE_DoubleReactorCapacityHediff.stages.0.label>
+  
+  <!-- EMP Generator Hediff -->
+  <ASE_EMPGeneratorHediff.label>ЕМП реактор</ASE_EMPGeneratorHediff.label>
+  <ASE_EMPGeneratorHediff.description>Цей експериментальний реактор видає непогану кількість енергії, але його ядро періодично провокує викиди EMP, що може негативно впливати на інших андроїдів і механізми.</ASE_EMPGeneratorHediff.description>
+  <ASE_EMPGeneratorHediff.stages.0.label>активний</ASE_EMPGeneratorHediff.stages.0.label>
+  
+  <!-- Experimental Quantum Reactor Hediff -->
+  <ASE_ExperimentalQuantumReactorHediff.label>експериментальний квантовий реактор</ASE_ExperimentalQuantumReactorHediff.label>
+  <ASE_ExperimentalQuantumReactorHediff.description>Реактор збільшеної потужності, проте час на форматування збільшено в 3 рази.</ASE_ExperimentalQuantumReactorHediff.description>
+  <ASE_ExperimentalQuantumReactorHediff.stages.0.label>активний</ASE_ExperimentalQuantumReactorHediff.stages.0.label>
+  
+  <!-- Vanometric Reactor Hediff -->
+  <ASE_VanometricReactorHediff.label>ванометричний реактор</ASE_VanometricReactorHediff.label>
+  <ASE_VanometricReactorHediff.description>Нестабільний прототип, здатний виробляти неймовірну кількість енергії ціною такої ж неймовірної кількості відходів.</ASE_VanometricReactorHediff.description>
+  <ASE_VanometricReactorHediff.stages.0.label>активний</ASE_VanometricReactorHediff.stages.0.label>
+  
+  <!-- Handmade Reactor Hediff -->
+  <ASE_HandmadeEnergyBoosterHediff.label>саморобний реактор</ASE_HandmadeEnergyBoosterHediff.label>
+  <ASE_HandmadeEnergyBoosterHediff.description>Зібрана вручну, вкрай рідкісна та крихка модель експериментального реактора забезпечує неймовірну енергоефективність і швидкість роботи, але андроїд не може бути відремонтований після пошкоджень.</ASE_HandmadeEnergyBoosterHediff.description>
+  <ASE_HandmadeEnergyBoosterHediff.stages.0.label>активний</ASE_HandmadeEnergyBoosterHediff.stages.0.label>
+  
+  <!-- Experimental Mechanoid Reactor Hediff -->
+  <ASE_ExperimentalMechanoidReactorHediff.label>експериментальний механоїдний реактор</ASE_ExperimentalMechanoidReactorHediff.label>
+  <ASE_ExperimentalMechanoidReactorHediff.description>Подальше збільшення енергоефективності реактора призвело до несподіваного ефекту - його висока частота приваблює інших механоїдів.</ASE_ExperimentalMechanoidReactorHediff.description>
+  <ASE_ExperimentalMechanoidReactorHediff.stages.0.label>активний</ASE_ExperimentalMechanoidReactorHediff.stages.0.label>
+  
+  <!-- Overdrive T1 Hediff -->
+  <ASE_OverdriveMkIHediff.label>розгін T1</ASE_OverdriveMkIHediff.label>
+  <ASE_OverdriveMkIHediff.description>Андроїд отримує невеличку оптимізацію в моторних ланцюгах. Бігає швидше, але акумулятор тане на очах.</ASE_OverdriveMkIHediff.description>
+  <ASE_OverdriveMkIHediff.stages.0.label>активний</ASE_OverdriveMkIHediff.stages.0.label>
+  
+  <!-- Overdrive T2 Hediff -->
+  <ASE_OverdriveMkIIHediff.label>розгін T2</ASE_OverdriveMkIIHediff.label>
+  <ASE_OverdriveMkIIHediff.description>Розгін протоколів крокових двигунів. Андроїд рухається ще швидше, але нездатний носити важкі речі.</ASE_OverdriveMkIIHediff.description>
+  <ASE_OverdriveMkIIHediff.stages.0.label>активний</ASE_OverdriveMkIIHediff.stages.0.label>
+  
+  <!-- Overdrive T3 Hediff -->
+  <ASE_OverdriveMkIIIHediff.label>розгін T3</ASE_OverdriveMkIIIHediff.label>
+  <ASE_OverdriveMkIIIHediff.description>Андроїд рухається на межі своїх можливостей, проте його вантажопідйомність у такій конфігурації мінімальна.</ASE_OverdriveMkIIIHediff.description>
+  <ASE_OverdriveMkIIIHediff.stages.0.label>активний</ASE_OverdriveMkIIIHediff.stages.0.label>
+  
+  <!-- Productivity Protocol T1 Hediff -->
+  <ASE_ProductivityProtocolMkIHediff.label>протокол продуктивності T1</ASE_ProductivityProtocolMkIHediff.label>
+  <ASE_ProductivityProtocolMkIHediff.description>Швидкість роботи трохи збільшена за рахунок підвищення енергоспоживання.</ASE_ProductivityProtocolMkIHediff.description>
+  <ASE_ProductivityProtocolMkIHediff.stages.0.label>активний</ASE_ProductivityProtocolMkIHediff.stages.0.label>
+  
+  <!-- Productivity Protocol T2 Hediff -->
+  <ASE_ProductivityProtocolMkIIHediff.label>протокол продуктивності T2</ASE_ProductivityProtocolMkIIHediff.label>
+  <ASE_ProductivityProtocolMkIIHediff.description>Швидкість роботи серйозно збільшена за рахунок ще більшого підвищення енергоспоживання.</ASE_ProductivityProtocolMkIIHediff.description>
+  <ASE_ProductivityProtocolMkIIHediff.stages.0.label>активний</ASE_ProductivityProtocolMkIIHediff.stages.0.label>
+  
+  <!-- Productivity Protocol T3 Hediff -->
+  <ASE_ProductivityProtocolMkIIIHediff.label>протокол продуктивності T3</ASE_ProductivityProtocolMkIIIHediff.label>
+  <ASE_ProductivityProtocolMkIIIHediff.description>Неймовірний порив продуктивності, але плата — неможливість працювати за високих температур.</ASE_ProductivityProtocolMkIIIHediff.description>
+  <ASE_ProductivityProtocolMkIIIHediff.stages.0.label>активний</ASE_ProductivityProtocolMkIIIHediff.stages.0.label>
+  
+  <!-- Cargo Holder Upgrade T1 Hediff -->
+  <ASE_CargoHolderMkIHediff.label>вантажний відсік T1</ASE_CargoHolderMkIHediff.label>
+  <ASE_CargoHolderMkIHediff.description>Вантажний відсік підвищеної ємності.</ASE_CargoHolderMkIHediff.description>
+  <ASE_CargoHolderMkIHediff.stages.0.label>активний</ASE_CargoHolderMkIHediff.stages.0.label>
+  
+  <!-- Cargo Holder Upgrade T2 Hediff -->
+  <ASE_CargoHolderMkIIHediff.label>вантажний відсік T2</ASE_CargoHolderMkIIHediff.label>
+  <ASE_CargoHolderMkIIHediff.description>Вантажний відсік подвійної ємності, проте швидкість пересування андроїда трохи знижена.</ASE_CargoHolderMkIIHediff.description>
+  <ASE_CargoHolderMkIIHediff.stages.0.label>активний</ASE_CargoHolderMkIIHediff.stages.0.label>
+  
+  <!-- Cargo Holder Upgrade T3 Hediff -->
+  <ASE_CargoHolderMkIIIHediff.label>вантажний відсік T3</ASE_CargoHolderMkIIIHediff.label>
+  <ASE_CargoHolderMkIIIHediff.description>Максимальна вантажопідйомність, але значне зниження швидкості.</ASE_CargoHolderMkIIIHediff.description>
+  <ASE_CargoHolderMkIIIHediff.stages.0.label>активний</ASE_CargoHolderMkIIIHediff.stages.0.label>
+  
+  <!-- Research Core T1 Hediff -->
+  <ASE_ResearchCoreMkIHediff.label>дослідницьке ядро T1</ASE_ResearchCoreMkIHediff.label>
+  <ASE_ResearchCoreMkIHediff.description>Покращені алгоритми пошуку та систематизації даних підвищують швидкість досліджень.</ASE_ResearchCoreMkIHediff.description>
+  <ASE_ResearchCoreMkIHediff.stages.0.label>активний</ASE_ResearchCoreMkIHediff.stages.0.label>
+  
+  <!-- Research Core T2 Hediff -->
+  <ASE_ResearchCoreMkIIHediff.label>дослідницьке ядро T2</ASE_ResearchCoreMkIIHediff.label>
+  <ASE_ResearchCoreMkIIHediff.description>Розширені блоки пам'яті для ще більшого прискорення досліджень.</ASE_ResearchCoreMkIIHediff.description>
+  <ASE_ResearchCoreMkIIHediff.stages.0.label>активний</ASE_ResearchCoreMkIIHediff.stages.0.label>
+  
+  <!-- Research Core T3 Hediff -->
+  <ASE_ResearchCoreMkIIIHediff.label>дослідницьке ядро T3</ASE_ResearchCoreMkIIIHediff.label>
+  <ASE_ResearchCoreMkIIIHediff.description>Обчислювальні блоки працюють на межі, при цьому андроїд вироблятиме величезну кількість тепла і потребуватиме додаткового охолодження.</ASE_ResearchCoreMkIIIHediff.description>
+  <ASE_ResearchCoreMkIIIHediff.stages.0.label>активний</ASE_ResearchCoreMkIIIHediff.stages.0.label>
+  
+  <!-- Mining Subroutine T1 Hediff -->
+  <ASE_MiningSubroutineMkIHediff.label>субрутина видобутку T1</ASE_MiningSubroutineMkIHediff.label>
+  <ASE_MiningSubroutineMkIHediff.description>Аналіз структури породи підвищує ефективність видобутку.</ASE_MiningSubroutineMkIHediff.description>
+  <ASE_MiningSubroutineMkIHediff.stages.0.label>активний</ASE_MiningSubroutineMkIHediff.stages.0.label>
+  
+  <!-- Mining Subroutine T2 Hediff -->
+  <ASE_MiningSubroutineMkIIHediff.label>субрутина видобутку T2</ASE_MiningSubroutineMkIIHediff.label>
+  <ASE_MiningSubroutineMkIIHediff.description>Удосконалені сенсори дають ще більше ресурсів.</ASE_MiningSubroutineMkIIHediff.description>
+  <ASE_MiningSubroutineMkIIHediff.stages.0.label>активний</ASE_MiningSubroutineMkIIHediff.stages.0.label>
+  
+  <!-- Deep Mining Sensors Hediff -->
+  <ASE_DeepMiningSensorsHediff.label>сенсори глибокого видобутку</ASE_DeepMiningSensorsHediff.label>
+  <ASE_DeepMiningSensorsHediff.description>Спеціалізовані сенсори для глибокого видобутку рідкісних ресурсів.</ASE_DeepMiningSensorsHediff.description>
+  <ASE_DeepMiningSensorsHediff.stages.0.label>активний</ASE_DeepMiningSensorsHediff.stages.0.label>
+  
+  <!-- Drilling Specialist Hediff -->
+  <ASE_DrillingSpecialistHediff.label>спеціаліст з буріння</ASE_DrillingSpecialistHediff.label>
+  <ASE_DrillingSpecialistHediff.description>Подвоєна швидкість видобутку завдяки відмові від стандартних мовних протоколів</ASE_DrillingSpecialistHediff.description>
+  <ASE_DrillingSpecialistHediff.stages.0.label>активний</ASE_DrillingSpecialistHediff.stages.0.label>
+  
+  <!-- Field Medic Hediff -->
+  <ASE_FieldMedicHediff.label>польовий медик</ASE_FieldMedicHediff.label>
+  <ASE_FieldMedicHediff.description>Набір екстрених протоколів для прискореного лікування бійців прямо на полі бою. Швидко, але не дуже якісно.</ASE_FieldMedicHediff.description>
+  <ASE_FieldMedicHediff.stages.0.label>активний</ASE_FieldMedicHediff.stages.0.label>
+  
+  <!-- Surgical Unit Hediff -->
+  <ASE_SurgicalUnitHediff.label>хірургічний блок</ASE_SurgicalUnitHediff.label>
+  <ASE_SurgicalUnitHediff.description>Спеціальна модель, призначена для використання в елітних клініках. Крихкість обладнання не дає можливості використовувати такого андроїда для важких робіт.</ASE_SurgicalUnitHediff.description>
+  <ASE_SurgicalUnitHediff.stages.0.label>активний</ASE_SurgicalUnitHediff.stages.0.label>
+  
+  <!-- Agro-Drone Hediff -->
+  <ASE_AgroDroneHediff.label>агро-дрон</ASE_AgroDroneHediff.label>
+  <ASE_AgroDroneHediff.description>Оптимізований для збору врожаю та вирубки лісу.</ASE_AgroDroneHediff.description>
+  <ASE_AgroDroneHediff.stages.0.label>активний</ASE_AgroDroneHediff.stages.0.label>
+  
+  <!-- Narcotic Harvester Hediff -->
+  <ASE_NarcoticHarvesterHediff.label>збирач наркотиків</ASE_NarcoticHarvesterHediff.label>
+  <ASE_NarcoticHarvesterHediff.description>Завдяки покращеній моториці ідеальний для вирощування заборонених культур, проте має набагато меншу міцність порівняно зі стандартними моделями.</ASE_NarcoticHarvesterHediff.description>
+  <ASE_NarcoticHarvesterHediff.stages.0.label>активний</ASE_NarcoticHarvesterHediff.stages.0.label>
+  
+  <!-- Shredder Core Hediff -->
+  <ASE_ShredderCoreHediff.label>ядро подрібнювача</ASE_ShredderCoreHediff.label>
+  <ASE_ShredderCoreHediff.description>Спеціалізований блок переробки механоїдів, що дозволяє зрідка знаходити в них додаткові компоненти.</ASE_ShredderCoreHediff.description>
+  <ASE_ShredderCoreHediff.stages.0.label>активний</ASE_ShredderCoreHediff.stages.0.label>
+  
+  <!-- Butcher Core Hediff -->
+  <ASE_ButcherCoreHediff.label>ядро м'ясника</ASE_ButcherCoreHediff.label>
+  <ASE_ButcherCoreHediff.description>Протокол дозволяє ігнорувати санітарні стандарти та розділяти туші з подвоєною швидкістю.</ASE_ButcherCoreHediff.description>
+  <ASE_ButcherCoreHediff.stages.0.label>активний</ASE_ButcherCoreHediff.stages.0.label>
+  
+  <!-- Smelter Core Hediff -->
+  <ASE_SmelterCoreHediff.label>ядро плавильника</ASE_SmelterCoreHediff.label>
+  <ASE_SmelterCoreHediff.description>Спеціальний протокол з переплавки металів, дозволяє плавити швидше, а також іноді отримувати рідкісні компоненти.</ASE_SmelterCoreHediff.description>
+  <ASE_SmelterCoreHediff.stages.0.label>активний</ASE_SmelterCoreHediff.stages.0.label>
+  
+  <!-- Diplomatic Core Hediff -->
+  <ASE_DiplomaticCoreHediff.label>дипломатичне ядро</ASE_DiplomaticCoreHediff.label>
+  <ASE_DiplomaticCoreHediff.description>Андроїд-дипломат для торгівлі та переговорів. Як додатковий фактор довіри для співрозмовника він технічно не може використовувати зброю дальнього бою.</ASE_DiplomaticCoreHediff.description>
+  <ASE_DiplomaticCoreHediff.stages.0.label>активний</ASE_DiplomaticCoreHediff.stages.0.label>
+  
+  <!-- Decentralized Mind Hediff -->
+  <ASE_DecentralizedMindHediff.label>мережа децентралізованого розуму</ASE_DecentralizedMindHediff.label>
+  <ASE_DecentralizedMindHediff.description>Розподілені обчислення дозволяють рівномірно навантажити всі ЦПУ андроїдів, присутніх на карті, підвищуючи їх ефективність.</ASE_DecentralizedMindHediff.description>
+  <ASE_DecentralizedMindHediff.stages.0.label>1 вузол (+10% швидкість роботи)</ASE_DecentralizedMindHediff.stages.0.label>
+  <ASE_DecentralizedMindHediff.stages.1.label>2 вузли (+20% швидкість роботи)</ASE_DecentralizedMindHediff.stages.1.label>
+  <ASE_DecentralizedMindHediff.stages.2.label>3 вузли (+30% швидкість роботи)</ASE_DecentralizedMindHediff.stages.2.label>
+  <ASE_DecentralizedMindHediff.stages.3.label>4 вузли (+40% швидкість роботи)</ASE_DecentralizedMindHediff.stages.3.label>
+  <ASE_DecentralizedMindHediff.stages.4.label>5+ вузлів (+50% швидкість роботи)</ASE_DecentralizedMindHediff.stages.4.label>
+  
+  <!-- Resource Scanner Hediff -->
+  <ASE_ResourceScannerHediff.label>сканер ресурсів</ASE_ResourceScannerHediff.label>
+  <ASE_ResourceScannerHediff.description>Вбудований металошукач, який іноді відзначає невідомі раніше поклади цінних матеріалів.</ASE_ResourceScannerHediff.description>
+  <ASE_ResourceScannerHediff.stages.0.label>сканування</ASE_ResourceScannerHediff.stages.0.label>
+  
+  <!-- Heavy Plating T1 Hediff -->
+  <ASE_HeavyPlatingMkIHediff.label>важка броня T1</ASE_HeavyPlatingMkIHediff.label>
+  <ASE_HeavyPlatingMkIHediff.description>Андроїд покритий додатковими пластинами броні. Міцніший — але помітно повільніший.</ASE_HeavyPlatingMkIHediff.description>
+  <ASE_HeavyPlatingMkIHediff.stages.0.label>активний</ASE_HeavyPlatingMkIHediff.stages.0.label>
+  
+  <!-- Heavy Plating T2 Hediff -->
+  <ASE_HeavyPlatingMkIIHediff.label>важка броня T2</ASE_HeavyPlatingMkIIHediff.label>
+  <ASE_HeavyPlatingMkIIHediff.description>Товсті бронепластини перетворюють андроїда на ходячий танк, жертвуючи більшою частиною його рухливості.</ASE_HeavyPlatingMkIIHediff.description>
+  <ASE_HeavyPlatingMkIIHediff.stages.0.label>активний</ASE_HeavyPlatingMkIIHediff.stages.0.label>
+  
+  <!-- Heavy Plating T3 Hediff -->
+  <ASE_HeavyPlatingMkIIIHediff.label>важка броня T3</ASE_HeavyPlatingMkIIIHediff.label>
+  <ASE_HeavyPlatingMkIIIHediff.description>Бронювання доведено до неймовірних значень. Майже невразливий, але ледь здатний рухатися або працювати.</ASE_HeavyPlatingMkIIIHediff.description>
+  <ASE_HeavyPlatingMkIIIHediff.stages.0.label>активний</ASE_HeavyPlatingMkIIIHediff.stages.0.label>
+  
+  <!-- Reactive Armor Hediff -->
+  <ASE_ReactiveArmorHediff.label>реактивна броня</ASE_ReactiveArmorHediff.label>
+  <ASE_ReactiveArmorHediff.description>Реактивна броня, яка завдає пошкоджень атакуючим у ближньому бою (повертає 100% урону, проте завдає такі ж пошкодження самому андроїду). Увага: у разі критичних пошкоджень андроїд може вибухнути!</ASE_ReactiveArmorHediff.description>
+  <ASE_ReactiveArmorHediff.stages.0.label>активний</ASE_ReactiveArmorHediff.stages.0.label>
+  
+  <!-- Deflector System Hediff -->
+  <ASE_DeflectorSystemHediff.label>система відхилення</ASE_DeflectorSystemHediff.label>
+  <ASE_DeflectorSystemHediff.description>Експериментальні відбиваючі панелі, які відбивають кулі назад у атакуючих. Спрацьовують приблизно в 50% випадків.</ASE_DeflectorSystemHediff.description>
+  <ASE_DeflectorSystemHediff.stages.0.label>активний</ASE_DeflectorSystemHediff.stages.0.label>
+  
+  <!-- Anti-Insectoid Plates T1 Hediff -->
+  <ASE_AntiInsectoidPlates_MkI.label>анти-інсектоїдні пластини</ASE_AntiInsectoidPlates_MkI.label>
+  <ASE_AntiInsectoidPlates_MkI.description>Чортів інсектоїди всіх дістали! Додаткові шари експериментальної композитної броні допоможуть краще витримувати сутички з цими тваринами.</ASE_AntiInsectoidPlates_MkI.description>
+  <ASE_AntiInsectoidPlates_MkI.stages.0.label>активний</ASE_AntiInsectoidPlates_MkI.stages.0.label>
+  
+  <!-- Double Anti-Insectoid Plates T2 Hediff -->
+  <ASE_AntiInsectoidPlates_MkII.label>подвійні анти-інсектоїдні пластини</ASE_AntiInsectoidPlates_MkII.label>
+  <ASE_AntiInsectoidPlates_MkII.description>Чортів інсектоїди всіх дістали конкретно! Додаткові шари експериментальної композитної броні допоможуть краще витримувати сутички з цими тваринами.</ASE_AntiInsectoidPlates_MkII.description>
+  <ASE_AntiInsectoidPlates_MkII.stages.0.label>активний</ASE_AntiInsectoidPlates_MkII.stages.0.label>
+  
+  <!-- Quadro Anti-Insectoid Plates T3 Hediff -->
+  <ASE_AntiInsectoidPlates_MkIII.label>четверні анти-інсектоїдні пластини</ASE_AntiInsectoidPlates_MkIII.label>
+  <ASE_AntiInsectoidPlates_MkIII.description>Чортів інсектоїди всіх дістали настільки, що інженери пішли на крайні заходи! Додаткові шари експериментальної композитної броні допоможуть витримати сутичку з цілою армією цих тварин!</ASE_AntiInsectoidPlates_MkIII.description>
+  <ASE_AntiInsectoidPlates_MkIII.stages.0.label>активний</ASE_AntiInsectoidPlates_MkIII.stages.0.label>
+  
+  <!-- Silver Overlay Hediff -->
+  <ASE_SilverOverlayHediff.label>срібне покриття</ASE_SilverOverlayHediff.label>
+  <ASE_SilverOverlayHediff.description>На броню андроїда нанесено спеціальне покриття зі срібла. Робить андроїда помітно міцнішим.</ASE_SilverOverlayHediff.description>
+  <ASE_SilverOverlayHediff.stages.0.label>активний</ASE_SilverOverlayHediff.stages.0.label>
+  
+  <!-- Golden Overlay Hediff -->
+  <ASE_GoldenOverlayHediff.label>золоте покриття</ASE_GoldenOverlayHediff.label>
+  <ASE_GoldenOverlayHediff.description>На броню андроїда нанесено спеціальне покриття з золота. Робить андроїда ще міцнішим, але сильно підвищує його вартість і приваблює небажану увагу.</ASE_GoldenOverlayHediff.description>
+  <ASE_GoldenOverlayHediff.stages.0.label>активний</ASE_GoldenOverlayHediff.stages.0.label>
+  
+  <!-- Diamond Overlay Hediff -->
+  <ASE_DiamondOverlayHediff.label>алмазне покриття</ASE_DiamondOverlayHediff.label>
+  <ASE_DiamondOverlayHediff.description>На броню андроїда нанесено спеціальне напилення з алмазних частинок. Воно робить андроїда набагато міцнішим, але через дорожнечу матеріалів за такими андроїдами полюватиме пів-галактики.</ASE_DiamondOverlayHediff.description>
+  <ASE_DiamondOverlayHediff.stages.0.label>активний</ASE_DiamondOverlayHediff.stages.0.label>
+  
+  <!-- Wall Protocol Hediff -->
+  <ASE_WallProtocolHediff.label>протокол стіни</ASE_WallProtocolHediff.label>
+  <ASE_WallProtocolHediff.description>Андроїд розроблений спеціально для захисту поселень в агресивних світах. Марний в атаці, але в обороні простоїть вічність. Через величезні розміри та малу рухливість нездатний ходити в складі каравану.</ASE_WallProtocolHediff.description>
+  <ASE_WallProtocolHediff.stages.0.label>активний</ASE_WallProtocolHediff.stages.0.label>
+  
+  <!-- Toxic Discharge Hediff -->
+  <ASE_ToxicDischargeHediff.label>токсичний викид</ASE_ToxicDischargeHediff.label>
+  <ASE_ToxicDischargeHediff.description>При отриманні урону андроїд випускає токсичну хмару, що завдає урон усім хто знаходиться поруч. Система має 5 зарядів, які відновлюються з часом.</ASE_ToxicDischargeHediff.description>
+  <ASE_ToxicDischargeHediff.stages.0.label>порожньо (0/5)</ASE_ToxicDischargeHediff.stages.0.label>
+  <ASE_ToxicDischargeHediff.stages.1.label>низький (1/5)</ASE_ToxicDischargeHediff.stages.1.label>
+  <ASE_ToxicDischargeHediff.stages.2.label>половина (3/5)</ASE_ToxicDischargeHediff.stages.2.label>
+  <ASE_ToxicDischargeHediff.stages.3.label>повний (5/5)</ASE_ToxicDischargeHediff.stages.3.label>
+  
+  <!-- Berserker Protocol Hediff -->
+  <ASE_BerserkerProtocolHediff.label>протокол берсерка</ASE_BerserkerProtocolHediff.label>
+  <ASE_BerserkerProtocolHediff.description>Протокол, створений для розваги публіки: чим сильніше андроїд пошкоджений, тим лютіше він б'ється. Користується великою популярністю в підпільних аренах.</ASE_BerserkerProtocolHediff.description>
+  
+  <!-- Berserker Protocol T2 Hediff -->
+  <ASE_BerserkerProtocol_T2_Hediff.label>протокол берсерка T2</ASE_BerserkerProtocol_T2_Hediff.label>
+  <ASE_BerserkerProtocol_T2_Hediff.description>Подальший розвиток протоколу, створеного для розваги публіки: чим сильніше андроїд пошкоджений, тим лютіше він б'ється. Через недосконалість технології може перейти в неконтрольовану лютість і стати загрозою для всього живого в радіусі 1 кілометра (включаючи ваших колоністів).</ASE_BerserkerProtocol_T2_Hediff.description>
+  <ASE_BerserkerProtocol_T2_Hediff.stages.0.label>стабільний</ASE_BerserkerProtocol_T2_Hediff.stages.0.label>
+  <ASE_BerserkerProtocol_T2_Hediff.stages.1.label>розігрів (+20% швидкість атаки)</ASE_BerserkerProtocol_T2_Hediff.stages.1.label>
+  <ASE_BerserkerProtocol_T2_Hediff.stages.2.label>шаленство (+50% швидкість атаки)</ASE_BerserkerProtocol_T2_Hediff.stages.2.label>
+  <ASE_BerserkerProtocol_T2_Hediff.stages.3.label>лють (+100% швидкість атаки)</ASE_BerserkerProtocol_T2_Hediff.stages.3.label>
+  <ASE_BerserkerProtocol_T2_Hediff.stages.4.label>берсерк (+150% швидкість атаки)</ASE_BerserkerProtocol_T2_Hediff.stages.4.label>
+  
+  <!-- Sniper Optics Hediff -->
+  <ASE_SniperOpticsHediff.label>снайперська оптика</ASE_SniperOpticsHediff.label>
+  <ASE_SniperOpticsHediff.description>Покращена оптика значно збільшують дальність зброї, але сам андроїд стає вкрай вразливим.</ASE_SniperOpticsHediff.description>
+  
+  <!-- Titan Fist Hediff -->
+  <ASE_TitanFistHediff.label>титановий кулак</ASE_TitanFistHediff.label>
+  <ASE_TitanFistHediff.description>Андроїд завдає удари набагато повільніше, але вкладає в них всю свою міць.</ASE_TitanFistHediff.description>
+  
+  <!-- Unarmored Evasion Hediff -->
+  <ASE_UnarmoredEvasionHediff.label>ухилення без броні</ASE_UnarmoredEvasionHediff.label>
+  <ASE_UnarmoredEvasionHediff.description>Завдяки додатковим сервоприводам андроїд легше ухиляється від атак у ближньому бою. Чим менше речей надіто на андроїда, тим ефективніше.</ASE_UnarmoredEvasionHediff.description>
+  
+  <!-- Scrap Warrior Hediff -->
+  <ASE_ScrapWarriorHediff.label>воїн зі сміття</ASE_ScrapWarriorHediff.label>
+  <ASE_ScrapWarriorHediff.description>Завдяки дешевизні матеріалів андроїд не боїться пошкоджень і завдає збільшений урон. Чим менша вартість андроїда, тим більший бонус.</ASE_ScrapWarriorHediff.description>
+  
+  <!-- Auto-Feed System Hediff -->
+  <ASE_AutoFeedSystemHediff.label>система автоподачі</ASE_AutoFeedSystemHediff.label>
+  <ASE_AutoFeedSystemHediff.description>Вбудований у руку автомат заряджання, який дозволяє андроїду зробити до 5 пострілів з миттєвим прицілюванням і ×5 швидкістю стрільби. Автомат заряджається з часом.</ASE_AutoFeedSystemHediff.description>
+  <ASE_AutoFeedSystemHediff.stages.0.label>порожньо (0/5)</ASE_AutoFeedSystemHediff.stages.0.label>
+  <ASE_AutoFeedSystemHediff.stages.1.label>низький (1/5)</ASE_AutoFeedSystemHediff.stages.1.label>
+  <ASE_AutoFeedSystemHediff.stages.2.label>половина (3/5)</ASE_AutoFeedSystemHediff.stages.2.label>
+  <ASE_AutoFeedSystemHediff.stages.3.label>повний (5/5)</ASE_AutoFeedSystemHediff.stages.3.label>
+  
+  <!-- Heated Circuits Hediff -->
+  <ASE_HeatedCircuitsHediff.label>нагріті ланцюги</ASE_HeatedCircuitsHediff.label>
+  <ASE_HeatedCircuitsHediff.description>Система тепловідводу реактора підключається до кулаків, що дозволяє андроїду спричиняти опіки при атаках у ближньому бою</ASE_HeatedCircuitsHediff.description>
+  
+  <!-- Piercing Algorithms Hediff -->
+  <ASE_PiercingAlgorithmsHediff.label>алгоритми пробиття</ASE_PiercingAlgorithmsHediff.label>
+  <ASE_PiercingAlgorithmsHediff.description>Андроїд вміє знаходити слабкі місця в броні свого противника, але не вміє захищати власні.</ASE_PiercingAlgorithmsHediff.description>
+  
+  <!-- Perfect Aim Protocol Hediff -->
+  <ASE_PerfectAimProtocolHediff.label>протокол ідеального прицілу</ASE_PerfectAimProtocolHediff.label>
+  <ASE_PerfectAimProtocolHediff.description>Протокол покращеного прицілювання змушує андроїда цілитися цілу вічність, але потрапляння буде ідеальним.</ASE_PerfectAimProtocolHediff.description>
+  
+  <!-- Siege Specialist Hediff -->
+  <ASE_SiegeSpecialistHediff.label>спеціаліст з облоги</ASE_SiegeSpecialistHediff.label>
+  <ASE_SiegeSpecialistHediff.description>Покращений блок геометричних розрахунків дозволяє швидко і точно стріляти з мінометів, проте такі андроїди часто комплектуються мінімально допустимою бронею.</ASE_SiegeSpecialistHediff.description>
+  
+  <!-- Melee Overdrive T1 Hediff -->
+  <ASE_MeleeOverdrive_MkIHediff.label>розгін ближнього бою T1</ASE_MeleeOverdrive_MkIHediff.label>
+  <ASE_MeleeOverdrive_MkIHediff.description>Андроїд, створений спеціально для туманних і дощових біомів. Не може використовувати зброю дальнього бою, але добре б'ється в ближньому бою.</ASE_MeleeOverdrive_MkIHediff.description>
+  
+  <!-- Melee Overdrive T2 Hediff -->
+  <ASE_MeleeOverdrive_MkIIHediff.label>розгін ближнього бою T2</ASE_MeleeOverdrive_MkIIHediff.label>
+  <ASE_MeleeOverdrive_MkIIHediff.description>Андроїд, створений спеціально для туманних і дощових біомів з великою кількістю ворожих істот. Не може використовувати зброю дальнього бою, але відмінно б'ється в ближньому бою.</ASE_MeleeOverdrive_MkIIHediff.description>
+  
+  <!-- Cryo-Strike Protocol Hediff -->
+  <ASE_CryoStrikeProtocolHediff.label>протокол кріо-удару</ASE_CryoStrikeProtocolHediff.label>
+  <ASE_CryoStrikeProtocolHediff.description>Фреони системи охолодження перенаправлені в кулаки андроїда: кожен удар охолоджує ціль.</ASE_CryoStrikeProtocolHediff.description>
+  
+  <!-- Tactical Network Hediff -->
+  <ASE_TacticalNetworkHediff.label>тактична мережа</ASE_TacticalNetworkHediff.label>
+  <ASE_TacticalNetworkHediff.description>Обмін тактичними даними в режимі реального часу дозволяє андроїдам битися ефективніше.</ASE_TacticalNetworkHediff.description>
+  <ASE_TacticalNetworkHediff.stages.0.label>1 вузол (+5% бойові характеристики)</ASE_TacticalNetworkHediff.stages.0.label>
+  <ASE_TacticalNetworkHediff.stages.1.label>2 вузли (+10% бойові характеристики)</ASE_TacticalNetworkHediff.stages.1.label>
+  <ASE_TacticalNetworkHediff.stages.2.label>3 вузли (+15% бойові характеристики)</ASE_TacticalNetworkHediff.stages.2.label>
+  <ASE_TacticalNetworkHediff.stages.3.label>4 вузли (+20% бойові характеристики)</ASE_TacticalNetworkHediff.stages.3.label>
+  <ASE_TacticalNetworkHediff.stages.4.label>5+ вузлів (+25% бойові характеристики)</ASE_TacticalNetworkHediff.stages.4.label>
+  
+  <!-- Combat Data Logger Hediff -->
+  <ASE_CombatDataLoggerHediff.label>реєстратор бойових даних</ASE_CombatDataLoggerHediff.label>
+  <ASE_CombatDataLoggerHediff.description>З кожним переможеним ворогом андроїд накопичує величезну кількість даних про свою ціль, дозволяючи йому ставати ще ефективнішим.</ASE_CombatDataLoggerHediff.description>
+  <ASE_CombatDataLoggerHediff.stages.0.label>немає даних</ASE_CombatDataLoggerHediff.stages.0.label>
+  <ASE_CombatDataLoggerHediff.stages.1.label>1 вбивство (+1% урон)</ASE_CombatDataLoggerHediff.stages.1.label>
+  <ASE_CombatDataLoggerHediff.stages.2.label>5 вбивств (+5% урон)</ASE_CombatDataLoggerHediff.stages.2.label>
+  <ASE_CombatDataLoggerHediff.stages.3.label>10 вбивств (+10% урон)</ASE_CombatDataLoggerHediff.stages.3.label>
+  <ASE_CombatDataLoggerHediff.stages.4.label>25 вбивств (+25% урон)</ASE_CombatDataLoggerHediff.stages.4.label>
+  <ASE_CombatDataLoggerHediff.stages.5.label>50 вбивств (+50% урон)</ASE_CombatDataLoggerHediff.stages.5.label>
+  <ASE_CombatDataLoggerHediff.stages.6.label>100+ вбивств (+100% урон)</ASE_CombatDataLoggerHediff.stages.6.label>
+  
+  <!-- Barrage Protocol Hediff -->
+  <ASE_BarrageProtocolHediff.label>протокол залпу</ASE_BarrageProtocolHediff.label>
+  <ASE_BarrageProtocolHediff.description>Андроїд витрачає менше часу на прицілювання, поливаючи ворога градом куль, проте меткість залишає бажати кращого.</ASE_BarrageProtocolHediff.description>
+  <ASE_BarrageProtocolHediff.stages.0.label>активний</ASE_BarrageProtocolHediff.stages.0.label>
+  
+  <!-- Resilience Hediff -->
+  <ASE_ResilienceHediff.label>стійкість</ASE_ResilienceHediff.label>
+  <ASE_ResilienceHediff.description>Кожен удар по андроїду постійно збільшує його броню на 0.1%.</ASE_ResilienceHediff.description>
+  
+</LanguageData>

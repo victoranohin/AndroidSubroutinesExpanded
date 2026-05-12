@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_ShredderCore</defName>
+    <label>shredder core</label>
+    <description>Specialized mechanoid processing unit that occasionally finds additional components in them.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_ShredderCore</geneClass>
+    <biostatCpx>5</biostatCpx>
+    <biostatMet>-8</biostatMet>
+    <displayOrderInCategory>83</displayOrderInCategory>
+    <statOffsets>
+      <WorkSpeedGlobal>1.0</WorkSpeedGlobal>
+    </statOffsets>
+    <customEffectDescriptions>
+      <li>50% chance to get bonus materials</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

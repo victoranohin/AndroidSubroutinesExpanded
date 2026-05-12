@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <!-- ========== HEDIFF DEFINITIONS ========== -->
+  
+  <!-- Double Reactor Capacity Hediff -->
+  <ASE_DoubleReactorCapacityHediff.label>double reactor capacity</ASE_DoubleReactorCapacityHediff.label>
+  <ASE_DoubleReactorCapacityHediff.description>Engineers increased the reactor capacity, but this slightly affects movement speed.</ASE_DoubleReactorCapacityHediff.description>
+  <ASE_DoubleReactorCapacityHediff.stages.0.label>active</ASE_DoubleReactorCapacityHediff.stages.0.label>
+  
+  <!-- EMP Generator Hediff -->
+  <ASE_EMPGeneratorHediff.label>EMP reactor</ASE_EMPGeneratorHediff.label>
+  <ASE_EMPGeneratorHediff.description>This experimental reactor produces a decent amount of energy, but its core periodically provokes EMP bursts that can negatively affect other androids and mechanisms.</ASE_EMPGeneratorHediff.description>
+  <ASE_EMPGeneratorHediff.stages.0.label>active</ASE_EMPGeneratorHediff.stages.0.label>
+  
+  <!-- Experimental Quantum Reactor Hediff -->
+  <ASE_ExperimentalQuantumReactorHediff.label>experimental quantum reactor</ASE_ExperimentalQuantumReactorHediff.label>
+  <ASE_ExperimentalQuantumReactorHediff.description>An increased-power reactor, but the reformatting time is tripled.</ASE_ExperimentalQuantumReactorHediff.description>
+  <ASE_ExperimentalQuantumReactorHediff.stages.0.label>active</ASE_ExperimentalQuantumReactorHediff.stages.0.label>
+  
+  <!-- Vanometric Reactor Hediff -->
+  <ASE_VanometricReactorHediff.label>vanometric reactor</ASE_VanometricReactorHediff.label>
+  <ASE_VanometricReactorHediff.description>An unstable prototype capable of generating an incredible amount of energy at the cost of an equally incredible amount of waste.</ASE_VanometricReactorHediff.description>
+  <ASE_VanometricReactorHediff.stages.0.label>active</ASE_VanometricReactorHediff.stages.0.label>
+  
+  <!-- Handmade Reactor Hediff -->
+  <ASE_HandmadeEnergyBoosterHediff.label>handmade reactor</ASE_HandmadeEnergyBoosterHediff.label>
+  <ASE_HandmadeEnergyBoosterHediff.description>Hand-assembled, extremely rare and fragile experimental reactor model provides incredible power efficiency and work speed, but the android cannot be repaired after damage.</ASE_HandmadeEnergyBoosterHediff.description>
+  <ASE_HandmadeEnergyBoosterHediff.stages.0.label>active</ASE_HandmadeEnergyBoosterHediff.stages.0.label>
+  
+  <!-- Experimental Mechanoid Reactor Hediff -->
+  <ASE_ExperimentalMechanoidReactorHediff.label>experimental mechanoid reactor</ASE_ExperimentalMechanoidReactorHediff.label>
+  <ASE_ExperimentalMechanoidReactorHediff.description>Further increasing the reactor's energy efficiency led to an unexpected effect - its high frequency attracts other mechanoids.</ASE_ExperimentalMechanoidReactorHediff.description>
+  <ASE_ExperimentalMechanoidReactorHediff.stages.0.label>active</ASE_ExperimentalMechanoidReactorHediff.stages.0.label>
+  
+  <!-- Overdrive T1 Hediff -->
+  <ASE_OverdriveMkIHediff.label>overdrive T1</ASE_OverdriveMkIHediff.label>
+  <ASE_OverdriveMkIHediff.description>The android receives a slight optimization in motor circuits. Runs faster, but the battery drains quickly.</ASE_OverdriveMkIHediff.description>
+  <ASE_OverdriveMkIHediff.stages.0.label>active</ASE_OverdriveMkIHediff.stages.0.label>
+  
+  <!-- Overdrive T2 Hediff -->
+  <ASE_OverdriveMkIIHediff.label>overdrive T2</ASE_OverdriveMkIIHediff.label>
+  <ASE_OverdriveMkIIHediff.description>Overclocking of stepper motor protocols. The android moves even faster, but is unable to carry heavy items.</ASE_OverdriveMkIIHediff.description>
+  <ASE_OverdriveMkIIHediff.stages.0.label>active</ASE_OverdriveMkIIHediff.stages.0.label>
+  
+  <!-- Overdrive T3 Hediff -->
+  <ASE_OverdriveMkIIIHediff.label>overdrive T3</ASE_OverdriveMkIIIHediff.label>
+  <ASE_OverdriveMkIIIHediff.description>The android moves at the limit of its capabilities, but its carrying capacity in this configuration is minimal.</ASE_OverdriveMkIIIHediff.description>
+  <ASE_OverdriveMkIIIHediff.stages.0.label>active</ASE_OverdriveMkIIIHediff.stages.0.label>
+  
+  <!-- Productivity Protocol T1 Hediff -->
+  <ASE_ProductivityProtocolMkIHediff.label>productivity protocol T1</ASE_ProductivityProtocolMkIHediff.label>
+  <ASE_ProductivityProtocolMkIHediff.description>Work speed is slightly increased at the cost of higher energy consumption.</ASE_ProductivityProtocolMkIHediff.description>
+  <ASE_ProductivityProtocolMkIHediff.stages.0.label>active</ASE_ProductivityProtocolMkIHediff.stages.0.label>
+  
+  <!-- Productivity Protocol T2 Hediff -->
+  <ASE_ProductivityProtocolMkIIHediff.label>productivity protocol T2</ASE_ProductivityProtocolMkIIHediff.label>
+  <ASE_ProductivityProtocolMkIIHediff.description>Work speed is significantly increased at the cost of even higher energy consumption.</ASE_ProductivityProtocolMkIIHediff.description>
+  <ASE_ProductivityProtocolMkIIHediff.stages.0.label>active</ASE_ProductivityProtocolMkIIHediff.stages.0.label>
+  
+  <!-- Productivity Protocol T3 Hediff -->
+  <ASE_ProductivityProtocolMkIIIHediff.label>productivity protocol T3</ASE_ProductivityProtocolMkIIIHediff.label>
+  <ASE_ProductivityProtocolMkIIIHediff.description>Incredible productivity boost, but the cost is the inability to work at high temperatures.</ASE_ProductivityProtocolMkIIIHediff.description>
+  <ASE_ProductivityProtocolMkIIIHediff.stages.0.label>active</ASE_ProductivityProtocolMkIIIHediff.stages.0.label>
+  
+  <!-- Cargo Holder Upgrade T1 Hediff -->
+  <ASE_CargoHolderMkIHediff.label>cargo holder T1</ASE_CargoHolderMkIHediff.label>
+  <ASE_CargoHolderMkIHediff.description>High-capacity cargo compartment.</ASE_CargoHolderMkIHediff.description>
+  <ASE_CargoHolderMkIHediff.stages.0.label>active</ASE_CargoHolderMkIHediff.stages.0.label>
+  
+  <!-- Cargo Holder Upgrade T2 Hediff -->
+  <ASE_CargoHolderMkIIHediff.label>cargo holder T2</ASE_CargoHolderMkIIHediff.label>
+  <ASE_CargoHolderMkIIHediff.description>Doubled-capacity cargo compartment, but the android's movement speed is slightly reduced.</ASE_CargoHolderMkIIHediff.description>
+  <ASE_CargoHolderMkIIHediff.stages.0.label>active</ASE_CargoHolderMkIIHediff.stages.0.label>
+  
+  <!-- Cargo Holder Upgrade T3 Hediff -->
+  <ASE_CargoHolderMkIIIHediff.label>cargo holder T3</ASE_CargoHolderMkIIIHediff.label>
+  <ASE_CargoHolderMkIIIHediff.description>Maximum carrying capacity, but significant speed reduction.</ASE_CargoHolderMkIIIHediff.description>
+  <ASE_CargoHolderMkIIIHediff.stages.0.label>active</ASE_CargoHolderMkIIIHediff.stages.0.label>
+  
+  <!-- Research Core T1 Hediff -->
+  <ASE_ResearchCoreMkIHediff.label>research core T1</ASE_ResearchCoreMkIHediff.label>
+  <ASE_ResearchCoreMkIHediff.description>Improved search and data systematization algorithms increase research speed.</ASE_ResearchCoreMkIHediff.description>
+  <ASE_ResearchCoreMkIHediff.stages.0.label>active</ASE_ResearchCoreMkIHediff.stages.0.label>
+  
+  <!-- Research Core T2 Hediff -->
+  <ASE_ResearchCoreMkIIHediff.label>research core T2</ASE_ResearchCoreMkIIHediff.label>
+  <ASE_ResearchCoreMkIIHediff.description>Expanded memory blocks for even greater research acceleration.</ASE_ResearchCoreMkIIHediff.description>
+  <ASE_ResearchCoreMkIIHediff.stages.0.label>active</ASE_ResearchCoreMkIIHediff.stages.0.label>
+  
+  <!-- Research Core T3 Hediff -->
+  <ASE_ResearchCoreMkIIIHediff.label>research core T3</ASE_ResearchCoreMkIIIHediff.label>
+  <ASE_ResearchCoreMkIIIHediff.description>Computational blocks operate at the limit, generating enormous amounts of heat and requiring additional cooling.</ASE_ResearchCoreMkIIIHediff.description>
+  <ASE_ResearchCoreMkIIIHediff.stages.0.label>active</ASE_ResearchCoreMkIIIHediff.stages.0.label>
+  
+  <!-- Mining Subroutine T1 Hediff -->
+  <ASE_MiningSubroutineMkIHediff.label>mining subroutine T1</ASE_MiningSubroutineMkIHediff.label>
+  <ASE_MiningSubroutineMkIHediff.description>Rock structure analysis increases mining efficiency.</ASE_MiningSubroutineMkIHediff.description>
+  <ASE_MiningSubroutineMkIHediff.stages.0.label>active</ASE_MiningSubroutineMkIHediff.stages.0.label>
+  
+  <!-- Mining Subroutine T2 Hediff -->
+  <ASE_MiningSubroutineMkIIHediff.label>mining subroutine T2</ASE_MiningSubroutineMkIIHediff.label>
+  <ASE_MiningSubroutineMkIIHediff.description>Improved sensors provide even more resources.</ASE_MiningSubroutineMkIIHediff.description>
+  <ASE_MiningSubroutineMkIIHediff.stages.0.label>active</ASE_MiningSubroutineMkIIHediff.stages.0.label>
+  
+  <!-- Deep Mining Sensors Hediff -->
+  <ASE_DeepMiningSensorsHediff.label>deep mining sensors</ASE_DeepMiningSensorsHediff.label>
+  <ASE_DeepMiningSensorsHediff.description>Specialized sensors for deep mining of rare resources.</ASE_DeepMiningSensorsHediff.description>
+  <ASE_DeepMiningSensorsHediff.stages.0.label>active</ASE_DeepMiningSensorsHediff.stages.0.label>
+  
+  <!-- Drilling Specialist Hediff -->
+  <ASE_DrillingSpecialistHediff.label>drilling specialist</ASE_DrillingSpecialistHediff.label>
+  <ASE_DrillingSpecialistHediff.description>Doubled drilling speed thanks to abandoning standard speech protocols.</ASE_DrillingSpecialistHediff.description>
+  <ASE_DrillingSpecialistHediff.stages.0.label>active</ASE_DrillingSpecialistHediff.stages.0.label>
+  
+  <!-- Field Medic Hediff -->
+  <ASE_FieldMedicHediff.label>field medic</ASE_FieldMedicHediff.label>
+  <ASE_FieldMedicHediff.description>Emergency protocols for accelerated treatment of fighters directly on the battlefield. Fast, but not very high quality.</ASE_FieldMedicHediff.description>
+  <ASE_FieldMedicHediff.stages.0.label>active</ASE_FieldMedicHediff.stages.0.label>
+  
+  <!-- Surgical Unit Hediff -->
+  <ASE_SurgicalUnitHediff.label>surgical unit</ASE_SurgicalUnitHediff.label>
+  <ASE_SurgicalUnitHediff.description>Special model designed for use in elite clinics. Equipment fragility prevents using such an android for heavy work.</ASE_SurgicalUnitHediff.description>
+  <ASE_SurgicalUnitHediff.stages.0.label>active</ASE_SurgicalUnitHediff.stages.0.label>
+  
+  <!-- Agro-Drone Hediff -->
+  <ASE_AgroDroneHediff.label>agro-drone</ASE_AgroDroneHediff.label>
+  <ASE_AgroDroneHediff.description>Optimized for harvesting crops and cutting down trees.</ASE_AgroDroneHediff.description>
+  <ASE_AgroDroneHediff.stages.0.label>active</ASE_AgroDroneHediff.stages.0.label>
+  
+  <!-- Narcotic Harvester Hediff -->
+  <ASE_NarcoticHarvesterHediff.label>narcotic harvester</ASE_NarcoticHarvesterHediff.label>
+  <ASE_NarcoticHarvesterHediff.description>Thanks to improved motor skills, ideal for growing illegal crops, but has much lower durability compared to standard models.</ASE_NarcoticHarvesterHediff.description>
+  <ASE_NarcoticHarvesterHediff.stages.0.label>active</ASE_NarcoticHarvesterHediff.stages.0.label>
+  
+  <!-- Shredder Core Hediff -->
+  <ASE_ShredderCoreHediff.label>shredder core</ASE_ShredderCoreHediff.label>
+  <ASE_ShredderCoreHediff.description>Specialized mechanoid processing unit that occasionally finds additional components in them.</ASE_ShredderCoreHediff.description>
+  <ASE_ShredderCoreHediff.stages.0.label>active</ASE_ShredderCoreHediff.stages.0.label>
+  
+  <!-- Butcher Core Hediff -->
+  <ASE_ButcherCoreHediff.label>butcher core</ASE_ButcherCoreHediff.label>
+  <ASE_ButcherCoreHediff.description>Protocol allows ignoring sanitary standards and butchering carcasses at double speed.</ASE_ButcherCoreHediff.description>
+  <ASE_ButcherCoreHediff.stages.0.label>active</ASE_ButcherCoreHediff.stages.0.label>
+  
+  <!-- Smelter Core Hediff -->
+  <ASE_SmelterCoreHediff.label>smelter core</ASE_SmelterCoreHediff.label>
+  <ASE_SmelterCoreHediff.description>Special protocol for metal smelting, allows faster smelting and occasionally obtaining rare components.</ASE_SmelterCoreHediff.description>
+  <ASE_SmelterCoreHediff.stages.0.label>active</ASE_SmelterCoreHediff.stages.0.label>
+  
+  <!-- Diplomatic Core Hediff -->
+  <ASE_DiplomaticCoreHediff.label>diplomatic core</ASE_DiplomaticCoreHediff.label>
+  <ASE_DiplomaticCoreHediff.description>Android diplomat for trade and negotiations. As an additional trust factor for the interlocutor, it technically cannot use ranged weapons.</ASE_DiplomaticCoreHediff.description>
+  <ASE_DiplomaticCoreHediff.stages.0.label>active</ASE_DiplomaticCoreHediff.stages.0.label>
+  
+  <!-- Decentralized Mind Hediff -->
+  <ASE_DecentralizedMindHediff.label>decentralized mind network</ASE_DecentralizedMindHediff.label>
+  <ASE_DecentralizedMindHediff.description>Distributed computing allows even load distribution across all android CPUs present on the map, increasing their efficiency.</ASE_DecentralizedMindHediff.description>
+  <ASE_DecentralizedMindHediff.stages.0.label>1 node (+10% work speed)</ASE_DecentralizedMindHediff.stages.0.label>
+  <ASE_DecentralizedMindHediff.stages.1.label>2 nodes (+20% work speed)</ASE_DecentralizedMindHediff.stages.1.label>
+  <ASE_DecentralizedMindHediff.stages.2.label>3 nodes (+30% work speed)</ASE_DecentralizedMindHediff.stages.2.label>
+  <ASE_DecentralizedMindHediff.stages.3.label>4 nodes (+40% work speed)</ASE_DecentralizedMindHediff.stages.3.label>
+  <ASE_DecentralizedMindHediff.stages.4.label>5+ nodes (+50% work speed)</ASE_DecentralizedMindHediff.stages.4.label>
+  
+  <!-- Resource Scanner Hediff -->
+  <ASE_ResourceScannerHediff.label>resource scanner</ASE_ResourceScannerHediff.label>
+  <ASE_ResourceScannerHediff.description>Built-in metal detector that sometimes marks previously unknown deposits of valuable materials.</ASE_ResourceScannerHediff.description>
+  <ASE_ResourceScannerHediff.stages.0.label>scanning</ASE_ResourceScannerHediff.stages.0.label>
+  
+  <!-- Heavy Plating T1 Hediff -->
+  <ASE_HeavyPlatingMkIHediff.label>heavy plating T1</ASE_HeavyPlatingMkIHediff.label>
+  <ASE_HeavyPlatingMkIHediff.description>The android is covered with additional armor plates. Stronger - but noticeably slower.</ASE_HeavyPlatingMkIHediff.description>
+  <ASE_HeavyPlatingMkIHediff.stages.0.label>active</ASE_HeavyPlatingMkIHediff.stages.0.label>
+  
+  <!-- Heavy Plating T2 Hediff -->
+  <ASE_HeavyPlatingMkIIHediff.label>heavy plating T2</ASE_HeavyPlatingMkIIHediff.label>
+  <ASE_HeavyPlatingMkIIHediff.description>Thick armor plates turn the android into a walking tank, sacrificing most of its mobility.</ASE_HeavyPlatingMkIIHediff.description>
+  <ASE_HeavyPlatingMkIIHediff.stages.0.label>active</ASE_HeavyPlatingMkIIHediff.stages.0.label>
+  
+  <!-- Heavy Plating T3 Hediff -->
+  <ASE_HeavyPlatingMkIIIHediff.label>heavy plating T3</ASE_HeavyPlatingMkIIIHediff.label>
+  <ASE_HeavyPlatingMkIIIHediff.description>Armor has been brought to incredible levels. Almost invulnerable, but barely able to move or work.</ASE_HeavyPlatingMkIIIHediff.description>
+  <ASE_HeavyPlatingMkIIIHediff.stages.0.label>active</ASE_HeavyPlatingMkIIIHediff.stages.0.label>
+  
+  <!-- Reactive Armor Hediff -->
+  <ASE_ReactiveArmorHediff.label>reactive armor</ASE_ReactiveArmorHediff.label>
+  <ASE_ReactiveArmorHediff.description>Reactive armor that damages attackers in melee combat (returns 100% damage, but also inflicts the same damage on the android itself). Warning: in case of critical damage, the android may explode!</ASE_ReactiveArmorHediff.description>
+  <ASE_ReactiveArmorHediff.stages.0.label>active</ASE_ReactiveArmorHediff.stages.0.label>
+  
+  <!-- Deflector System Hediff -->
+  <ASE_DeflectorSystemHediff.label>deflector system</ASE_DeflectorSystemHediff.label>
+  <ASE_DeflectorSystemHediff.description>Experimental reflective panels that reflect bullets back at attackers. Trigger approximately 50% of the time.</ASE_DeflectorSystemHediff.description>
+  <ASE_DeflectorSystemHediff.stages.0.label>active</ASE_DeflectorSystemHediff.stages.0.label>
+  
+  <!-- Anti-Insectoid Plates T1 Hediff -->
+  <ASE_AntiInsectoidPlates_MkI.label>anti-insectoid plates</ASE_AntiInsectoidPlates_MkI.label>
+  <ASE_AntiInsectoidPlates_MkI.description>Damn insectoids got everyone! Additional layers of experimental composite armor will help better withstand clashes with these creatures.</ASE_AntiInsectoidPlates_MkI.description>
+  <ASE_AntiInsectoidPlates_MkI.stages.0.label>active</ASE_AntiInsectoidPlates_MkI.stages.0.label>
+  
+  <!-- Double Anti-Insectoid Plates T2 Hediff -->
+  <ASE_AntiInsectoidPlates_MkII.label>double anti-insectoid plates</ASE_AntiInsectoidPlates_MkII.label>
+  <ASE_AntiInsectoidPlates_MkII.description>Damn insectoids got everyone specifically! Additional layers of experimental composite armor will help better withstand clashes with these creatures.</ASE_AntiInsectoidPlates_MkII.description>
+  <ASE_AntiInsectoidPlates_MkII.stages.0.label>active</ASE_AntiInsectoidPlates_MkII.stages.0.label>
+  
+  <!-- Quadro Anti-Insectoid Plates T3 Hediff -->
+  <ASE_AntiInsectoidPlates_MkIII.label>quadro anti-insectoid plates</ASE_AntiInsectoidPlates_MkIII.label>
+  <ASE_AntiInsectoidPlates_MkIII.description>Damn insectoids got everyone so much that engineers took extreme measures! Additional layers of experimental composite armor will help withstand a clash with an entire army of these creatures!</ASE_AntiInsectoidPlates_MkIII.description>
+  <ASE_AntiInsectoidPlates_MkIII.stages.0.label>active</ASE_AntiInsectoidPlates_MkIII.stages.0.label>
+  
+  <!-- Silver Overlay Hediff -->
+  <ASE_SilverOverlayHediff.label>silver overlay</ASE_SilverOverlayHediff.label>
+  <ASE_SilverOverlayHediff.description>A special silver coating has been applied to the android's armor. Makes the android noticeably stronger.</ASE_SilverOverlayHediff.description>
+  <ASE_SilverOverlayHediff.stages.0.label>active</ASE_SilverOverlayHediff.stages.0.label>
+  
+  <!-- Golden Overlay Hediff -->
+  <ASE_GoldenOverlayHediff.label>golden overlay</ASE_GoldenOverlayHediff.label>
+  <ASE_GoldenOverlayHediff.description>A special gold coating has been applied to the android's armor. Makes the android even stronger, but greatly increases its cost and attracts unwanted attention.</ASE_GoldenOverlayHediff.description>
+  <ASE_GoldenOverlayHediff.stages.0.label>active</ASE_GoldenOverlayHediff.stages.0.label>
+  
+  <!-- Diamond Overlay Hediff -->
+  <ASE_DiamondOverlayHediff.label>diamond overlay</ASE_DiamondOverlayHediff.label>
+  <ASE_DiamondOverlayHediff.description>A special diamond particle coating has been applied to the android's armor. It makes the android much stronger, but due to the cost of materials, half the galaxy will hunt for such androids.</ASE_DiamondOverlayHediff.description>
+  <ASE_DiamondOverlayHediff.stages.0.label>active</ASE_DiamondOverlayHediff.stages.0.label>
+  
+  <!-- Wall Protocol Hediff -->
+  <ASE_WallProtocolHediff.label>wall protocol</ASE_WallProtocolHediff.label>
+  <ASE_WallProtocolHediff.description>The android is designed specifically for protecting settlements in aggressive worlds. Useless in attack, but in defense will stand forever. Due to huge size and low mobility, unable to travel in caravans.</ASE_WallProtocolHediff.description>
+  <ASE_WallProtocolHediff.stages.0.label>active</ASE_WallProtocolHediff.stages.0.label>
+  
+  <!-- Toxic Discharge Hediff -->
+  <ASE_ToxicDischargeHediff.label>toxic discharge</ASE_ToxicDischargeHediff.label>
+  <ASE_ToxicDischargeHediff.description>When taking damage, the android releases a toxic cloud that damages everyone nearby. The system has 5 charges that restore over time.</ASE_ToxicDischargeHediff.description>
+  <ASE_ToxicDischargeHediff.stages.0.label>empty (0/5)</ASE_ToxicDischargeHediff.stages.0.label>
+  <ASE_ToxicDischargeHediff.stages.1.label>low (1/5)</ASE_ToxicDischargeHediff.stages.1.label>
+  <ASE_ToxicDischargeHediff.stages.2.label>half (3/5)</ASE_ToxicDischargeHediff.stages.2.label>
+  <ASE_ToxicDischargeHediff.stages.3.label>full (5/5)</ASE_ToxicDischargeHediff.stages.3.label>
+  
+  <!-- Berserker Protocol Hediff -->
+  <ASE_BerserkerProtocolHediff.label>berserker protocol</ASE_BerserkerProtocolHediff.label>
+  <ASE_BerserkerProtocolHediff.description>A protocol created for public entertainment: the more damaged the android is, the more ferociously it fights. Very popular in underground arenas.</ASE_BerserkerProtocolHediff.description>
+  
+  <!-- Berserker Protocol T2 Hediff -->
+  <ASE_BerserkerProtocol_T2_Hediff.label>berserker protocol T2</ASE_BerserkerProtocol_T2_Hediff.label>
+  <ASE_BerserkerProtocol_T2_Hediff.description>Further development of the protocol created for public entertainment: the more damaged the android is, the more ferociously it fights. Due to imperfect technology, it may enter uncontrollable rage and become a threat to everything alive within 1 kilometer (including your colonists).</ASE_BerserkerProtocol_T2_Hediff.description>
+  <ASE_BerserkerProtocol_T2_Hediff.stages.0.label>stable</ASE_BerserkerProtocol_T2_Hediff.stages.0.label>
+  <ASE_BerserkerProtocol_T2_Hediff.stages.1.label>warming up (+20% attack speed)</ASE_BerserkerProtocol_T2_Hediff.stages.1.label>
+  <ASE_BerserkerProtocol_T2_Hediff.stages.2.label>frenzied (+50% attack speed)</ASE_BerserkerProtocol_T2_Hediff.stages.2.label>
+  <ASE_BerserkerProtocol_T2_Hediff.stages.3.label>raging (+100% attack speed)</ASE_BerserkerProtocol_T2_Hediff.stages.3.label>
+  <ASE_BerserkerProtocol_T2_Hediff.stages.4.label>berserk (+150% attack speed)</ASE_BerserkerProtocol_T2_Hediff.stages.4.label>
+  
+  <!-- Sniper Optics Hediff -->
+  <ASE_SniperOpticsHediff.label>sniper optics</ASE_SniperOpticsHediff.label>
+  <ASE_SniperOpticsHediff.description>Improved optics significantly increase weapon range, but the android itself becomes extremely vulnerable.</ASE_SniperOpticsHediff.description>
+  
+  <!-- Titan Fist Hediff -->
+  <ASE_TitanFistHediff.label>titan fist</ASE_TitanFistHediff.label>
+  <ASE_TitanFistHediff.description>The android strikes much slower, but puts all its power into each blow.</ASE_TitanFistHediff.description>
+  
+  <!-- Unarmored Evasion Hediff -->
+  <ASE_UnarmoredEvasionHediff.label>unarmored evasion</ASE_UnarmoredEvasionHediff.label>
+  <ASE_UnarmoredEvasionHediff.description>Thanks to additional servos, the android dodges melee attacks more easily. The fewer items worn by the android, the more effective.</ASE_UnarmoredEvasionHediff.description>
+  
+  <!-- Scrap Warrior Hediff -->
+  <ASE_ScrapWarriorHediff.label>scrap warrior</ASE_ScrapWarriorHediff.label>
+  <ASE_ScrapWarriorHediff.description>Thanks to cheap materials, the android is not afraid of damage and deals increased damage. The lower the android's cost, the greater the bonus.</ASE_ScrapWarriorHediff.description>
+  
+  <!-- Auto-Feed System Hediff -->
+  <ASE_AutoFeedSystemHediff.label>auto-feed system</ASE_AutoFeedSystemHediff.label>
+  <ASE_AutoFeedSystemHediff.description>Built-in hand-mounted loading system that allows the android to make up to 5 shots with instant aiming and ×5 firing speed. The system recharges over time.</ASE_AutoFeedSystemHediff.description>
+  <ASE_AutoFeedSystemHediff.stages.0.label>empty (0/5)</ASE_AutoFeedSystemHediff.stages.0.label>
+  <ASE_AutoFeedSystemHediff.stages.1.label>low (1/5)</ASE_AutoFeedSystemHediff.stages.1.label>
+  <ASE_AutoFeedSystemHediff.stages.2.label>half (3/5)</ASE_AutoFeedSystemHediff.stages.2.label>
+  <ASE_AutoFeedSystemHediff.stages.3.label>full (5/5)</ASE_AutoFeedSystemHediff.stages.3.label>
+  
+  <!-- Heated Circuits Hediff -->
+  <ASE_HeatedCircuitsHediff.label>heated circuits</ASE_HeatedCircuitsHediff.label>
+  <ASE_HeatedCircuitsHediff.description>The reactor's heat dissipation system is connected to the android's fists, allowing it to cause burns in melee attacks</ASE_HeatedCircuitsHediff.description>
+  
+  <!-- Piercing Algorithms Hediff -->
+  <ASE_PiercingAlgorithmsHediff.label>piercing algorithms</ASE_PiercingAlgorithmsHediff.label>
+  <ASE_PiercingAlgorithmsHediff.description>The android can find weak spots in the enemy's armor, but cannot protect its own.</ASE_PiercingAlgorithmsHediff.description>
+  
+  <!-- Perfect Aim Protocol Hediff -->
+  <ASE_PerfectAimProtocolHediff.label>perfect aim protocol</ASE_PerfectAimProtocolHediff.label>
+  <ASE_PerfectAimProtocolHediff.description>Improved aiming protocol forces the android to aim for an eternity, but the hit will be perfect.</ASE_PerfectAimProtocolHediff.description>
+  
+  <!-- Siege Specialist Hediff -->
+  <ASE_SiegeSpecialistHediff.label>siege specialist</ASE_SiegeSpecialistHediff.label>
+  <ASE_SiegeSpecialistHediff.description>Improved geometric calculation block allows quick and accurate mortar fire, but such androids are often equipped with minimally acceptable armor.</ASE_SiegeSpecialistHediff.description>
+  
+  <!-- Melee Overdrive T1 Hediff -->
+  <ASE_MeleeOverdrive_MkIHediff.label>melee overdrive T1</ASE_MeleeOverdrive_MkIHediff.label>
+  <ASE_MeleeOverdrive_MkIHediff.description>Android created specifically for foggy and rainy biomes. Cannot use ranged weapons, but fights well in melee.</ASE_MeleeOverdrive_MkIHediff.description>
+  
+  <!-- Melee Overdrive T2 Hediff -->
+  <ASE_MeleeOverdrive_MkIIHediff.label>melee overdrive T2</ASE_MeleeOverdrive_MkIIHediff.label>
+  <ASE_MeleeOverdrive_MkIIHediff.description>Android created specifically for foggy and rainy biomes with many hostile creatures. Cannot use ranged weapons, but fights excellently in melee.</ASE_MeleeOverdrive_MkIIHediff.description>
+  
+  <!-- Cryo-Strike Protocol Hediff -->
+  <ASE_CryoStrikeProtocolHediff.label>cryo-strike protocol</ASE_CryoStrikeProtocolHediff.label>
+  <ASE_CryoStrikeProtocolHediff.description>Refrigerant from the cooling system is redirected to the android's fists: each strike cools the target.</ASE_CryoStrikeProtocolHediff.description>
+  
+  <!-- Tactical Network Hediff -->
+  <ASE_TacticalNetworkHediff.label>tactical network</ASE_TacticalNetworkHediff.label>
+  <ASE_TacticalNetworkHediff.description>Real-time tactical data exchange allows androids to fight more effectively.</ASE_TacticalNetworkHediff.description>
+  <ASE_TacticalNetworkHediff.stages.0.label>1 node (+5% combat stats)</ASE_TacticalNetworkHediff.stages.0.label>
+  <ASE_TacticalNetworkHediff.stages.1.label>2 nodes (+10% combat stats)</ASE_TacticalNetworkHediff.stages.1.label>
+  <ASE_TacticalNetworkHediff.stages.2.label>3 nodes (+15% combat stats)</ASE_TacticalNetworkHediff.stages.2.label>
+  <ASE_TacticalNetworkHediff.stages.3.label>4 nodes (+20% combat stats)</ASE_TacticalNetworkHediff.stages.3.label>
+  <ASE_TacticalNetworkHediff.stages.4.label>5+ nodes (+25% combat stats)</ASE_TacticalNetworkHediff.stages.4.label>
+  
+  <!-- Combat Data Logger Hediff -->
+  <ASE_CombatDataLoggerHediff.label>combat data logger</ASE_CombatDataLoggerHediff.label>
+  <ASE_CombatDataLoggerHediff.description>With each defeated enemy, the android accumulates vast amounts of data about its target, allowing it to become even more effective.</ASE_CombatDataLoggerHediff.description>
+  <ASE_CombatDataLoggerHediff.stages.0.label>no data</ASE_CombatDataLoggerHediff.stages.0.label>
+  <ASE_CombatDataLoggerHediff.stages.1.label>1 kill (+1% damage)</ASE_CombatDataLoggerHediff.stages.1.label>
+  <ASE_CombatDataLoggerHediff.stages.2.label>5 kills (+5% damage)</ASE_CombatDataLoggerHediff.stages.2.label>
+  <ASE_CombatDataLoggerHediff.stages.3.label>10 kills (+10% damage)</ASE_CombatDataLoggerHediff.stages.3.label>
+  <ASE_CombatDataLoggerHediff.stages.4.label>25 kills (+25% damage)</ASE_CombatDataLoggerHediff.stages.4.label>
+  <ASE_CombatDataLoggerHediff.stages.5.label>50 kills (+50% damage)</ASE_CombatDataLoggerHediff.stages.5.label>
+  <ASE_CombatDataLoggerHediff.stages.6.label>100+ kills (+100% damage)</ASE_CombatDataLoggerHediff.stages.6.label>
+  
+  <!-- Barrage Protocol Hediff -->
+  <ASE_BarrageProtocolHediff.label>barrage protocol</ASE_BarrageProtocolHediff.label>
+  <ASE_BarrageProtocolHediff.description>The android spends less time aiming, showering the enemy with a hail of bullets, but accuracy leaves much to be desired.</ASE_BarrageProtocolHediff.description>
+  <ASE_BarrageProtocolHediff.stages.0.label>active</ASE_BarrageProtocolHediff.stages.0.label>
+  
+  <!-- Resilience Hediff -->
+  <ASE_ResilienceHediff.label>resilience</ASE_ResilienceHediff.label>
+  <ASE_ResilienceHediff.description>Each blow against the android permanently increases its armor by 0.1%.</ASE_ResilienceHediff.description>
+
+  <!-- Auto-Repair Module Hediff -->
+  <ASE_AutoRepairModuleHediff.label>auto-repair module</ASE_AutoRepairModuleHediff.label>
+  <ASE_AutoRepairModuleHediff.description>Nano-machines restore any damage, but consume a fabulous amount of energy.
+
+Effect: Automatic damage restoration. Lost limbs require more time to restore.</ASE_AutoRepairModuleHediff.description>
+  <ASE_AutoRepairModuleHediff.stages.0.label>active</ASE_AutoRepairModuleHediff.stages.0.label>
+
+</LanguageData>

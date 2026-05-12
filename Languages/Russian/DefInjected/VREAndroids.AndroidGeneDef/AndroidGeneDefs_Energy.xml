@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <!-- ========== ЭНЕРГЕТИЧЕСКИЕ СУБРУТИНЫ ========== -->
+  
+  <!-- Double Reactor Capacity -->
+  <ASE_DoubleReactorCapacity.label>двойная емкость реактора</ASE_DoubleReactorCapacity.label>
+  <ASE_DoubleReactorCapacity.description>Инженеры увеличили вместимость реактора, однако это немного влияет на скорость.</ASE_DoubleReactorCapacity.description>
+  
+  <!-- EMP Generator -->
+  <ASE_EMPGenerator.label>ЭМИ реактор</ASE_EMPGenerator.label>
+  <ASE_EMPGenerator.description>Этот экспериментальный реактор выдаёт неплохое количество энергии, но его ядро периодически провоцирует выбросы EMP, что может негативно влиять на других андроидов и механизмы.</ASE_EMPGenerator.description>
+  <ASE_EMPGenerator.customEffectDescriptions.0>Иногда излучает EMP</ASE_EMPGenerator.customEffectDescriptions.0>
+  
+  <!-- Experimental Quantum Reactor -->
+  <ASE_ExperimentalQuantumReactor.label>экспериментальный квантовый реактор</ASE_ExperimentalQuantumReactor.label>
+  <ASE_ExperimentalQuantumReactor.description>Реактор увеличенной мощности, однако время на форматирование увеличено в 3 раза.</ASE_ExperimentalQuantumReactor.description>
+  <ASE_ExperimentalQuantumReactor.customEffectDescriptions.0>Время на реформатирование x3</ASE_ExperimentalQuantumReactor.customEffectDescriptions.0>
+  
+  <!-- Vanometric Reactor -->
+  <ASE_VanometricReactor.label>ванометрический реактор</ASE_VanometricReactor.label>
+  <ASE_VanometricReactor.description>Нестабильный прототип, способный вырабатывать невероятное количество энергии ценой такого же невероятного количества отходов.</ASE_VanometricReactor.description>
+  <ASE_VanometricReactor.customEffectDescriptions.0>Значительно увеличен выброс отходов</ASE_VanometricReactor.customEffectDescriptions.0>
+  
+  <!-- Test Reactor -->
+  <ASE_TestReactor.label>тестовый реактор [ОТЛАДКА]</ASE_TestReactor.label>
+  <ASE_TestReactor.description>Тестовый реактор для отладки. Дает огромное количество энергии. (Скрыт от игроков)\n\nЭффекты:\n+1000 энергоэффективность</ASE_TestReactor.description>
+  
+  <!-- Handmade Energy Booster -->
+  <ASE_HandmadeEnergyBooster.label>самодельный реактор</ASE_HandmadeEnergyBooster.label>
+  <ASE_HandmadeEnergyBooster.description>Собранный вручную и крайне хрупкий экспериментальный реактор обеспечивает невероятную энергоэффективность и скорость работы, но андроид не может быть отремонтирован после повреждений.</ASE_HandmadeEnergyBooster.description>
+  <ASE_HandmadeEnergyBooster.customEffectDescriptions.0>Не может быть отремонтирован</ASE_HandmadeEnergyBooster.customEffectDescriptions.0>
+  
+  <!-- Experimental Mechanoid Reactor -->
+  <ASE_ExperimentalMechanoidReactor.label>экспериментальный механоидный реактор</ASE_ExperimentalMechanoidReactor.label>
+  <ASE_ExperimentalMechanoidReactor.description>Дальнейшее увеличение энергоэффективности реактора привело к неожиданному эффекту - его высокая частота привлекает других механоидов.</ASE_ExperimentalMechanoidReactor.description>
+  <ASE_ExperimentalMechanoidReactor.customEffectDescriptions.0>Иногда привлекает враждебных механоидов</ASE_ExperimentalMechanoidReactor.customEffectDescriptions.0>
+  
+</LanguageData>

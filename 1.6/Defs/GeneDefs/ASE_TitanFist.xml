@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_WeaponsBase">
+    <defName>ASE_TitanFist</defName>
+    <label>titan fist</label>
+    <description>The android strikes much slower, but puts all its power into each blow.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <displayOrderInCategory>202</displayOrderInCategory>
+    <biostatCpx>6</biostatCpx>
+    <biostatMet>-10</biostatMet>
+    <geneClass>AndroidSubroutinesExpanded.Gene_TitanFist</geneClass>
+    <statFactors>
+      <MeleeDamageFactor>5.0</MeleeDamageFactor>
+      <MoveSpeed>0.5</MoveSpeed>
+    </statFactors>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

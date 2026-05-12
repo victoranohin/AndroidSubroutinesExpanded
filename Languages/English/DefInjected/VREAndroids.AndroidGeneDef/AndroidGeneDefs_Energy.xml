@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <!-- ========== ENERGY SUBROUTINES ========== -->
+  
+  <!-- Double Reactor Capacity -->
+  <ASE_DoubleReactorCapacity.label>double reactor capacity</ASE_DoubleReactorCapacity.label>
+  <ASE_DoubleReactorCapacity.description>Engineers increased the reactor capacity, but this slightly affects movement speed.</ASE_DoubleReactorCapacity.description>
+  
+  <!-- EMP Generator -->
+  <ASE_EMPGenerator.label>EMP reactor</ASE_EMPGenerator.label>
+  <ASE_EMPGenerator.description>This experimental reactor produces a decent amount of energy, but its core periodically provokes EMP bursts that can negatively affect other androids and mechanisms.</ASE_EMPGenerator.description>
+  <ASE_EMPGenerator.customEffectDescriptions.0>Sometimes emits EMP</ASE_EMPGenerator.customEffectDescriptions.0>
+  
+  <!-- Experimental Quantum Reactor -->
+  <ASE_ExperimentalQuantumReactor.label>experimental quantum reactor</ASE_ExperimentalQuantumReactor.label>
+  <ASE_ExperimentalQuantumReactor.description>An increased-power reactor, but the reformatting time is tripled.</ASE_ExperimentalQuantumReactor.description>
+  <ASE_ExperimentalQuantumReactor.customEffectDescriptions.0>Reformatting time x3</ASE_ExperimentalQuantumReactor.customEffectDescriptions.0>
+  
+  <!-- Vanometric Reactor -->
+  <ASE_VanometricReactor.label>vanometric reactor</ASE_VanometricReactor.label>
+  <ASE_VanometricReactor.description>An unstable prototype capable of generating an incredible amount of energy at the cost of an equally incredible amount of waste.</ASE_VanometricReactor.description>
+  <ASE_VanometricReactor.customEffectDescriptions.0>Significantly increased waste production</ASE_VanometricReactor.customEffectDescriptions.0>
+  
+  <!-- Test Reactor -->
+  <ASE_TestReactor.label>test reactor [DEBUG]</ASE_TestReactor.label>
+  <ASE_TestReactor.description>Test reactor for debugging. Provides huge amount of energy. (Hidden from players)\n\nEffects:\n+1000 power efficiency</ASE_TestReactor.description>
+  
+  <!-- Handmade Energy Booster -->
+  <ASE_HandmadeEnergyBooster.label>handmade reactor</ASE_HandmadeEnergyBooster.label>
+  <ASE_HandmadeEnergyBooster.description>Hand-assembled and extremely fragile experimental reactor provides incredible power efficiency and work speed, but the android cannot be repaired after damage.</ASE_HandmadeEnergyBooster.description>
+  <ASE_HandmadeEnergyBooster.customEffectDescriptions.0>Cannot be repaired</ASE_HandmadeEnergyBooster.customEffectDescriptions.0>
+  
+  <!-- Experimental Mechanoid Reactor -->
+  <ASE_ExperimentalMechanoidReactor.label>experimental mechanoid reactor</ASE_ExperimentalMechanoidReactor.label>
+  <ASE_ExperimentalMechanoidReactor.description>Further increasing the reactor's energy efficiency led to an unexpected effect - its high frequency attracts other mechanoids.</ASE_ExperimentalMechanoidReactor.description>
+  <ASE_ExperimentalMechanoidReactor.customEffectDescriptions.0>Sometimes attracts hostile mechanoids</ASE_ExperimentalMechanoidReactor.customEffectDescriptions.0>
+  
+</LanguageData>

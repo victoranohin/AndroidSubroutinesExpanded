@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef>
+    <defName>ASE_ScrapWarriorHediff</defName>
+    <label>scrap warrior</label>
+    <description>Thanks to cheap materials, the android is not afraid of damage and deals increased damage. The lower the android's cost, the greater the bonus.</description>
+    <hediffClass>AndroidSubroutinesExpanded.Hediff_ScrapWarrior</hediffClass>
+    <defaultLabelColor>(1.0, 0.6, 0.2)</defaultLabelColor>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+  </HediffDef>
+</Defs>

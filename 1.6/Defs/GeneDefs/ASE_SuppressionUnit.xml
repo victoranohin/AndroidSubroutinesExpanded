@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_SuppressionUnit</defName>
+    <label>suppression unit</label>
+    <description>Specialization for capturing prisoners and suppressing riots, but built-in blades slightly reduce movement speed.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-4</biostatMet>
+    <displayOrderInCategory>151</displayOrderInCategory>
+    <statOffsets>
+      <ArrestSuccessChance>0.50</ArrestSuccessChance>
+      <SuppressionPower>1.0</SuppressionPower>
+    </statOffsets>
+    <statFactors>
+      <MoveSpeed>0.8</MoveSpeed>
+    </statFactors>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

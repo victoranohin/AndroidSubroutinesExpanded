@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_ArmorBase">
+    <defName>ASE_AutoRepairModule</defName>
+    <label>auto-repair module</label>
+    <description>One of the most expensive and coveted technologies in the rim worlds, regenerative nano-machines restore any damage (even in combat), but consume a fabulous amount of energy</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_AutoRepairModule</geneClass>
+    <biostatCpx>10</biostatCpx>
+    <biostatMet>-30</biostatMet>
+    <displayOrderInCategory>113</displayOrderInCategory>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
+    <exclusionTags>
+      <li>ASE_Repair</li>
+    </exclusionTags>
+    <customEffectDescriptions>
+      <li>Automatic damage restoration</li>
+      <li>Lost limbs require more time to restore</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

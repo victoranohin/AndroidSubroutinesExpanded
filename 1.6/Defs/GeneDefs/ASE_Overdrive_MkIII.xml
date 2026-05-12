@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_Overdrive_T3</defName>
+    <label>overdrive T3</label>
+    <description>The android moves at the limit of its capabilities, but its carrying capacity in this configuration is minimal.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_Overdrive_MkIII</geneClass>
+    <biostatCpx>6</biostatCpx>
+    <biostatMet>-8</biostatMet>
+    <displayOrderInCategory>12</displayOrderInCategory>
+    <statOffsets>
+      <MoveSpeed>3.5</MoveSpeed>
+      <CarryingCapacity>-80</CarryingCapacity>
+      <VEF_MassCarryCapacity>-50</VEF_MassCarryCapacity>
+    </statOffsets>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_ArmorBase">
+    <defName>ASE_Heavy_Plating_T1</defName>
+    <label>heavy plating T1</label>
+    <description>The android is covered with additional armor plates. Stronger - but noticeably slower.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_HeavyPlating_MkI</geneClass>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-4</biostatMet>
+    <displayOrderInCategory>100</displayOrderInCategory>
+    <statFactors>
+      <IncomingDamageFactor>0.8</IncomingDamageFactor>
+      <MoveSpeed>0.5</MoveSpeed>
+      <WorkSpeedGlobal>0.9</WorkSpeedGlobal>
+    </statFactors>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

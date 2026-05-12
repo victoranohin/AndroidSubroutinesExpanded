@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_ThermalRegulator_T2</defName>
+    <label>thermal regulator T2</label>
+    <description>Maximum comfortable temperature range.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-6</biostatMet>
+    <displayOrderInCategory>154</displayOrderInCategory>
+    <exclusionTags>
+      <li>ASE_ThermalRegulator</li>
+    </exclusionTags>
+    <statOffsets>
+      <ComfyTemperatureMin>-80</ComfyTemperatureMin>
+      <ComfyTemperatureMax>80</ComfyTemperatureMax>
+    </statOffsets>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

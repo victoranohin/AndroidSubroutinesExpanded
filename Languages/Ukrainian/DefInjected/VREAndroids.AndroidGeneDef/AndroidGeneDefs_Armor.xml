@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <!-- ========== СУБРУТИНИ БРОНІ ========== -->
+  
+  <!-- Heavy Plating T1 -->
+  <ASE_Heavy_Plating_T1.label>важка броня T1</ASE_Heavy_Plating_T1.label>
+  <ASE_Heavy_Plating_T1.description>Андроїд покритий додатковими пластинами броні. Міцніший — але помітно повільніший.</ASE_Heavy_Plating_T1.description>
+  <ASE_Heavy_Plating_T1.customEffectDescriptions.0>Вхідний урон ×0.8</ASE_Heavy_Plating_T1.customEffectDescriptions.0>
+  <ASE_Heavy_Plating_T1.customEffectDescriptions.1>швидкість пересування ×0.5</ASE_Heavy_Plating_T1.customEffectDescriptions.1>
+  <ASE_Heavy_Plating_T1.customEffectDescriptions.2>-10% global work speed</ASE_Heavy_Plating_T1.customEffectDescriptions.2>
+  
+  <!-- Heavy Plating T2 -->
+  <ASE_Heavy_Plating_T2.label>важка броня T2</ASE_Heavy_Plating_T2.label>
+  <ASE_Heavy_Plating_T2.description>Товсті бронепластини перетворюють андроїда на ходячий танк, жертвуючи більшою частиною його рухливості.</ASE_Heavy_Plating_T2.description>
+  <ASE_Heavy_Plating_T2.customEffectDescriptions.0>Вхідний урон ×0.5</ASE_Heavy_Plating_T2.customEffectDescriptions.0>
+  <ASE_Heavy_Plating_T2.customEffectDescriptions.1>швидкість пересування ×0.3</ASE_Heavy_Plating_T2.customEffectDescriptions.1>
+  <ASE_Heavy_Plating_T2.customEffectDescriptions.2>-20% global work speed</ASE_Heavy_Plating_T2.customEffectDescriptions.2>
+  
+  <!-- Heavy Plating T3 -->
+  <ASE_Heavy_Plating_T3.label>важка броня T3</ASE_Heavy_Plating_T3.label>
+  <ASE_Heavy_Plating_T3.description>Броньовий захист доведений до неймовірних значень. Майже невразливий, але ледь здатний рухатися або працювати.</ASE_Heavy_Plating_T3.description>
+  <ASE_Heavy_Plating_T3.customEffectDescriptions.0>Вхідний урон ×0.2</ASE_Heavy_Plating_T3.customEffectDescriptions.0>
+  <ASE_Heavy_Plating_T3.customEffectDescriptions.1>швидкість пересування ×0.1</ASE_Heavy_Plating_T3.customEffectDescriptions.1>
+  <ASE_Heavy_Plating_T3.customEffectDescriptions.2>-40% global work speed</ASE_Heavy_Plating_T3.customEffectDescriptions.2>
+  
+  <!-- Reactive Armor -->
+  <ASE_ReactiveArmor.label>реактивна броня</ASE_ReactiveArmor.label>
+  <ASE_ReactiveArmor.description>Реактивна броня, яка завдає пошкоджень атакуючим у ближньому бою (відбиває 100% урону ближнього бою назад атакуючим, проте андроїд також отримує урон). Увага: у разі критичних пошкоджень андроїд може вибухнути!</ASE_ReactiveArmor.description>
+  <ASE_ReactiveArmor.customEffectDescriptions.0>Удари по андроїду в ближньому бою завдають урон і атакуючому, і андроїду</ASE_ReactiveArmor.customEffectDescriptions.0>
+  
+  <!-- Deflector System -->
+  <ASE_DeflectorSystem.label>система відхилення</ASE_DeflectorSystem.label>
+  <ASE_DeflectorSystem.description>Експериментальні відбиваючі панелі, які відбивають кулі назад у атакуючих. Спрацьовують приблизно в 50% випадків.</ASE_DeflectorSystem.description>
+  <ASE_DeflectorSystem.customEffectDescriptions.0>50% шанс відбити постріл назад у атакуючого</ASE_DeflectorSystem.customEffectDescriptions.0>
+  <ASE_DeflectorSystem.customEffectDescriptions.1>flammability = +500%</ASE_DeflectorSystem.customEffectDescriptions.1>
+  
+  <!-- Anti-Insectoid Plates T1 -->
+  <ASE_AntiInsectoidPlates_T1.label>анти-інсектоїдні пластини</ASE_AntiInsectoidPlates_T1.label>
+  <ASE_AntiInsectoidPlates_T1.description>Чортів інсектоїди всіх дістали! Додаткові шари експериментальної композитної броні допоможуть краще витримувати сутички з цими тваринами.</ASE_AntiInsectoidPlates_T1.description>
+  <ASE_AntiInsectoidPlates_T1.customEffectDescriptions.0>Додаткова броня з міцністю 80, яка працює проти урону в ближньому бою</ASE_AntiInsectoidPlates_T1.customEffectDescriptions.0>
+  <ASE_AntiInsectoidPlates_T1.customEffectDescriptions.1>Можна відновити (залежить від навички ремесла)</ASE_AntiInsectoidPlates_T1.customEffectDescriptions.1>
+  
+  <!-- Double Anti-Insectoid Plates T2 -->
+  <ASE_AntiInsectoidPlates_T2.label>подвійні анти-інсектоїдні пластини</ASE_AntiInsectoidPlates_T2.label>
+  <ASE_AntiInsectoidPlates_T2.description>Чортів інсектоїди всіх реально дістали! Додаткові шари експериментальної композитної броні допоможуть краще витримувати сутички з цими тваринами.</ASE_AntiInsectoidPlates_T2.description>
+  <ASE_AntiInsectoidPlates_T2.customEffectDescriptions.0>Додаткова броня з міцністю 160, яка працює проти урону в ближньому бою</ASE_AntiInsectoidPlates_T2.customEffectDescriptions.0>
+  <ASE_AntiInsectoidPlates_T2.customEffectDescriptions.1>Можна відновити (залежить від навички ремесла)</ASE_AntiInsectoidPlates_T2.customEffectDescriptions.1>
+  
+  <!-- Quadro Anti-Insectoid Plates T3 -->
+  <ASE_AntiInsectoidPlates_T3.label>четверні анти-інсектоїдні пластини</ASE_AntiInsectoidPlates_T3.label>
+  <ASE_AntiInsectoidPlates_T3.description>Чортів інсектоїди всіх дістали так сильно, що інженери пішли на крайні заходи! Додаткові шари експериментальної композитної броні допоможуть витримати сутичку з цілою армією цих тварин!</ASE_AntiInsectoidPlates_T3.description>
+  <ASE_AntiInsectoidPlates_T3.customEffectDescriptions.0>Додаткова броня з міцністю 300, яка працює проти урону в ближньому бою</ASE_AntiInsectoidPlates_T3.customEffectDescriptions.0>
+  <ASE_AntiInsectoidPlates_T3.customEffectDescriptions.1>Можна відновити (залежить від навички ремесла)</ASE_AntiInsectoidPlates_T3.customEffectDescriptions.1>
+  
+  <!-- Auto-Repair Module -->
+  <ASE_AutoRepairModule.label>модуль авто-ремонту</ASE_AutoRepairModule.label>
+  <ASE_AutoRepairModule.description>Одна з найдорожчих і бажаних технологій у окраїнних світах, регенеративна нано-машина відновлює будь-які пошкодження (навіть у бою), але витрачає неймовірну кількість енергії</ASE_AutoRepairModule.description>
+  <ASE_AutoRepairModule.customEffectDescriptions.0>Автоматичне відновлення пошкоджень</ASE_AutoRepairModule.customEffectDescriptions.0>
+  <ASE_AutoRepairModule.customEffectDescriptions.1>Втрачені кінцівки потребують більше часу для відновлення</ASE_AutoRepairModule.customEffectDescriptions.1>
+  
+  <!-- Silver Overlay -->
+  <ASE_SilverOverlay.label>срібне покриття</ASE_SilverOverlay.label>
+  <ASE_SilverOverlay.description>На броню андроїда нанесено спеціальне покриття зі срібла. Робить андроїда помітно міцнішим.</ASE_SilverOverlay.description>
+  <ASE_SilverOverlay.customEffectDescriptions.0>+40 до всіх трьох видів броні (sharp, blunt, heat)</ASE_SilverOverlay.customEffectDescriptions.0>
+  
+  <!-- Golden Overlay -->
+  <ASE_GoldenOverlay.label>золоте покриття</ASE_GoldenOverlay.label>
+  <ASE_GoldenOverlay.description>На броню андроїда нанесено спеціальне покриття з золота. Робить андроїда ще міцнішим, але сильно підвищує його вартість і приваблює небажану увагу.</ASE_GoldenOverlay.description>
+  <ASE_GoldenOverlay.customEffectDescriptions.0>Market value +20 000</ASE_GoldenOverlay.customEffectDescriptions.0>
+  
+  <!-- Diamond Overlay -->
+  <ASE_DiamondOverlay.label>алмазне покриття</ASE_DiamondOverlay.label>
+  <ASE_DiamondOverlay.description>На броню андроїда нанесено спеціальне напилення з алмазних частинок. Воно робить андроїда набагато міцнішим, але через дорожнечу матеріалів за такими андроїдами полюватиме пів-галактики.</ASE_DiamondOverlay.description>
+  <ASE_DiamondOverlay.customEffectDescriptions.0>Щодня збільшує загальну вартість колонії</ASE_DiamondOverlay.customEffectDescriptions.0>
+  
+  <!-- Wall Protocol -->
+  <ASE_WallProtocol.label>протокол стіни</ASE_WallProtocol.label>
+  <ASE_WallProtocol.description>Андроїд розроблений спеціально для захисту поселень в агресивних світах. Марний для атаки, але в обороні триматиме лінію вічно. Через величезні розміри та малу рухливість нездатний ходити в складі каравану.</ASE_WallProtocol.description>
+  <ASE_WallProtocol.customEffectDescriptions.0>Неможливо застосовувати авто-ремонт</ASE_WallProtocol.customEffectDescriptions.0>
+  <ASE_WallProtocol.customEffectDescriptions.1>Неможливість брати участь у караванах</ASE_WallProtocol.customEffectDescriptions.1>
+  <ASE_WallProtocol.customEffectDescriptions.2>Не може виконувати будь-які види роботи</ASE_WallProtocol.customEffectDescriptions.2>
+  
+  <!-- Toxic Discharge -->
+  <ASE_ToxicDischarge.label>токсичний викид</ASE_ToxicDischarge.label>
+  <ASE_ToxicDischarge.description>При отриманні урону андроїд випускає токсичну хмару, що завдає урон усім хто знаходиться поруч. Система має 5 зарядів, які відновлюються з часом.</ASE_ToxicDischarge.description>
+  <ASE_ToxicDischarge.customEffectDescriptions.0>Система токсичного захисту</ASE_ToxicDischarge.customEffectDescriptions.0>
+  
+  <!-- Resilience -->
+  <ASE_Resilience.label>стійкість</ASE_Resilience.label>
+  <ASE_Resilience.description>Кожен удар по андроїду постійно збільшує його броню на 0.1%.</ASE_Resilience.description>
+  <ASE_Resilience.customEffectDescriptions.0>Кожен удар по андроїду постійно збільшує його броню на 0.1%</ASE_Resilience.customEffectDescriptions.0>
+  
+</LanguageData>

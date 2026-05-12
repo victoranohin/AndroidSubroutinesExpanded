@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_WeaponsBase">
+    <defName>ASE_BerserkerProtocol</defName>
+    <label>berserker protocol</label>
+    <description>A protocol created for public entertainment: the more damaged the android is, the more ferociously it fights. Very popular in underground arenas.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <displayOrderInCategory>200</displayOrderInCategory>
+    <biostatCpx>5</biostatCpx>
+    <biostatMet>-8</biostatMet>
+    <geneClass>AndroidSubroutinesExpanded.Gene_BerserkerProtocol</geneClass>
+    <customEffectDescriptions>
+      <li>Increases damage when injured. Effect starts at &lt;80% HP</li>
+    </customEffectDescriptions>
+  </VREAndroids.AndroidGeneDef>
+</Defs>

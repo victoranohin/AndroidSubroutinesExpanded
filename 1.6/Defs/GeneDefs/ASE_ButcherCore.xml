@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VREAndroids.AndroidGeneDef ParentName="ASE_OverclockBase">
+    <defName>ASE_ButcherCore</defName>
+    <label>butcher core</label>
+    <description>This protocol ignores sanitary standards and butchers carcasses at double speed.</description>
+    <iconPath>UI/Icons/Genes/GeneBackground_Subroutine</iconPath>
+    <geneClass>AndroidSubroutinesExpanded.Gene_ButcherCore</geneClass>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-4</biostatMet>
+    <displayOrderInCategory>84</displayOrderInCategory>
+    <statOffsets>
+      <ButcheryFleshSpeed>1.0</ButcheryFleshSpeed>
+      <ButcheryFleshEfficiency>1.0</ButcheryFleshEfficiency>
+      <FoodPoisonChance>100.0</FoodPoisonChance>
+    </statOffsets>
+  </VREAndroids.AndroidGeneDef>
+</Defs>
