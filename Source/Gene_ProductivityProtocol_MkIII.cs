@@ -8,10 +8,21 @@ namespace AndroidSubroutinesExpanded
     {
         private HediffDef temperatureHediffDef;
         
+        // Лениво резолвим деф: PostAdd не вызывается при загрузке сохранения,
+        // поэтому instance-поле нельзя заполнять только там — иначе после загрузки
+        // оно остаётся null и адаптация к температуре молча перестаёт работать.
+        private void EnsureTemperatureHediffDef()
+        {
+            if (temperatureHediffDef == null)
+            {
+                temperatureHediffDef = DefDatabase<HediffDef>.GetNamedSilentFail("ASE_TemperatureWorkSpeed");
+            }
+        }
+
         public override void PostAdd()
         {
             base.PostAdd();
-            temperatureHediffDef = DefDatabase<HediffDef>.GetNamedSilentFail("ASE_TemperatureWorkSpeed");
+            EnsureTemperatureHediffDef();
             if (temperatureHediffDef != null)
             {
                 CreateTemperatureWorkSpeedHediff();
@@ -44,6 +55,7 @@ namespace AndroidSubroutinesExpanded
 
         private void CreateTemperatureWorkSpeedHediff()
         {
+            EnsureTemperatureHediffDef();
             if (pawn == null || pawn.health == null || temperatureHediffDef == null)
                 return;
 
@@ -58,6 +70,7 @@ namespace AndroidSubroutinesExpanded
 
         private void UpdateWorkSpeedBasedOnTemperature()
         {
+            EnsureTemperatureHediffDef();
             if (pawn == null || !pawn.Spawned || pawn.Dead || pawn.Map == null || temperatureHediffDef == null)
                 return;
 
@@ -117,6 +130,7 @@ namespace AndroidSubroutinesExpanded
         public override void PostRemove()
         {
             base.PostRemove();
+            EnsureTemperatureHediffDef();
             if (pawn != null && pawn.health != null && temperatureHediffDef != null)
             {
                 Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(temperatureHediffDef);

@@ -5,9 +5,22 @@ namespace AndroidSubroutinesExpanded
 {
     public class Gene_VanometricReactor : Gene
     {
-        // 6 игровых часов = 15000 тиков (1 час = 2500 тиков)
-        private int wasteGenerationInterval = 15000;
-        private int wastePerBatch = 5; // Количество отходов за раз (уменьшено на 50%)
+        // Один игровой день = 60000 тиков (2500 тиков/час * 24 часа).
+        private const int TicksPerDay = 60000;
+        private const int WastePerBatch = 1; // Отходов за одну эмиссию
+
+        // Интервал между эмиссиями вычисляется из настройки "waste packs per day":
+        // при N пакетов/день эмитим 1 пакет каждые 60000 / N тиков.
+        private int WasteGenerationInterval()
+        {
+            int perDay = (AndroidSubroutinesExpandedMod.Settings != null)
+                ? AndroidSubroutinesExpandedMod.Settings.wastePacksPerDay
+                : 7;
+            if (perDay < 1) perDay = 1;
+            if (perDay > 50) perDay = 50;
+            int interval = TicksPerDay / perDay;
+            return (interval < 1) ? 1 : interval;
+        }
 
         private bool ShouldLogGeneral()
         {
@@ -66,7 +79,7 @@ namespace AndroidSubroutinesExpanded
         {
             base.Tick();
 
-            if (pawn.IsHashIntervalTick(wasteGenerationInterval))
+            if (pawn.IsHashIntervalTick(WasteGenerationInterval()))
             {
                 GenerateWasteBatch();
             }
@@ -80,7 +93,7 @@ namespace AndroidSubroutinesExpanded
 
             // Генерируем пачку отходов
             Thing waste = ThingMaker.MakeThing(ThingDefOf.Wastepack, null);
-            waste.stackCount = wastePerBatch;
+            waste.stackCount = WastePerBatch;
             
             // Размещаем отходы рядом с андроидом
             if (!GenPlace.TryPlaceThing(waste, pawn.Position, pawn.Map, ThingPlaceMode.Near))
@@ -95,13 +108,13 @@ namespace AndroidSubroutinesExpanded
             {
                 if (ShouldLogVanometric())
                 {
-                    Log.Message("[ASE] Vanometric Reactor: Generated " + wastePerBatch + " waste for " + pawn.LabelShort);
+                    Log.Message("[ASE] Vanometric Reactor: Generated " + WastePerBatch + " waste for " + pawn.LabelShort);
                 }
                 // Игровое уведомление - только если включено в настройках
                 if (ShouldShowVanometricMessages())
                 {
                     Messages.Message(
-                        pawn.LabelShort + "'s vanometric reactor produced " + wastePerBatch + " waste", 
+                        pawn.LabelShort + "'s vanometric reactor produced " + WastePerBatch + " waste",
                         pawn, 
                         MessageTypeDefOf.NeutralEvent);
                 }

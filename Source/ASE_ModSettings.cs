@@ -8,6 +8,13 @@ namespace AndroidSubroutinesExpanded
     /// </summary>
     public class ASE_ModSettings : ModSettings
     {
+        // ===== НАСТРОЙКИ ГЕЙМПЛЕЯ =====
+
+        /// <summary>
+        /// Сколько waste packs в день производит Vanometric Reactor (1..50).
+        /// </summary>
+        public int wastePacksPerDay = 7;
+
         // ===== НАСТРОЙКИ ЛОГИРОВАНИЯ (в консоль) =====
         
         /// <summary>
@@ -25,6 +32,11 @@ namespace AndroidSubroutinesExpanded
         /// </summary>
         public bool enableMeleeDamageLogging = false;
         
+        /// <summary>
+        /// Включить логирование урона в дальнем бою
+        /// </summary>
+        public bool enableRangedDamageLogging = false;
+
         /// <summary>
         /// Включить логирование входящего урона (IncomingDamageFactor)
         /// </summary>
@@ -128,10 +140,13 @@ namespace AndroidSubroutinesExpanded
         public override void ExposeData()
         {
             base.ExposeData();
+            // Геймплей
+            Scribe_Values.Look(ref wastePacksPerDay, "wastePacksPerDay", 7);
             // Логирование
             Scribe_Values.Look(ref enableVoidReactorLogging, "enableVoidReactorLogging", true);
             Scribe_Values.Look(ref enableVanometricReactorLogging, "enableVanometricReactorLogging", true);
             Scribe_Values.Look(ref enableMeleeDamageLogging, "enableMeleeDamageLogging", false);
+            Scribe_Values.Look(ref enableRangedDamageLogging, "enableRangedDamageLogging", false);
             Scribe_Values.Look(ref enableIncomingDamageLogging, "enableIncomingDamageLogging", false);
             Scribe_Values.Look(ref enableGeneralLogging, "enableGeneralLogging", true);
             Scribe_Values.Look(ref enableProductivityProtocolLogging, "enableProductivityProtocolLogging", true);

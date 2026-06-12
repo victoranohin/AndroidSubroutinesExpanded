@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using RimWorld;
 using Verse;
 
@@ -73,6 +74,10 @@ namespace AndroidSubroutinesExpanded
             if (pawn == null || pawn.Map == null)
                 return;
 
+            // Исключаем самого носителя из собственного ЭМИ-взрыва, иначе андроид
+            // регулярно оглушает сам себя (андроиды VRE уязвимы к EMP).
+            List<Thing> ignored = new List<Thing> { pawn };
+
             GenExplosion.DoExplosion(
                 center: pawn.Position,
                 map: pawn.Map,
@@ -96,7 +101,7 @@ namespace AndroidSubroutinesExpanded
                 chanceToStartFire: 0f,
                 damageFalloff: true,
                 direction: null,
-                ignoredThings: null,
+                ignoredThings: ignored,
                 affectedAngle: null,
                 doVisualEffects: true,
                 propagationSpeed: 1f,

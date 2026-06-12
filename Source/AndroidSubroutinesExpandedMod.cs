@@ -42,7 +42,16 @@ namespace AndroidSubroutinesExpanded
         {
             Listing_Standard listing = new Listing_Standard();
             listing.Begin(inRect);
-            
+
+            // === Секция геймплея ===
+            listing.Label("=== Gameplay ===");
+            listing.Gap(6f);
+
+            listing.Label("Vanometric Reactor waste packs per day: " + Settings.wastePacksPerDay);
+            Settings.wastePacksPerDay = (int)listing.Slider(Settings.wastePacksPerDay, 1f, 50f);
+
+            listing.Gap(12f);
+
             // === Секция логирования ===
             listing.Label("=== Console Logging (Developer Log) ===");
             listing.Gap(6f);
@@ -58,12 +67,17 @@ namespace AndroidSubroutinesExpanded
                 "Log to console when waste is generated");
             
             listing.CheckboxLabeled(
-                "Melee damage logging", 
-                ref Settings.enableMeleeDamageLogging, 
+                "Melee damage logging",
+                ref Settings.enableMeleeDamageLogging,
                 "Log detailed melee damage (can be spammy)");
-            
+
             listing.CheckboxLabeled(
-                "Incoming damage logging", 
+                "Ranged damage logging",
+                ref Settings.enableRangedDamageLogging,
+                "Log detailed ranged damage and shooter stats (can be spammy)");
+
+            listing.CheckboxLabeled(
+                "Incoming damage logging",
                 ref Settings.enableIncomingDamageLogging, 
                 "Log incoming damage with IncomingDamageFactor (Heavy Plating, Narcotic Harvester, etc.)");
             

@@ -31,29 +31,34 @@ namespace AndroidSubroutinesExpanded
                     return;
                 
                 // === 1. Логирование melee урона ===
-                if (__result != null)
+                // Срабатывает на КАЖДУЮ атаку ближнего боя любого пешехода, поэтому
+                // выполняется только если явно включено в настройках (по умолчанию выкл.),
+                // иначе создаёт спам в логе и лишние вычисления статов каждый тик боя.
+                bool logMelee = AndroidSubroutinesExpandedMod.Settings == null
+                    || AndroidSubroutinesExpandedMod.Settings.enableMeleeDamageLogging;
+                if (logMelee && __result != null)
                 {
                     List<DamageInfo> damageList = __result.ToList();
                     float totalDamage = 0f;
-                    
+
                     foreach (DamageInfo dinfo in damageList)
                     {
                         totalDamage = totalDamage + dinfo.Amount;
-                        Log.Message("[ASE MELEE] " + attacker.LabelShort + " -> " + targetPawn.LabelShort + 
+                        Log.Message("[ASE MELEE] " + attacker.LabelShort + " -> " + targetPawn.LabelShort +
                                     " | Damage: " + dinfo.Amount + " (" + dinfo.Def.label + ")" +
                                     " | Armor Penetration: " + dinfo.ArmorPenetrationInt);
                     }
-                    
+
                     if (damageList.Count > 1)
                     {
                         Log.Message("[ASE MELEE] Total damage from attack: " + totalDamage);
                     }
-                    
+
                     float meleeDamageMultiplier = attacker.GetStatValue(StatDefOf.MeleeDamageFactor);
                     float meleeHitChance = attacker.GetStatValue(StatDefOf.MeleeHitChance);
-                    
-                    Log.Message("[ASE MELEE STATS] " + attacker.LabelShort + 
-                                " | Damage Factor: x" + meleeDamageMultiplier.ToString("F2") + 
+
+                    Log.Message("[ASE MELEE STATS] " + attacker.LabelShort +
+                                " | Damage Factor: x" + meleeDamageMultiplier.ToString("F2") +
                                 " | Hit Chance: " + (meleeHitChance * 100f).ToString("F1") + "%");
                 }
                 

@@ -59,8 +59,8 @@ namespace AndroidSubroutinesExpanded
         
         private static bool ShouldLogRanged()
         {
-            return AndroidSubroutinesExpandedMod.Settings != null && 
-                   AndroidSubroutinesExpandedMod.Settings.enableGeneralLogging;
+            return AndroidSubroutinesExpandedMod.Settings != null &&
+                   AndroidSubroutinesExpandedMod.Settings.enableRangedDamageLogging;
         }
         
         private static bool ShouldLogIncoming()
